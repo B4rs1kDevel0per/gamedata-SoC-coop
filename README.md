@@ -4,3 +4,10 @@
 
 потом распишу че да как
 
+
+геймдата акаси:
+
+https://drive.google.com/file/d/16x7wAvvEnS9nLxdMiJ8R7gowGwYrmnZs/view?usp=drive\_link
+
+
+
