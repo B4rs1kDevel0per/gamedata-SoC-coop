@@ -1,0 +1,14 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_info 											= {+AES_2_SMART_TERRAIN_24_SPAWN_SQUAD_STOP_INFO} sr_idle@nil
+on_timer 											= 1000 | sr_idle@start_2 %=create_squad(aes_2_smart_terrain_24_sniper_monolith_1_squad:aes_2_smart_terrain_24)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@start_3 %=create_squad(aes_2_smart_terrain_24_sniper_monolith_2_squad:aes_2_smart_terrain_24)%
+
+[sr_idle@start_3]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(aes_2_smart_terrain_24_sniper_monolith_3_squad:aes_2_smart_terrain_24) +AES_2_SMART_TERRAIN_24_SPAWN_SQUAD_STOP_INFO%
+
+[sr_idle@nil]

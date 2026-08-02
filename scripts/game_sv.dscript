@@ -1,0 +1,163 @@
+function zat_b29_create_af_in_anomaly(initiator_id)
+	local anom_tbl = {
+						[16] = "gravi",
+					 	[17] = "thermal",
+					 	[18] = "acid",
+					 	[19] = "electra",
+					 	[20] = "gravi",
+						[21] = "thermal",
+					 	[22] = "acid",
+					 	[23] = "electra",
+					}
+
+	local anomalies_names_tbl = {
+								["gravi"] = {
+											[1] = "zat_b14_anomal_zone",
+											[2] = "zat_b55_anomal_zone",
+											[3] = "zat_b44_anomal_zone_gravi",
+											},
+								["thermal"] = {
+											[1] = "zat_b20_anomal_zone",
+											[2] = "zat_b53_anomal_zone",
+											[3] = "zaton_b56_anomal_zone",
+											},
+								["acid"] = {
+											[1] = "zat_b39_anomal_zone",
+											[2] = "zat_b101_anomal_zone",
+											[3] = "zat_b44_anomal_zone_acid",
+											},
+								["electra"] = {
+											[1] = "zat_b54_anomal_zone",
+											[2] = "zat_b100_anomal_zone",
+											},
+								}
+
+	local zone = ""
+	local zone_name = ""
+	local key
+
+	for k,v in pairs(dialogs_zaton.zat_b29_infop_bring_table) do
+		if story_flags.has_flag(v) then
+			key = k
+			zone = anom_tbl[key]
+			break
+		end
+	end
+
+	zone_name = anomalies_names_tbl[zone][math.random(1, #anomalies_names_tbl[zone])]
+
+	db.anomaly_by_name[zone_name]:set_forced_override(dialogs_zaton.zat_b29_af_table[key])
+end
+
+function medic_magic_potion(initiator_id)
+	local actor = db.mp_actors[initiator_id]
+	if actor ~= nil then
+		actor.health = 1
+		actor.power = 1
+		actor.radiation = -1
+		actor.bleeding = 1
+	end
+end
+
+function game_quit()
+	get_console():execute("quit")
+end
+
+function jup_sci_task_counter(initiator_id)
+	xr_effects.inc_counter(db.actor, npc,{"jup_b1_sci_task_controller_count",1})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"ecolog", 250})
+end
+
+function jup_trapper_first_hunt_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 250})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 250})
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_9")
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_41")
+	treasure_manager.get_treasure_manager():give_treasure("jup_hiding_place_47")
+end
+
+function jup_trapper_second_hunt_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 250})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 250})
+end
+
+function pri_army_increase_goodwill(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"army", 250})
+end
+
+function zat_b38_den_of_the_bloodsucker_inform_stalkers_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+end
+
+function zat_b38_disappearance_stalkers_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_31")
+	treasure_manager.get_treasure_manager():give_treasure("zat_hiding_place_49")
+end
+
+function zat_b30_compass_to_barmen_task_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"stalker", 200})
+	xr_effects.dec_faction_goodwill_to_actor(db.actor, nil, {"bandit", 250})
+end
+
+function zat_b30_sultan_task_reward(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"bandit", 500})
+	xr_effects.dec_faction_goodwill_to_actor(db.actor, nil, {"stalker", 100})
+end
+
+-------------------------------------------------------------------------------------------------------
+-- Функции для выдачи или изъятия предметов из инветаря
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-- Кордон:
+-------------------------------------------------------------------------------------------------------
+function give_start_item(initiator_id)
+	local actor = db.mp_actors[initiator_id]
+	if actor ~= nil and actor:alive() then
+		alife():create("wpn_pm", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+		alife():create("ammo_9x18_fmj", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+		alife():create("medkit", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+		alife():create("novice_outfit", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+	end
+end
+
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-- Бар:
+-------------------------------------------------------------------------------------------------------
+function give_item_scientific_outfit_and_dev_card_1(initiator_id)
+	local actor = db.mp_actors[initiator_id]
+	if actor ~= nil and actor:alive() then
+		alife():create("scientific_outfit", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+		alife():create("dev_card_1", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+	end
+end
+
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-- Янтарь:
+-------------------------------------------------------------------------------------------------------
+function give_dev_psi_protection_helmet(initiator_id)
+	local actor = db.mp_actors[initiator_id]
+	if actor ~= nil and actor:alive() then
+		alife():create("dev_psi_protection_helmet", actor:position(), actor:level_vertex_id(), actor:game_vertex_id(), actor:id())
+	end
+end
+
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-- Военные склады:
+-------------------------------------------------------------------------------------------------------
+function mil_dolg_increase_goodwill(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", 5000})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", -5000})
+end
+
+function mil_freedom_increase_goodwill(initiator_id)
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"freedom", 5000})
+	xr_effects.inc_faction_goodwill_to_actor(db.actor, nil, {"dolg", -5000})
+end
+
+-------------------------------------------------------------------------------------------------------

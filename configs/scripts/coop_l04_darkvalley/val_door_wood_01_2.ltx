@@ -1,0 +1,26 @@
+[logic]
+active = ph_door@close
+
+[ph_door@locked]
+locked = true
+closed = true
+snd_open_start = metal_small_open
+snd_close_start = metal_small_close_start
+snd_close_stop = metal_small_close_stop
+on_info = {+VAL_SMART_TERRAIN_12_WALKER_BOROV_ATTACK_INFO} ph_door@open
+
+[ph_door@close]
+locked = false
+closed = true
+snd_open_start = metal_small_open
+snd_close_start = metal_small_close_start
+snd_close_stop = metal_small_close_stop
+on_use = ph_door@open
+
+[ph_door@open]
+locked = false
+closed = false
+snd_open_start = metal_small_open
+snd_close_start = metal_small_close_start
+snd_close_stop = metal_small_close_stop
+on_use = ph_door@close

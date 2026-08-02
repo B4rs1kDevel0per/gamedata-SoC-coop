@@ -1,0 +1,105 @@
+[logic@val_smart_terrain_19_walker_duty_1]
+suitable 											= {=check_npc_name(sim_default_duty_0_no_items)} true
+active 												= walker@val_smart_terrain_19_walker_duty_1_go_to_bus_stop
+prior 												= 300
+can_select_weapon 									= false
+
+;[walker@val_smart_terrain_19_walker_duty_1]
+;path_walk 											= walker_partner_1_walk
+;path_look 											= walker_partner_1_look
+;def_state_campering 								= guard
+;def_state_moving1 									= sprint
+;def_state_moving2 									= sprint
+;def_state_moving3 									= sprint
+;combat_ignore_cond 									= {=check_enemy_name(sim_default_bandit_3)} true
+;invulnerable 										= false
+;meet 												= no_meet
+;gather_items_enabled 								= false
+;help_wounded_enabled 								= false
+;corpse_detection_enabled 							= false
+;on_info  											= {+VAL_SMART_TERRAIN_19_SPAWN_SQUAD_SPACE_RESTRICTOR_INFO} walker@val_smart_terrain_19_walker_duty_1_go_to_bus_stop
+
+[walker@val_smart_terrain_19_walker_duty_1_go_to_bus_stop]
+path_walk 											= walker_partner_2_walk
+path_look 											= walker_partner_2_look
+def_state_campering 								= guard
+def_state_moving1 									= walk
+def_state_moving2 									= walk
+def_state_moving3 									= walk
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= false
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_info  											= {+VAL_SMART_TERRAIN_19_HIT_INFO} walker@val_smart_terrain_19_walker_duty_1_help_calling %=play_sound(partner_help_calling) +VAL_SMART_TERRAIN_18_WALKER_DUTY_BULLET_BANDIT_START_INFO%
+on_signal 											= path_end | walker@val_smart_terrain_19_walker_duty_1_help_calling %=play_sound(partner_help_calling) +VAL_SMART_TERRAIN_18_WALKER_DUTY_BULLET_BANDIT_START_INFO%
+on_info2  											= {+VAL_SMART_TERRAIN_19_BANDIT_1_SQUAD_DEAD} walker@val_smart_terrain_19_walker_duty_1_help_calling %=play_sound(partner_help_calling) +VAL_SMART_TERRAIN_18_WALKER_DUTY_BULLET_BANDIT_START_INFO%
+
+[walker@val_smart_terrain_19_walker_duty_1_help_calling]
+path_walk 											= walker_partner_3_walk
+path_look 											= walker_partner_3_look
+def_state_campering 								= guard
+def_state_moving1 									= sprint
+def_state_moving2 									= sprint
+def_state_moving3 									= sprint
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= false
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_game_timer 										= 70 | walker@val_smart_terrain_19_walker_duty_1_bandit_dead 
+
+[walker@val_smart_terrain_19_walker_duty_1_bandit_dead]
+path_walk 											= walker_partner_3_walk
+path_look 											= walker_partner_3_look
+def_state_campering 								= guard
+def_state_moving1 									= sprint
+def_state_moving2 									= sprint
+def_state_moving3 									= sprint
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+invulnerable 										= false
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_game_timer 										= 10 | %=play_sound(partner_bullet_thanks_1)%
+on_signal 											= sound_end | walker@val_smart_terrain_18_walker_duty_bullet_thanks %+VAL_SAY_BULLET_2_INFO%
+
+[walker@val_smart_terrain_18_walker_duty_bullet_thanks]
+path_walk 											= walker_partner_3_walk
+path_look 											= walker_partner_3_look
+def_state_campering 								= guard
+def_state_moving1 									= sprint
+def_state_moving2 									= sprint
+def_state_moving3 									= sprint
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+invulnerable 										= false
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_info  											= {+VAL_BULLET_AND_PARTNER_GO_INFO} walker@val_smart_terrain_18_walker_duty_go
+
+[walker@val_smart_terrain_18_walker_duty_go]
+path_walk 											= walker_partner_4_walk
+path_look 											= walker_partner_4_look
+def_state_campering 								= guard
+def_state_moving1 									= sprint
+def_state_moving2 									= sprint
+def_state_moving3 									= sprint
+combat_ignore_cond 									= true
+invulnerable 										= false
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_game_timer 										= 400 | %=remove_squad(val_smart_terrain_19_duty_1_squad) =remove_squad(val_smart_terrain_18_duty_bullet_squad)%
+on_signal 											= path_end | walker@val_smart_terrain_18_walker_duty_bullet_thanks %=remove_squad(val_smart_terrain_19_duty_1_squad) =remove_squad(val_smart_terrain_18_duty_bullet_squad)%
+
+;================================================

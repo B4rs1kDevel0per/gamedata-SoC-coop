@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="quest_case_01_soc_name">
+		<text>Документы с блокпоста</text>
+	</string>
+	<string id="quest_case_01_soc_desc">
+		<text>Запертый кейс с секретными документами. Выполнен из огнеупорного сплава.</text>
+	</string>
+	<string id="dynamite_soc_name">
+		<text>Ящик с динамитом</text>
+	</string>
+	<string id="dynamite_soc_desc">
+		<text>Тяжёлый деревянный ящик с предупреждающими надписями «Взрывоопасно» на нескольких языках.</text>
+	</string>
+	<string id="esc_wounded_flash_soc_name">
+		<text>Флешка пленного</text>
+	</string>
+	<string id="esc_wounded_flash_soc_desc">
+		<text>Флеш-накопитель — компактное устройство для хранения и переноса данных.</text>
+	</string>
+	<string id="gunslinger_flash_soc_name">
+		<text>Флешка Стрелка</text>
+	</string>
+	<string id="gunslinger_flash_soc_desc">
+		<text>Флеш-накопитель с данными, принадлежавший Стрелку.</text>
+	</string>
+	<string id="quest_case_02_soc_name">
+		<text>Документы военных</text>
+	</string>
+	<string id="quest_case_02_soc_desc">
+		<text>Армейский кейс с секретной документацией. Изготовлен из прочного огнеупорного материала.</text>
+	</string>
+	<string id="val_key_to_underground_soc_name">
+		<text>Ключ Борова</text>
+	</string>
+	<string id="val_key_to_underground_soc_desc">
+		<text>Электронный ключ-карта для доступа в подземную лабораторию X-18.</text>
+	</string>
+	<string id="bar_tiran_pda_soc_name">
+		<text>КПК Тирана</text>
+	</string>
+	<string id="bar_tiran_pda_soc_desc">
+		<text>Карманный персональный компьютер. Незаменимое устройство для навигации и связи в Зоне.</text>
+	</string>
+	<string id="bar_lucky_pda_soc_name">
+		<text>КПК Счастливчика</text>
+	</string>
+	<string id="bar_lucky_pda_soc_desc">
+		<text>Карманный персональный компьютер. Незаменимое устройство для навигации и связи в Зоне.</text>
+	</string>
+	<string id="bar_ecolog_flash_soc_name">
+		<text>Флешка профессора Круглова</text>
+	</string>
+	<string id="bar_ecolog_flash_soc_desc">
+		<text>Накопитель с ценными результатами научных исследований и замеров.</text>
+	</string>
+	<string id="lab_x16_documents_soc_name">
+		<text>Документы из лаборатории Х-16</text>
+	</string>
+	<string id="lab_x16_documents_soc_desc">
+		<text>Пластиковая папка с техническими документами. Без профильного образования разобрать формулы и графики почти невозможно.</text>
+	</string>
+	<string id="good_psy_helmet_soc_name">
+		<text>Настроенный пси-шлем</text>
+	</string>
+	<string id="good_psy_helmet_soc_desc">
+		<text>Откалиброванный прототип, разработанный учёными для защиты от вредоносного пси-излучения.</text>
+	</string>
+	<string id="bad_psy_helmet_soc_name">
+		<text>Ненастроенный пси-шлем</text>
+	</string>
+	<string id="bad_psy_helmet_soc_desc">
+		<text>Экспериментальный прототип защиты от пси-излучения, требующий точной калибровки.</text>
+	</string>
+	<string id="kruglov_flash_soc_name">
+		<text>Сенсор ПП-4а</text>
+	</string>
+	<string id="kruglov_flash_soc_desc">
+		<text>Портативное устройство, предназначенное для точной регистрации и анализа пси-излучения.</text>
+	</string>
+	<string id="crazy_flash_soc_name">
+		<text>Флешка сумасшедшего</text>
+	</string>
+	<string id="crazy_flash_soc_desc">
+		<text>Флеш-накопитель, найденный у безумного сталкера на Свалке.</text>
+	</string>
+	<string id="mil_svoboda_leader_pda_soc_name">
+		<text>КПК Лукаша</text>
+	</string>
+	<string id="mil_svoboda_leader_pda_soc_desc">
+		<text>Личный КПК лидера группировки «Свобода».</text>
+	</string>
+	<string id="dar_pass_flash_soc_name">
+		<text>Флешка с кодом</text>
+	</string>
+	<string id="dar_pass_flash_soc_desc">
+		<text>Флеш-накопитель, содержащий электронный ключ доступа.</text>
+	</string>
+	<string id="dar_pass_document_soc_name">
+		<text>Старые документы</text>
+	</string>
+	<string id="dar_pass_document_soc_desc">
+		<text>Толстая стопка пожелтевших научных бумаг, испещрённая формулами и схемам.</text>
+	</string>
+	<string id="dar_document1_soc_name">
+		<text>Документы из Х-18 (часть 1)</text>
+	</string>
+	<string id="dar_document1_soc_desc">
+		<text>Папка с научной документацией из лаборатории X-18.</text>
+	</string>
+	<string id="dar_document2_soc_name">
+		<text>Документы из Х-18 (часть 2)</text>
+	</string>
+	<string id="dar_document2_soc_desc">
+		<text>Папка с научной документацией из лаборатории X-18.</text>
+	</string>
+	<string id="dar_document3_soc_name">
+		<text>Документы из Х-18 (часть 3)</text>
+	</string>
+	<string id="dar_document3_soc_desc">
+		<text>Папка с научной документацией из лаборатории X-18.</text>
+	</string>
+	<string id="dar_document4_soc_name">
+		<text>Документы из Х-18 (часть 4)</text>
+	</string>
+	<string id="dar_document4_soc_desc">
+		<text>Папка с научной документацией из лаборатории X-18.</text>
+	</string>
+	<string id="dar_document5_soc_name">
+		<text>Документы из Х-18 (часть 5)</text>
+	</string>
+	<string id="dar_document5_soc_desc">
+		<text>Папка с научной документацией из лаборатории X-18.</text>
+	</string>
+	<string id="pri_decoder_documents_soc_name">
+		<text>Документы из Припяти</text>
+	</string>
+	<string id="pri_decoder_documents_soc_desc">
+		<text>Потёртая рукопись в кожаном переплёте. Написана самим Стрелком. Судя по записям, в ней раскрываются тайны происхождения Зоны.</text>
+	</string>
+	<string id="cit_doctors_key_soc_name">
+		<text>Ключ Доктора</text>
+	</string>
+	<string id="cit_doctors_key_soc_desc">
+		<text>Старый металлический ключ с биркой «№ 26».</text>
+	</string>
+	<string id="decoder_soc_name">
+		<text>Декодер</text>
+	</string>
+	<string id="decoder_soc_desc">
+		<text>Мощная электронная отмычка. Похоже, она создавалась для взлома конкретного специфического замка и не обладает универсальностью.</text>
+	</string>
+</string_table>

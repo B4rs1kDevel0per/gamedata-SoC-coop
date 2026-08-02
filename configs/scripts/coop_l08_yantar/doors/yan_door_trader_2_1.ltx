@@ -1,0 +1,35 @@
+[logic]
+active 												= ph_door@locked
+
+[ph_door@locked]
+locked 												= true
+closed 												= true
+snd_open_start 										= metal_small_open
+snd_close_start 									= metal_small_close_start
+snd_close_stop 										= metal_small_close_stop
+on_info 											= {+YAN_SMART_TERRAIN_1_ECOLOG_SAHAROV_OPEN_DOOR_STOP_DIALOG_INFO} ph_door@close
+
+[ph_door@close]
+locked 												= false
+closed 												= true
+snd_open_start 										= metal_small_open
+snd_close_start 									= metal_small_close_start
+snd_close_stop 										= metal_small_close_stop
+on_use 												= ph_door@open
+
+[ph_door@near]
+locked 												= false
+closed 												= true
+snd_open_start 										= metal_small_open
+snd_close_start 									= metal_small_close_start
+snd_close_stop 										= metal_small_close_stop
+on_use 												= ph_door@open
+
+[ph_door@open]
+locked 												= false
+closed 												= false
+snd_open_start 										= metal_small_open
+snd_close_start 									= metal_small_close_start
+snd_close_stop 										= metal_small_close_stop
+on_use 												= ph_door@near
+on_actor_in_zone 									= yan_door_trader_1_1_1_2_close_space_restrictor | ph_door@near

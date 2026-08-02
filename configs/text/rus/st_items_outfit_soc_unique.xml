@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="novice_outfit_anomaly_name">
+		<text>Аномальная куртка</text>
+	</string>
+	<string id="novice_outfit_anomaly_description">
+		<text>Эту куртку сняли с тела сталкера, погибшего в аномалии «Кисель». Пролежав долгое время в её эпицентре, ткань пропиталась аномальной структурой и обрела свойство ускорять метаболизм владельца.</text>
+	</string>
+	<string id="bandit_outfit_chainmail_name">
+		<text>Кольчужная куртка</text>
+	</string>
+	<string id="bandit_outfit_chainmail_description">
+		<text>Обычный бандитский бронежилет, но в подкладку аккуратно вшито кольчужное полотно. Сделать такой под силу любому мастеру, но терпения на эту работу хватит далеко не всем.</text>
+	</string>
+	<string id="merc_outfit_fortified_name">
+		<text>Укреплённый комбинезон</text>
+	</string>
+	<string id="merc_outfit_fortified_description">
+		<text>В подкладку куртки вшита гибкая металлическая сетка, повышающая защиту от стрелкового оружия и укусов мутантов. В комплект также интегрирован ПНВ.</text>
+	</string>
+	<string id="stalker_outfit_tourist_name">
+		<text>Комбинезон туриста</text>
+	</string>
+	<string id="stalker_outfit_tourist_description">
+		<text>Бывший хозяин этой вещи был бывалым путешественником. Он отлично знал, как правильно распределить вес снаряжения. Продуманная система карманов и грамотно подогнанный рюкзак позволяют нести больший вес без лишней нагрузки на спину.</text>
+	</string>
+	<string id="stalker_outfit_ghost_name">
+		<text>Комбинезон Призрака</text>
+	</string>
+	<string id="stalker_outfit_ghost_description">
+		<text>Ходят легенды, что легендарный сталкер Призрак никогда не носил с собой аптечки — раны на нём заживали мгновенно. Говорят, секрет кроется в его уникальном комбинезоне, вытащенном из аномалии.</text>
+	</string>
+	<string id="dolg_outfit_hunter_name">
+		<text>Охотничий ПСЗ-9д</text>
+	</string>
+	<string id="dolg_outfit_hunter_description">
+		<text>Модифицированный бронекостюм «Долга» с усиленной защитой от разрывов, порезов и укусов мутантов.</text>
+	</string>
+	<string id="svoboda_light_outfit_m2_name">
+		<text>Комбинезон «Свободы» М2</text>
+	</string>
+	<string id="svoboda_light_outfit_m2_description">
+		<text>В комбинезон интегрирована экранирующая сетка, защищающая от электрических и магнитных полей. В шлем встроен прибор ночного видения.</text>
+	</string>
+	<string id="specops_outfit_therapeutic_name">
+		<text>Лечебный «Берилл»</text>
+	</string>
+	<string id="specops_outfit_therapeutic_description">
+		<text>Ткань костюма с внутренней стороны пропитана специальным регенерирующим составом, существенно ускоряющим заживление ран.</text>
+	</string>
+	<string id="exo_outfit_pnb-4uz_name">
+		<text>Экзоскелет ПНБ-4УЗ</text>
+	</string>
+	<string id="exo_outfit_pnb-4uz_description">
+		<text>Штатный прибор ночного видения заменён на более современную модель с цифровой фильтрацией и обработкой сигнала.</text>
+	</string>
+</string_table>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_save_uni_travel_generic">
+		<text>Переход по локации</text>
+	</string>
+	<string id="st_save_uni_surge_start">
+		<text>Выброс</text>
+	</string>
+	<string id="st_save_after_sleep">
+		<text>После сна</text>
+	</string>
+	<string id="st_save_esc_game_start">
+		<text>Начало игры</text>
+	</string>
+	<string id="st_save_the_stalker_shustry">
+		<text>Убить бандитов и забрать флешку</text>
+	</string>
+	<string id="st_escort_the_stalker_shustry">
+		<text>Сопроводить до деревни Шустрого</text>
+	</string>		
+	<string id="st_kill_bandits_on_the_atp">
+		<text>Убить бандитов на АТП</text>
+	</string>
+	<string id="st_esc_talk_to_the_sidorovich">
+		<text>Похоже, что-то намечается</text>
+	</string>
+	<string id="st_5_bottles_of_vodka_for_kuznetsov">
+		<text>Отдали 5 бутылок Кузнецову</text>
+	</string>
+	<string id="st_5_bottles_of_vodka_for_kuznetsov_fail">
+		<text>Не отдали 5 бутылок Кузнецову, он враг</text>
+	</string>	
+	<string id="st_kill_dogs">
+		<text>Спасение Лиса от собак</text>
+	</string>	
+	<string id="st_talk_to_the_fox">
+		<text>Дорога на север</text>
+	</string>	
+
+	<string id="st_arrival_at_garbage">
+		<text>Прибытие на Свалку</text>
+	</string>
+	<string id="st_save_the_stalker_yurik_from_bandits">
+		<text>Спасти Юрика</text>
+	</string>
+	<string id="st_stalker_yurik_dead">
+		<text>Юрик убит</text>
+	</string>	
+	<string id="st_stalker_yurik_save">
+		<text>Юрик спасен</text>
+	</string>	
+	<string id="st_help_to_repel_the_bandits_attack">
+		<text>Засада на бандитов</text>
+	</string>		
+	<string id="st_help_the_gray_to_fight_off_the_bandits">
+		<text>Еще один сигнал SOS</text>
+	</string>
+	<string id="st_go_to_the_agroprom">
+		<text>На Агропром</text>
+	</string>
+	<string id="st_help_fight_off_the_mutants">
+		<text>Помочь долговцам отбиться от мутантов</text>
+	</string>
+	
+	<string id="st_save_the_stalker_mole">
+		<text>Спасти Крота от военных</text>
+	</string>	
+	<string id="st_follow_the_stalker_mole">
+		<text>Следовать за Кротом</text>
+	</string>
+	<string id="st_talk_to_the_stalker_mole">
+		<text>Поговорить с Кротом</text>
+	</string>
+	<string id="st_the_destination_is_a_bar">
+		<text>Пункт назначения - Бар</text>
+	</string>	
+	
+	<string id="st_bloodsucker_script_attack">
+		<text>Сражение с кровососами: подземелье Агропрома</text>
+	</string>
+	
+	<string id="st_sneak_into_the_x_18_lab">
+		<text>Убить Борова и забрать карту</text>
+	</string>
+	<string id="st_go_to_yantar">
+		<text>Отправится на Янтарь</text>
+	</string>
+	<string id="st_go_to_military">
+		<text>Отправится на Армейские склады</text>
+	</string>
+
+	<string id="st_kill_borov">
+		<text>Боров убит и забрали карту</text>
+	</string>
+
+	<string id="st_help_kruglov">
+		<text>Спасти профессора Круглова</text>
+	</string>
+	<string id="st_escort_kruglov_to_yantar">
+		<text>Сопроводить профессора Круглова до Янтаря</text>
+	</string>	
+
+	<string id="st_talk_to_the_cap">
+		<text>Защита Барьера: поговорить с Кэпом</text>
+	</string>
+	<string id="st_protect_the_barrier">
+		<text>Защита Барьера: уничтожить отряд Монолита</text>
+	</string>
+	<string id="st_kill_the_sniper_on_the_tower">
+		<text>Убить снайпера на вышке</text>
+	</string>
+	<string id="st_ambush_base_freedom">
+		<text>Начало штурма: За Долг!</text>
+	</string>
+	<string id="st_report_to_max">
+		<text>Доложить Максу</text>
+	</string>
+	<string id="st_ambush_base_dolg">
+		<text>Начало штурма: За Свободу!</text>
+	</string>
+	
+	<string id="st_find_the_installation">
+		<text>Найти установку в лаборатории X-16</text>
+	</string>
+	<string id="st_get_out_of_the_lab">
+		<text>Выбраться из лаборатории</text>
+	</string>
+	
+	<string id="st_talk_to_the_kruglov">
+		<text>Поговорить с профессором Круглов по поводу замеров</text>
+	</string>
+	<string id="st_take_measurements_1">
+		<text>Провести замеры около туннеля на входе</text>
+	</string>
+	<string id="st_take_measurements_2">
+		<text>Провести замеры около туннеля на выходе</text>
+	</string>	
+	<string id="st_take_measurements_3">
+		<text>Провести замеры около автобуса</text>
+	</string>	
+	<string id="st_talk_to_the_saharov">
+		<text>Поговорить с профессором Сахаровым по поводу результатов замеров</text>
+	</string>		
+	<string id="st_configuring_helmets">
+		<text>Дождаться настройки шлемов и забрать прототипы</text>
+	</string>
+	<string id="st_sneak_into_the_x_16_lab">
+		<text>Отправится в лабораторию</text>
+	</string>
+	<string id="st_talk_to_the_saharov_x16_lab">
+		<text>Поговорить с профессором Сахаровым по поводу лаборатории</text>
+	</string>
+
+	<string id="st_go_to_radar">
+		<text>На Радар</text>
+	</string>
+
+	<string id="st_turn_off_the_radar">
+		<text>Отключить Радар</text>
+	</string>
+	<string id="st_leave_the_bunker_and_go_to_pripyat">
+		<text>Покинуть бункер и отправиться в Припять</text>
+	</string>
+	
+	<string id="st_go_to_cnpp">
+		<text>Добраться до ЧАЭС</text>
+	</string>
+	<string id="st_underground_parking">
+		<text>Добрались до подземной парковки</text>
+	</string>
+	
+	<string id="st_sneak_into_the_control_room">
+		<text>Пробраться в комнату управления "Монолитом"</text>
+	</string>
+	<string id="st_destroy_the_monolith_installation">
+		<text>Уничтожить установку "Монолит"</text>
+	</string>
+	<string id="st_talk_to_the_representative_awareness">
+		<text>Поговорить с преставителем "О-сознания"</text>
+	</string>
+	
+	<string id="st_get_to_the_monolith">
+		<text>Добраться до "Монолита"</text>
+	</string>
+	<string id="st_kill_the_monolith_preacher">
+		<text>Убить Проповедника "Монолита"</text>
+	</string>
+	<string id="st_open_the_door_to_monolith_management">
+		<text>Применили декодер и ждем открытия двери</text>
+	</string>
+
+	<string id="st_go_to_sarcofag">
+		<text>Добраться до Саркофага</text>
+	</string>
+</string_table>

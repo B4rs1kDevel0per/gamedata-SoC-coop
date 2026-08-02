@@ -1,0 +1,18 @@
+[search_light]
+GroupControlSection = spawn_group
+$spawn        = "physics\search light"
+class       = O_SEARCH
+cform       = skeleton
+visual        = dynamics\light\projector.ogf
+script_binding      = bind_physic_object.init
+
+[yan_energy_reciever_1]:search_light
+$spawn = "physics\yan_energy_reciever_1"
+class = S_SEARCH
+visual = dynamics\scene_objects\yantar\quest_antenna_nobox.ogf
+story_id = yan_energy_reciever_1
+
+[yan_energy_reciever_2]:yan_energy_reciever_1
+$spawn = "physics\yan_energy_reciever_2"
+visual = dynamics\scene_objects\yantar\quest_antenna.ogf
+story_id = yan_energy_reciever_2

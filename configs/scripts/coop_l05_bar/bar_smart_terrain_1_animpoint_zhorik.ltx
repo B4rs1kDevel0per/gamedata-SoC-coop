@@ -1,0 +1,34 @@
+[logic@bar_smart_terrain_1_animpoint_zhorik]
+suitable 											= {=check_npc_name(bar_smart_terrain_1_stalker_zhorik)} true
+can_select_weapon 									= false
+active 												= animpoint@bar_smart_terrain_1_animpoint_zhorik
+prior 												= 300
+
+[animpoint@bar_smart_terrain_1_animpoint_zhorik]
+cover_name 											= bar_smart_terrain_1_animpoint_1
+invulnerable 										= true
+meet 												= meet@hello_players
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+
+[meet@hello_players]
+close_snd_hello 									= bar_guard_prohodi_1
+close_snd_bye   									= bar_guard_prohodi_1
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 2
+far_distance 										= 20
+close_snd_distance 									= 6
+use 												= {=actor_enemy} false, true
+abuse           									= false
+allow_break 										= true
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

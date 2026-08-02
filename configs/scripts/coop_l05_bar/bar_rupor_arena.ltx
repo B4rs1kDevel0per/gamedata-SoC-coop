@@ -1,0 +1,9 @@
+[logic]
+active = sr_idle
+
+[sr_idle]
+on_info = {-bar_player_music_info -bar_megafon_alarm =dist_to_actor_le(150)} sr_idle@wait  %=play_sound(bar_radio_hunter_2)%
+
+[sr_idle@wait]
+on_game_timer = 150 | sr_idle
+on_info = {+bar_player_music_info} sr_idle

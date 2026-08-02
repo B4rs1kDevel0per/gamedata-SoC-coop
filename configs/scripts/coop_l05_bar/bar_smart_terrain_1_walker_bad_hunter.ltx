@@ -1,0 +1,38 @@
+[logic@bar_smart_terrain_1_walker_bad_hunter]
+suitable 								= {=check_npc_name(bar_smart_terrain_1_stalker_bad_hunter)} true
+active 									= walker@bar_smart_terrain_1_walker_bad_hunter
+prior 									= 300
+can_select_weapon 						= false
+
+[walker@bar_smart_terrain_1_walker_bad_hunter]
+path_walk 								= walker_bad_hunter_walk
+path_look 								= walker_bad_hunter_look
+avail_animations 						= animpoint_stay_table
+def_state_moving1 						= walk
+def_state_moving2 						= walk
+def_state_moving3 						= walk
+use_camp 								= false
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+meet 									= meet@hello_players
+
+[meet@hello_players]
+close_snd_hello 						= bar_informer
+close_snd_bye   						= bar_informer
+close_anim 								= nil
+close_victim 							= actor
+far_anim 								= nil
+far_victim 								= actor
+close_distance  						= 0
+far_distance 							= 0
+close_snd_distance 						= 3
+use 									= {=actor_enemy} false, true
+allow_break 							= true
+trade_enable 							= false
+meet_on_talking 						= false
+
+;================================================

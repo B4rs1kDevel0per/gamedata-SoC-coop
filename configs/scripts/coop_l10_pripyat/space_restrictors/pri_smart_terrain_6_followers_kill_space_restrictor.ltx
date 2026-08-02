@@ -1,0 +1,12 @@
+[logic]
+active 												= sr_idle@followers_kill_idle
+
+[sr_idle@followers_kill_idle]
+on_info 											= {+FOLLOWERS_KILL_6_STOP_INFO} sr_idle@nil
+on_info2 											= {-FOLLOWERS_KILL_6_STOP_INFO +PRI_SMART_TERRAIN_6_SNIPER_MONOLITH_1_SQUAD_DEAD =isClient} sr_idle@followers_kill_start
+
+[sr_idle@followers_kill_start]
+on_info 											= {+PRI_SMART_TERRAIN_6_SNIPER_MONOLITH_1_SQUAD_DEAD =isClient} %=play_sound(followers_kill) +FOLLOWERS_KILL_6_STOP_INFO%
+on_signal 											= sound_end | sr_idle@nil
+
+[sr_idle@nil]

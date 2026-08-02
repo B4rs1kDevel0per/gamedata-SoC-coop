@@ -1,0 +1,86 @@
+[logic]
+active = sr_idle@determine_cl_sv
+type = no_save
+
+[sr_idle@determine_cl_sv]
+on_info = {=isServer} sr_idle@sv_control
+on_info2 = {=isClient} sr_idle@cl_control
+
+;server logic
+[sr_idle@sv_control]
+on_info   = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_GAR_INFO}  sr_idle@sv_to_gar_meet
+on_info2  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGR_INFO}  sr_idle@sv_to_agr_meet
+on_info3  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGRU_INFO} sr_idle@sv_to_agru_meet
+on_info4  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_VAL_INFO}  sr_idle@sv_to_val_meet
+on_info5  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X18_INFO}  sr_idle@sv_to_x18_meet
+on_info6  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_BAR_INFO}  sr_idle@sv_to_bar_meet
+on_info7  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_ROS_INFO}  sr_idle@sv_to_ros_meet
+on_info8  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_YAN_INFO}  sr_idle@sv_to_yan_meet
+
+[sr_idle@sv_to_gar_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_GAR_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_GAR_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_1_walk:bar_smart_terrain_1_guide_temp_1_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_agr_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGR_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGR_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_2_walk:bar_smart_terrain_1_guide_temp_2_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_agru_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGRU_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGRU_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_3_walk:bar_smart_terrain_1_guide_temp_3_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_val_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_VAL_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_VAL_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_4_walk:bar_smart_terrain_1_guide_temp_4_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_x18_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X18_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X18_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_5_walk:bar_smart_terrain_1_guide_temp_5_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_bar_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_BAR_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_BAR_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_6_walk:bar_smart_terrain_1_guide_temp_6_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_ros_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_ROS_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_ROS_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_7_walk:bar_smart_terrain_1_guide_temp_7_look) =forward_game_time(4)%
+
+[sr_idle@sv_to_yan_meet]
+on_info = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_YAN_INFO} %-ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_YAN_INFO%
+on_game_timer = 20 | sr_idle@sv_control %=xrmpe_teleport_actors(bar_smart_terrain_1_guide_temp_8_walk:bar_smart_terrain_1_guide_temp_8_look) =forward_game_time(4)%
+
+
+;client logic
+[sr_idle@cl_control]
+on_info  = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_GAR_INFO}  sr_idle@cl_to_gar_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info2 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGR_INFO}  sr_idle@cl_to_agr_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info3 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGRU_INFO} sr_idle@cl_to_agru_meet %=disable_ui =run_postprocess(fade_in)%
+on_info4 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_VAL_INFO}  sr_idle@cl_to_val_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info5 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X18_INFO}  sr_idle@cl_to_x18_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info6 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_BAR_INFO}  sr_idle@cl_to_bar_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info7 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_ROS_INFO}  sr_idle@cl_to_ros_meet  %=disable_ui =run_postprocess(fade_in)%
+on_info8 = {+ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_YAN_INFO}  sr_idle@cl_to_yan_meet  %=disable_ui =run_postprocess(fade_in)%
+
+[sr_idle@cl_to_gar_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_agr_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_agru_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_val_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_x18_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_bar_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_ros_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%
+
+[sr_idle@cl_to_yan_meet]
+on_game_timer = 20 | sr_idle@cl_control %=run_postprocess(black:6127:true)%

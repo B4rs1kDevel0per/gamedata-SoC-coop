@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Круглова(Убить мутанта около "Упавшего вертолёта"):
+[sr_idle@start_quest]
+on_info  											= {+YAN_SMART_TERRAIN_1_ECOLOG_KRUGLOV_SQ_KILLER_MUTANTS_3_STOP_DIALOG_INFO} sr_idle@nil %=give_task(yan_start_sq_killer_mutants_3_quest_task) =create_squad(yan_smart_terrain_12_m_chimera_squad:yan_smart_terrain_12_m)%
+
+[sr_idle@nil]

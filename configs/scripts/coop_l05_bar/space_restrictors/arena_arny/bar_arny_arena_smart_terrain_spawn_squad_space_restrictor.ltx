@@ -1,0 +1,144 @@
+[logic]
+active 												= sr_idle@start_arena_idle
+;Спавн сквадов арены:
+[sr_idle@start_arena_idle]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_DOG_ARENA_INFO} 							sr_idle@start_arena_spawn_dog 							%=create_squad(bar_arny_arena_smart_terrain_dog_squad:bar_arny_arena_smart_terrain)%
+on_info2 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_PSEUDODOG_ARENA_INFO} 					sr_idle@start_arena_spawn_pseudodog 					%=create_squad(bar_arny_arena_smart_terrain_pseudodog_squad:bar_arny_arena_smart_terrain)%
+on_info3 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BOAR_ARENA_INFO} 						sr_idle@start_arena_spawn_boar	 						%=create_squad(bar_arny_arena_smart_terrain_boar_squad:bar_arny_arena_smart_terrain)%
+on_info4 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BLOODSUCKER_ARENA_INFO} 					sr_idle@start_arena_spawn_bloodsucker 					%=create_squad(bar_arny_arena_smart_terrain_bloodsucker_squad:bar_arny_arena_smart_terrain)%
+;on_info5 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_NON_ARENA_INFO} 							sr_idle@start_arena_spawn_non 							%=create_squad(bar_arny_arena_smart_terrain_bloodsucker_squad:bar_arny_arena_smart_terrain)%
+
+on_info6 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_DOG_DURING_THE_TIME_ARENA_INFO} 			sr_idle@start_during_the_time_arena_spawn_dog 			%=create_squad(bar_arny_arena_smart_terrain_dtt_dog_squad:bar_arny_arena_smart_terrain)%
+on_info7 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_PSEUDODOG_DURING_THE_TIME_ARENA_INFO} 	sr_idle@start_during_the_time_arena_spawn_pseudodog 	%=create_squad(bar_arny_arena_smart_terrain_dtt_pseudodog_squad:bar_arny_arena_smart_terrain)%
+on_info8 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BOAR_DURING_THE_TIME_ARENA_INFO} 		sr_idle@start_during_the_time_arena_spawn_boar	 		%=create_squad(bar_arny_arena_smart_terrain_dtt_boar_squad:bar_arny_arena_smart_terrain)%
+on_info9 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BLOODSUCKER_DURING_THE_TIME_ARENA_INFO} 	sr_idle@start_during_the_time_arena_spawn_bloodsucker 	%=create_squad(bar_arny_arena_smart_terrain_dtt_bloodsucker_squad:bar_arny_arena_smart_terrain)%
+;on_info10 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_NON_DURING_THE_TIME_ARENA_INFO} 			sr_idle@start_during_the_time_arena_spawn_non 			%=create_squad(bar_arny_arena_smart_terrain_bloodsucker_squad:bar_arny_arena_smart_terrain)%
+
+;on_info11 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BET_SVS_INFO} 									sr_idle@start_bet_arena_spawn_svs 						%=create_squad(bar_arny_arena_smart_terrain_1_stalker_squad:bar_arny_arena_smart_terrain_1) =create_squad(bar_arny_arena_smart_terrain_1_bloodsucker_squad:bar_arny_arena_smart_terrain_2) +1%
+on_info1 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BET_START_ARENA_INFO} 							sr_idle@start_bet_arena_spawn_stalkers_and_bloodsucker	%=create_squad(bar_arny_arena_smart_terrain_1_stalker_squad:bar_arny_arena_smart_terrain_1) =create_squad(bar_arny_arena_smart_terrain_2_bloodsucker_squad:bar_arny_arena_smart_terrain_2) +1%
+
+
+;=======================================================================================================================================================================================================================================================================
+;ОБЫЧНЫЙ БОЙ С МУТАНТАМИ:
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С СОБАКАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_arena_spawn_dog]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DOG_SQUAD_DEAD} sr_idle@start_arena_spawn_dog_dead
+
+[sr_idle@start_arena_spawn_dog_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DOG_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_DOG_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_DOG_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С ПСЕВДОСОБАКАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_arena_spawn_pseudodog]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_PSEUDODOG_SQUAD_DEAD} sr_idle@start_arena_spawn_pseudodog_dead
+
+[sr_idle@start_arena_spawn_pseudodog_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_PSEUDODOG_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_PSEUDODOG_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_PSEUDODOG_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С КАБАНАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_arena_spawn_boar]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BOAR_SQUAD_DEAD} sr_idle@start_arena_spawn_boar_dead
+
+[sr_idle@start_arena_spawn_boar_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BOAR_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_BOAR_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BOAR_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С КРОВОСОСАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_arena_spawn_bloodsucker]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BLOODSUCKER_SQUAD_DEAD} sr_idle@start_arena_spawn_bloodsucker_dead
+
+[sr_idle@start_arena_spawn_bloodsucker_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_BLOODSUCKER_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_BLOODSUCKER_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BLOODSUCKER_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С ОСОБЫМ ПРОТИВНИКОМ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_arena_spawn_non]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD} sr_idle@start_arena_spawn_non_dead
+
+[sr_idle@start_arena_spawn_non_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_STALKER_ARENA_MASTER_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+;=======================================================================================================================================================================================================================================================================
+;БОЙ С МУТАНТАМИ НА ВРЕМЯ:
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С СОБАКАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_during_the_time_arena_spawn_dog]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_DOG_SQUAD_DEAD} sr_idle@start_during_the_time_arena_spawn_dog_dead %=remove_squad(bar_arny_arena_smart_terrain_dtt_dog_squad)%
+
+[sr_idle@start_during_the_time_arena_spawn_dog_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_DOG_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_DTT_DOG_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_DOG_DURING_THE_TIME_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С ПСЕВДОСОБАКАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_during_the_time_arena_spawn_pseudodog]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_PSEUDODOG_SQUAD_DEAD} sr_idle@start_during_the_time_arena_spawn_pseudodog_dead %=remove_squad(bar_arny_arena_smart_terrain_dtt_pseudodog_squad)%
+
+[sr_idle@start_during_the_time_arena_spawn_pseudodog_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_PSEUDODOG_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_DTT_PSEUDODOG_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_PSEUDODOG_DURING_THE_TIME_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С КАБАНАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_during_the_time_arena_spawn_boar]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BOAR_SQUAD_DEAD} sr_idle@start_during_the_time_arena_spawn_boar_dead %=remove_squad(bar_arny_arena_smart_terrain_dtt_boar_squad)%
+
+[sr_idle@start_during_the_time_arena_spawn_boar_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BOAR_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BOAR_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BOAR_DURING_THE_TIME_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С КРОВОСОСАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_during_the_time_arena_spawn_bloodsucker]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BLOODSUCKER_SQUAD_DEAD} sr_idle@start_during_the_time_arena_spawn_bloodsucker_dead %=remove_squad(bar_arny_arena_smart_terrain_dtt_bloodsucker_squad)%
+
+[sr_idle@start_during_the_time_arena_spawn_bloodsucker_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BLOODSUCKER_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BLOODSUCKER_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_BLOODSUCKER_DURING_THE_TIME_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С ОСОБЫМ ПРОТИВНИКОМ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_during_the_time_arena_spawn_non]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD} sr_idle@start_during_the_time_arena_spawn_non_dead %=remove_squad(bar_arny_arena_smart_terrain_dtt_dog_squad)%
+
+[sr_idle@start_during_the_time_arena_spawn_non_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_STALKER_3_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_SPAWN_STALKER_ARENA_MASTER_INFO%
+
+;=======================================================================================================================================================================================================================================================================
+;=======================================================================================================================================================================================================================================================================
+;СТАВКИ НА БОЙ СТАЛКЕРОВ С МУТАНТАМИ:
+;=======================================================================================================================================================================================================================================================================
+:БОЙ С КРОВОСОСАМИ:
+;=======================================================================================================================================================================================================================================================================
+[sr_idle@start_bet_arena_spawn_stalkers_and_bloodsucker]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_1_STALKER_SQUAD_DEAD} sr_idle@start_bet_arena_stalkers_dead	%=remove_squad(bar_arny_arena_smart_terrain_1_bloodsucker_squad)%
+on_info2 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_2_BLOODSUCKER_SQUAD_DEAD} sr_idle@start_bet_arena_mutants_dead	%=remove_squad(bar_arny_arena_smart_terrain_1_stalker_squad)%
+
+[sr_idle@start_bet_arena_stalkers_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_1_STALKER_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_1_STALKER_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_BET_START_ARENA_INFO%
+
+[sr_idle@start_bet_arena_mutants_dead]
+on_info 											= {+BAR_ARNY_ARENA_SMART_TERRAIN_2_BLOODSUCKER_SQUAD_DEAD} %-BAR_ARNY_ARENA_SMART_TERRAIN_2_BLOODSUCKER_SQUAD_DEAD%
+on_game_timer 										= 20 | sr_idle@start_arena_idle %-BAR_ARNY_ARENA_SMART_TERRAIN_BET_START_ARENA_INFO%
+
+;=======================================================================================================================================================================================================================================================================

@@ -1,0 +1,443 @@
+<w>
+	<main_wnd x="0" y="0" width="1413" height="972">
+		<window_name>pda_tasks</window_name>
+	</main_wnd>
+
+	<map_wnd x="14" y="58" width="1384" height="848" scroll_enable="0" map_move_step="11">
+		<action_snd>device\pda\pda_objective_tracking</action_snd>
+		<level_frame x="2" y="2" width="1381" height="844" />
+
+		<main_map_frame x="0" y="0" width="1384" height="848" dx="0" dy="4" sx="25" sy="28">
+	        <auto_frameline x="0" y="0" width="1384" height="848" vertical="1">
+				<texture>ui_pda_frame_rect</texture>
+	        </auto_frameline>
+			<auto_static x="11" y="11" width="317" height="34" stretch="1">
+				<texture>ui_pda_left_small_header</texture>
+				<text x="14" width="113" height="27" color="dark_gray_blue" font="tahoma20" align="l" vert_align="c">missions_list</text>
+			</auto_static>
+		</main_map_frame>
+
+		<map_hint_item x="0" y="0" width="405" height="253" stretch="1">
+			<texture>ui_icons_PDA_tooltips</texture>
+			<simple_text x="10" y="15" width="250" height="243" complex_mode="1">
+				<text  align="l" font="letterica18"/>
+			</simple_text>
+			<t_icon x="10" y="19" width="83" height="44"/>
+			<t_icon_frame></t_icon_frame>
+			<t_separator></t_separator>
+			<t_caption x="107" y="15" width="253" height="23" complex_mode="1">
+				<text align="l" font="letterica18"/>
+			</t_caption>
+			<t_time x="107" y="48" width="253" height="23">
+				<text align="l" font="letterica16" r="170" g="170" b="170"/>
+			</t_time>
+			<t_time_rem x="107" y="74" width="253" height="23" _light_anim="ui_too_slow_blinking" la_cyclic="1" la_texture="0" la_text="1" la_alpha="1">
+				<text align="l" font="letterica16" r="170" g="170" b="170"/>
+			</t_time_rem>
+			<t_hint_text x="10" y="95" width="372" height="23" complex_mode="1">
+				<text  align="l" font="letterica18"/>
+			</t_hint_text>
+		</map_hint_item>
+
+		<legend_btn anchor="top-right" x="11" y="11" width="27" height="27" hint="ui_map_btn_legend" stretch="1">
+			<window_name>btn_nav_legend</window_name>
+			<texture>ui_pda_legend_button</texture>
+			<sound_t>device\pda\pda_button</sound_t>
+		</legend_btn>
+
+		<navigation_wnd anchor="bot-right" x="11" y="11" width="85" height="47">
+			<zoom_out_btn x="0" y="0" width="27" height="27" hint="ui_map_btn_zoom_out" stretch="1">
+				<window_name>btn_nav_zoom_out</window_name>
+				<texture>ui_pda_zoom_out_button</texture>
+				<sound_t>device\pda\pda_button</sound_t>
+			</zoom_out_btn>
+			<zoom_actor_btn x="29" y="0" width="27" height="27" hint="ui_map_btn_center" stretch="1">
+				<window_name>btn_nav_center</window_name>
+				<texture>ui_pda_nav_center_button</texture>
+				<sound_t>device\pda\pda_button</sound_t>
+			</zoom_actor_btn>
+			<zoom_in_btn x="58" y="0" width="27" height="27" hint="ui_map_btn_zoom_in" stretch="1">
+				<window_name>btn_nav_zoom_in</window_name>
+				<texture>ui_pda_zoom_in_button</texture>
+				<sound_t>device\pda\pda_button</sound_t>
+			</zoom_in_btn>
+			<zoom_progress_bar x="4" y="34" width="77" height="9" horz="1">
+				<background anchor="mid-center" width="85" height="16" stretch="1">
+					<texture>ui_pda_zoom_bar_bg</texture>
+				</background>		
+				<progress anchor="mid-center" stretch="1">
+					<texture>ui_pda_zoom_bar</texture>
+				</progress>
+			</zoom_progress_bar>
+		</navigation_wnd>
+
+		<btn_second_task x="199" y="14" width="125" height="27" hint="ui_show_second_task_wnd" stretch="1">
+			<window_name>btn_second_task</window_name>
+			<texture>ui_pda_left_small_button</texture>
+			<text width="90" height="27" font="tahoma16" align="c" vert_align="c">ui_mm_open</text>
+			<text_color>
+				<e color="pda_gray"/>
+				<t color="pda_gray"/>
+				<d color="dark_gray_mpe"/>
+				<h color="pda_gray"/>
+			</text_color>
+			<sound_t>device\pda\pda_button</sound_t>
+		</btn_second_task>
+
+		<second_task_wnd x="1.5" y="0" width="392" height="846">
+			<auto_frameline x="0" y="0" width="392" height="846" vertical="1">
+				<texture>ui_pda_quests_rect</texture>
+			</auto_frameline>
+
+			<filter_tab x="0" y="34" width="391" height="41">
+				<button anchor="top-right" x="2" y="2" width="199" height="38" id="eptCompletedTasks">
+					<auto_lineview anchor="mid-center" height="18" items_indent="14">
+						<auto_static width="18" height="18" stretch="1">
+							<texture>ui_pda_complete_btn_icon</texture>
+						</auto_static>
+						<auto_text height="18">
+							<text vert_align="c" color="pda_gray" font="tahoma16">pda_btn_completed_quests</text>
+						</auto_text>
+					</auto_lineview>
+					<texture>ui_pda_list_right_button</texture>
+					<sound_t>device\pda\pda_button</sound_t>
+				</button>
+				<button x="2" y="2" width="191" height="38" id="eptInProgressTasks">
+					<auto_lineview anchor="mid-center" x="-4" height="18" items_indent="14">
+						<auto_static width="18" height="18" stretch="1">
+							<texture>ui_pda_task_btn_icon</texture>
+						</auto_static>
+						<auto_text height="18">
+							<text vert_align="c" color="pda_gray" font="tahoma16">pda_btn_active_quests</text>
+						</auto_text>
+					</auto_lineview>
+					<texture>ui_pda_list_left_button</texture>
+					<sound_t>device\pda\pda_button</sound_t>
+				</button>
+			</filter_tab>
+
+			<t_caption x="12" y="9" width="108" height="18">
+				<text align="l" vert_align="c" font="tahoma20" color="pda_gray">missions_list</text>
+			</t_caption>
+
+			<t_counter x="293" y="19" width="68" height="18">
+				<text align="r" font="letterica16" color="ui_4"/>
+			</t_counter>
+
+			<btn_close anchor="top-right" x="4" y="4" width="27" height="27" stretch="1">
+				<window_name>task_btn_close</window_name>
+				<texture>ui_pda_close_right_button</texture>
+				<sound_t>device\pda\pda_button</sound_t>
+			</btn_close>
+
+			<task_list x="0" y="79" width="391" height="765" top_indent="0" right_ident="14" vert_interval="2" scroll_profile="pda_new" always_show_scroll="1" scroll_bar_left="1"/>
+
+			<task_item x="0" y="0" list_offset_x="2" width="373" height="40">
+				<activ color="yellow_mpe"/>
+				<unread color="white"/>
+				<read color="pda_gray"/>
+				<hover colot="white"/>
+
+				<texture>ui_pda_task_item</texture>
+				
+				<name x="69" y="11" width="295" height="18">
+					<text align="l" font="tahoma16" complex_mode="1"/>
+				</name>
+
+				<spot_icon x="20" y="5" width="27" height="29" stretch="1"/>
+				<sides x="5" y="3" width="56" height="34" stretch="1"/>
+				
+				<sound_t>device\pda\pda_button</sound_t>
+				<activate_snd>device\pda\pda_objective_tracking</activate_snd>
+			</task_item>
+
+			<main_tasks_caption x="0" y="0" width="378" height="27">
+				<text x="13" align="l" vert_align="c" font="tahoma20" color="dark_gray_blue">pda_main_quests</text>
+			</main_tasks_caption>
+			
+			<second_tasks_caption x="0" y="0" width="378" height="27">
+				<text x="13" align="l" vert_align="c" font="tahoma20" color="dark_gray_blue">pda_second_quests</text>
+			</second_tasks_caption>
+			
+			<item_separator x="0" y="0" width="378" height="2" stretch="1">
+				<texture>ui_pda_quest_item_separator</texture>
+			</item_separator>
+		</second_task_wnd>
+	</map_wnd>
+
+	<filter_quest_npcs x="1046" y="167" width="241" height="24" stretch="1">
+		<window_name>filter_quest_npcs</window_name>
+        <texture>ui_inGame2_pda_smallbutton</texture>
+		<check_mark anchor="mid-left" width="27" height="20">
+			<texture>ui_mainmenu_checkbox_mark</texture>
+		</check_mark>		
+		<text x="-187" y="0" align="c" vert_align="c" font="letterica16">filter_quest_npcs_text</text>
+        <text_color>
+            <t r="255" g="255" b="255"/>
+            <d r="255" g="255" b="255"/>
+            <e r="170" g="170" b="170"/>
+            <h r="255" g="255" b="255"/>
+        </text_color>
+	</filter_quest_npcs>
+
+	<storyline_task_item x="11" y="45" width="317" height="45" vertical="1">
+		<window_name>pda_task_item1</window_name>
+		<texture>ui_pda_quest_frame_rect</texture>
+
+		<button x="4" y="2" width="310" height="40" stretch="1">
+			<texture>ui_pda_task_item</texture>
+			
+			<name x="70" y="11" width="230" height="18">
+				<text align="l" color="yellow_mpe" font="tahoma16" complex_mode="1"/>
+			</name>
+	
+			<spot_icon x="20" y="5" width="27" height="29" stretch="1"/>
+			<sides x="5" y="3" width="56" height="34" stretch="1"/>
+
+			<sound_t>device\pda\pda_button</sound_t>
+		</button>
+	</storyline_task_item>
+
+	<map_legend_wnd anchor="top-right" x="0" y="0" width="223" height="601">
+		<auto_frameline x="0" y="0" width="223" height="574" vertical="1">
+			<texture>ui_pda_legend_rect</texture>
+		</auto_frameline>
+
+		<t_caption x="14" y="8" width="108" height="18">
+			<text align="l" vert_align="c" font="tahoma20" color="pda_gray">pda_legend_caption</text>
+		</t_caption>
+
+		<btn_close anchor="top-right" x="4" y="4" width="27" height="27" stretch="1">
+			<window_name>task_btn_close</window_name>
+			<texture>ui_pda_close_left_button</texture>
+			<sound_t>device\pda\pda_button</sound_t>
+		</btn_close>
+
+		<btn_all anchor="bot-left" x="0" y="0" width="180" height="27" stretch="1">
+			<texture>ui_pda_legend_all_button</texture>
+			<text x="14" y="-1" align="l" vert_align="c" font="tahoma16" color="pda_gray">st_ui_pda_show_hide_all</text>
+			<text_color>
+				<e color="pda_gray"/>
+				<t color="pda_gray"/>
+				<d color="dark_gray_mpe"/>
+				<h color="pda_gray"/>
+			</text_color>
+			<sound_t>device\pda\pda_button</sound_t>
+		</btn_all>
+
+		<legend_list x="2" y="36" width="223" height="540" vert_interval="1.5" scroll_profile="pda_new" always_show_scroll="0">
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="0" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_main_task</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="5" height="5"/>
+				<image x="7" y="5" width="27" height="29" stretch="1">
+					<texture>ui_common_main_quest_active_spot</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="1" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_additional_task</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="7" y="5" width="27" height="29" stretch="1">
+					<texture>ui_common_side_quest_active_spot</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="2" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_actor_box</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="13" width="20" height="14" stretch="1">
+					<texture>ui_common_player_box_spot</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="3" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_sleep_place</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="13" width="20" height="16" stretch="1">
+					<texture>ui_common_sleep_spot</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="4" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_squad_member</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="14" y="6" width="14" height="23" stretch="1">
+					<texture>ui_pda_player_squad_member_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="5" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_geo_location</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="9" y="7" width="23" height="25" stretch="1">
+					<texture>ui_pda_geo_location_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" ist_offset_x="2" width="216" height="40" filter_id="6" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_primary_objects</text>				
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="7" width="20" height="28" stretch="1">
+					<texture>ui_common_location_spot</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="7" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_secrets</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="6" y="9" width="29" height="22" stretch="1">
+					<texture>ui_pda_stashes_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="8" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_trader</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="12" y="11" width="20" height="18" stretch="1">
+					<texture>ui_ingame_mark_neutral_trader_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="9" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_scout</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="6" width="20" height="27" stretch="1">
+					<texture>ui_ingame_mark_neutral_guider_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="10" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_mechanic</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="10" width="20" height="20" stretch="1">
+					<texture>ui_ingame_mark_neutral_mechanic_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item>
+			<item x="0" y="0" list_offset_x="2" width="216" height="40" filter_id="11" unchecked_alpha="102">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_medic</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="11" y="11" width="20" height="18" stretch="1">
+					<texture>ui_ingame_mark_neutral_medic_icon</texture>
+				</image>
+				<sound_t>device\pda\pda_button</sound_t>
+			</item><!--
+			<item x="0" y="0" width="216" height="40" list_offset_x="2">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_squad</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="19" y="4" width="15" height="14" stretch="1">
+					<texture>ui_minimap_squad_leader</texture>
+				</image>
+			</item>
+			<item x="0" y="0" width="216" height="40" list_offset_x="2">
+				<texture>ui_pda_task_item</texture>
+				<text x="16" align="l" vert_align="c" font="tahoma16">st_ui_pda_legend_stalkers</text>
+				<text_color>
+					<e color="pda_gray"/>
+					<t color="pda_gray"/>
+					<d color="dark_gray_mpe"/>
+					<h color="pda_gray"/>
+				</text_color>
+				<check_mark width="9" height="9"/>
+				<image x="10" y="15" width="20" height="9" stretch="1">
+					<texture>ui_pda_stalkers_icon</texture>
+				</image>
+			</item>-->
+
+			<item_separator x="0" y="0" width="220" height="2" stretch="1">
+				<texture>ui_pda_quest_item_separator</texture>
+			</item_separator>
+		</legend_list>
+	</map_legend_wnd>
+</w>

@@ -1,0 +1,48 @@
+[logic@val_smart_terrain_15_animpoint_scammer]
+suitable 								= {=check_npc_name(val_smart_terrain_15_stalker_scammer)} true
+active 									= animpoint@val_smart_terrain_15_animpoint_scammer
+prior 									= 150
+
+[animpoint@val_smart_terrain_15_animpoint_scammer]
+cover_name 								= val_smart_terrain_16_animpoint_1
+invulnerable 							= true
+meet 									= meet@hello_players
+use_camp 								= true
+on_info  								= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_GOOD_STOP_DIALOG} walker@val_smart_terrain_15_walker_stalker_scammer_idle
+on_info2  								= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_FAIL_STOP_DIALOG} animpoint@val_smart_terrain_15_animpoint_scammer_fail %=actor_enemy%
+on_info3  								= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} animpoint@val_smart_terrain_15_animpoint_scammer_fail %=actor_enemy%
+
+[animpoint@val_smart_terrain_15_animpoint_scammer_fail]
+cover_name 								= val_smart_terrain_16_animpoint_1
+meet 									= no_meet
+
+[walker@val_smart_terrain_15_walker_stalker_scammer_idle]
+path_walk 								= walker_scammer_1_walk
+path_look 								= walker_scammer_1_look
+meet 									= no_meet
+on_signal 								= path_end | walker@val_smart_terrain_15_walker_stalker_scammer_end %=play_sound(scammer_drives_away) +VAL_SCAMMER_DRIVES_AWAY_INFO%
+on_info  								= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} animpoint@val_smart_terrain_15_animpoint_scammer_fail %=actor_enemy%
+
+[walker@val_smart_terrain_15_walker_stalker_scammer_end]
+path_walk 								= guard_scammer_1_walk
+path_look 								= guard_scammer_1_look
+meet 									= no_meet
+on_info  								= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} animpoint@val_smart_terrain_15_animpoint_scammer_fail %=actor_enemy%
+
+[meet@hello_players]
+close_snd_hello 						= nil
+close_snd_bye   						= nil
+close_anim 								= nil
+close_victim 							= actor
+far_anim 								= nil
+far_victim 								= actor
+close_distance  						= 0
+far_distance 							= 0
+close_snd_distance 						= 3
+abuse           						= false
+use 									= {=actor_enemy} false, true
+allow_break 							= false
+trade_enable 							= false
+meet_on_talking 						= false
+
+;================================================

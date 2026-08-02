@@ -1,0 +1,10 @@
+[logic]
+active 												= sr_idle@start_damage_dinamit_idle
+
+[sr_idle@start_damage_dinamit_idle]
+on_info 											= {+MIL_EXPLOSIVE_DINAMIT_SPACE_RESTRICTOR_INFO} sr_idle@start_damage_dinamit_start
+
+[sr_idle@start_damage_dinamit_start]
+on_timer 											= 10000 | sr_idle@nil %=hit_obj(mil_explosive_dinamit_1:link:5000:100:mil_explosive_dinamit_1_point) +MIL_EXPLOSIVE_DINAMIT_BOOM_SPACE_RESTRICTOR_INFO%
+
+[sr_idle@nil]

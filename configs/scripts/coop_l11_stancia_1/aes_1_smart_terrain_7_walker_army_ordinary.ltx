@@ -1,0 +1,19 @@
+[logic@aes_1_smart_terrain_7_walker_army_ordinary]
+;suitable 											= {=check_npc_name(sim_default_stalker_0)} true
+active 												= walker@aes_1_smart_terrain_7_walker_army_ordinary
+prior 												= 300
+
+[walker@aes_1_smart_terrain_7_walker_army_ordinary]
+path_walk 											= walker_army_ordinary_1_walk
+path_look 											= walker_army_ordinary_1_look
+meet 												= no_meet
+invulnerable 										= false
+def_state_standing 									= hide
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+
+;================================================

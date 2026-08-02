@@ -1,0 +1,74 @@
+[logic@gar_smart_terrain_4_walker_dead_bandit_1]
+suitable 								= {=check_npc_name(sim_default_bandit_1)} true
+active 									= walker@gar_smart_terrain_4_walker_dead_bandit_1
+prior 									= 300
+
+[walker@gar_smart_terrain_4_walker_dead_bandit_1]
+path_walk 								= walker_5_walk
+path_look 								= walker_5_look
+meet 									= no_meet
+on_game_timer 							= 1 | remark@suiside_shot_1
+
+[remark@presets_1]
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+use_camp								= false
+
+[remark@suiside_shot_1]:remark@presets_1
+on_game_timer 							= 1 | nil %=kill_npc%
+meet 									= no_meet
+
+;================================================
+
+[logic@gar_smart_terrain_4_walker_dead_bandit_2]
+suitable 								= {=check_npc_name(sim_default_bandit_1)} true
+active									= walker@gar_smart_terrain_4_walker_dead_bandit_2
+prior 									= 300
+
+[walker@gar_smart_terrain_4_walker_dead_bandit_2]
+path_walk 								= walker_6_walk
+path_look 								= walker_6_look
+meet 									= no_meet
+on_game_timer							= 1 | remark@suiside_shot_2
+
+[remark@presets_2]
+combat_ignore_cond						= true
+combat_ignore_keep_when_attacked 		= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+use_camp 								= false
+
+[remark@suiside_shot_2]:remark@presets_2
+on_game_timer 							= 1 | nil %=kill_npc%
+meet 									= no_meet
+
+;================================================
+
+[logic@gar_smart_terrain_4_walker_dead_bandit_3]
+suitable 								= {=check_npc_name(sim_default_bandit_1)} true
+active 									= walker@gar_smart_terrain_4_walker_dead_bandit_3
+prior 									= 300
+
+[walker@gar_smart_terrain_4_walker_dead_bandit_3]
+path_walk 								= walker_7_walk
+path_look 								= walker_7_look
+meet 									= no_meet
+on_game_timer 							= 1 | remark@suiside_shot_3
+
+[remark@presets_3]
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+use_camp 								= false
+
+[remark@suiside_shot_3]:remark@presets_3
+on_game_timer 							= 1 | nil %=kill_npc%
+meet 									= no_meet
+
+;================================================

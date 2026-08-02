@@ -1,0 +1,43 @@
+[logic]
+active = heli_move@idle
+
+[heli_move@idle]
+path_move = esc_helicopter_go_to_agroprom_2_idle_way
+max_velocity = 300
+engine_sound = false
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_info  = {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_FLESH_STOP_DIALOG_INFO} heli_move@fly_ready
+;on_info  = {+ESC_TEST_INFO} heli_move@fly_ready
+
+[heli_move@fly_ready]
+path_move = esc_helicopter_go_to_agroprom_2_idle_way
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 20000 | heli_move@fly_0
+
+[heli_move@fly_0]
+path_move = esc_helicopter_go_to_agroprom_2_move_way_0
+max_velocity = 150                        
+engine_sound = true                       
+combat_ignore_cond = true                 
+combat_ignore_keep_when_attacked = true   
+on_timer = 7000 | heli_move@fly_1        
+										  
+[heli_move@fly_1]                         
+path_move = esc_helicopter_go_to_agroprom_2_move_way_1
+max_velocity = 150                        
+engine_sound = true                       
+combat_ignore_cond = true                 
+combat_ignore_keep_when_attacked = true   
+on_timer = 7000 | heli_move@fly_2        
+										  
+[heli_move@fly_2]                         
+path_move = esc_helicopter_go_to_agroprom_2_move_way_2
+max_velocity = 300
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_game_timer = 400 | %=destroy_object%

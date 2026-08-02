@@ -1,0 +1,100 @@
+;*** scene_objects ***************************************************************
+[jup_b43_af_fuzz_kolobok]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b43_af_fuzz_kolobok"
+visual                        = dynamics\artefacts\af_fuzz_kolobok.ogf
+startup_animation					= idle
+fixed_bones							= link
+
+[jup_b43_af_mincer_meat]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b43_af_mincer_meat"
+visual                        = dynamics\artefacts\af_mincer_meat.ogf
+startup_animation					= idle
+fixed_bones							= link
+
+[jup_b41_af_oasis_heart]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b41_af_oasis_heart"
+visual                        = dynamics\artefacts\af_cristall_plant.ogf
+startup_animation					= idle
+fixed_bones							= link
+
+[jup_b41_af_half_artifact]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b41_half_artifact"
+visual                        = dynamics\artefacts\af_psi_field.ogf
+startup_animation					= idle
+fixed_bones							= link
+
+[jup_b32_ph_scanner]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b32_ph_scanner"
+visual                        = dynamics\equipments\quest\scanner_artefact.ogf
+startup_animation  	    			= idle
+fixed_bones							= link
+custom_data 		      = models\objects\ignore_static.ltx
+
+[jup_b209_ph_scanner]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b209_ph_scanner"
+visual                        = dynamics\equipments\quest\scanner_anomaly.ogf
+custom_data 				  = scripts\jupiter\jup_b209_scanner.ltx
+startup_animation  	   			= idle
+fixed_bones					  = link
+story_id 					  = jup_b209_ph_scanner
+
+[jup_b207_depot_cover]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b207_depot_cover"
+visual                        = dynamics\fence\debris_01.ogf
+story_id 					  = jup_b207_depot_cover_id
+
+[pri_a28_actor_hideout]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\pri_a28_actor_hideout"
+visual                        = dynamics\fence\debris_01.ogf
+
+[jup_b219_gate]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b219_gate"
+visual                        = dynamics\door\door_katakomb_big_4.ogf
+story_id 					= jup_b219_gate_id
+fixed_bones					  = link
+custom_data 		      = models\objects\ignore_static.ltx
+
+[pri_a25_explosive_charge]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\pri_a25_explosive_charge"
+visual                        = dynamics\equipments\quest\explosive_charge.ogf 
+startup_animation					= idle
+fixed_bones							= link
+story_id = pri_a25_explosive_charge_id
+custom_data 		      = models\objects\ignore_static.ltx
+
+[zat_b57_ph_gas]:physic_object
+$spawn                      = "dynamic_objects\scene_objects\zat_b57_ph_gas"
+visual                      = dynamics\equipments\quest\balloon_poison_gas.ogf 
+startup_animation			= idle
+fixed_bones					= link
+story_id 					= zat_b57_ph_gas
+custom_data 		     	= models\objects\ignore_static.ltx
+
+[pri_a28_earth_helli_1]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\pri_a28_earth_helli_1"
+visual                        = dynamics\vehicles\mi24\veh_mi24_u_02.ogf
+startup_animation					= idle
+fixed_bones							= korpus1
+story_id = pri_a28_earth_helli_1
+custom_data 		      = models\objects\ignore_static.ltx
+
+[pri_a28_earth_helli_2]:physic_object
+$spawn                        = "dynamic_objects\scene_objects\pri_a28_earth_helli_2"
+visual                        = dynamics\vehicles\mi24\veh_mi24_u_02.ogf
+startup_animation					= idle
+fixed_bones							= korpus1
+story_id = pri_a28_earth_helli_2
+custom_data 		      = models\objects\ignore_static.ltx
+
+[jup_b206_plant_ph]:physic_destroyable_object
+$spawn                        = "dynamic_objects\scene_objects\jup_b206_plant_ph"
+visual                        = dynamics\equipments\quest\anomaly_plant.ogf
+startup_animation					= idle
+fixed_bones		= link
+story_id 		= jup_b206_plant_ph
+custom_data 		      = models\objects\ignore_static.ltx
+
+[balloon_poison_gas]:physic_destroyable_object
+$spawn                      = "dynamic_objects\museum_weapons\balloon_poison_gas"
+visual                      = dynamics\equipments\quest\balloon_poison_gas.ogf
+fixed_bones					= link

@@ -1,0 +1,47 @@
+[logic]
+active 												= sr_idle@sniper_radio_see_enemy_1_idle
+
+[sr_idle@sniper_radio_see_enemy_1_idle]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO +ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} sr_idle@nil
+on_info2 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO =isClient} sr_idle@kruglov_pda_help_1_start
+
+[sr_idle@kruglov_pda_help_1_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(kruglov_pda_help_1)%
+on_signal 											= sound_end | sr_idle@kruglov_pda_help_3_idle
+
+[sr_idle@kruglov_pda_help_3_idle]
+on_timer 											= 2000 | sr_idle@kruglov_pda_help_3_start
+
+[sr_idle@kruglov_pda_help_3_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(kruglov_pda_help_3)%
+on_signal 											= sound_end | sr_idle@wolfhound_pda_3_idle %=give_task(ros_start_help_kruglov_quest_task)%
+
+[sr_idle@wolfhound_pda_3_idle]
+on_timer 											= 1000 | sr_idle@wolfhound_pda_3_start
+
+[sr_idle@wolfhound_pda_3_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(wolfhound_pda_3)%
+on_signal 											= sound_end | sr_idle@kruglov_pda_4_idle
+
+[sr_idle@kruglov_pda_4_idle]
+on_timer 											= 1000 | sr_idle@kruglov_pda_4_start
+
+[sr_idle@kruglov_pda_4_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(kruglov_pda_4)%
+on_signal 											= sound_end | sr_idle@wolfhound_pda_6_idle
+
+[sr_idle@wolfhound_pda_6_idle]
+on_timer 											= 1000 | sr_idle@wolfhound_pda_6_start
+
+[sr_idle@wolfhound_pda_6_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(wolfhound_pda_6)%
+on_signal 											= sound_end | sr_idle@kruglov_pda_5_idle
+
+[sr_idle@kruglov_pda_5_idle]
+on_timer 											= 1000 | sr_idle@kruglov_pda_5_start
+
+[sr_idle@kruglov_pda_5_start]
+on_info 											= {+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO -ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO} %=play_sound(kruglov_pda_5)%
+on_signal 											= sound_end | sr_idle@nil %+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_END_INFO% 
+
+[sr_idle@nil]

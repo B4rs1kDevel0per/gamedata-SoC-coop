@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_info 											= {+SAR_SMART_TERRAIN_5_SPAWN_SQUAD_STOP_INFO} sr_idle@nil
+on_timer 											= 1000 | sr_idle@nil %=create_squad(sar_smart_terrain_5_ordinary_monolith_1_squad:sar_smart_terrain_5) +SAR_SMART_TERRAIN_5_SPAWN_SQUAD_STOP_INFO%
+
+[sr_idle@nil]

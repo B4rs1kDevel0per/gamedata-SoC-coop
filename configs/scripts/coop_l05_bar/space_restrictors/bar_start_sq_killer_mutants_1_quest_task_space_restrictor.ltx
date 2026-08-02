@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Павлика Живодёра(Убить мутанта):
+[sr_idle@start_quest]
+on_info  											= {+BAR_SMART_TERRAIN_9_STALKER_HUNTER_SQ_KILLER_MUTANTS_1_STOP_DIALOG_INFO} sr_idle@nil %=give_task(bar_start_sq_killer_mutants_1_quest_task)%
+
+[sr_idle@nil]

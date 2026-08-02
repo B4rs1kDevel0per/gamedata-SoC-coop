@@ -1,0 +1,14 @@
+[logic]
+active 												= sr_idle@monolith_final_idle
+
+[sr_idle@monolith_final_idle]
+on_player_inside  									= sr_idle@monolith_final_1_start %=run_tutorial(bad_final_monolith)%
+
+[sr_idle@monolith_final_1_start]
+on_info 											= {+SAR_BAD_FINAL_MONOLITH_INFO} sr_idle@monolith_final_2_start
+
+[sr_idle@monolith_final_2_start]
+on_info    											= {~50} sr_idle@nil %+FINAL_APOCAL_INFO =run_tutorial(final_apocal)%, {~45} sr_idle@nil %+FINAL_BLIND_INFO =run_tutorial(final_blind)%, {~40} sr_idle@nil %+FINAL_GOLD_INFO =run_tutorial(final_gold)%, {~35} sr_idle@nil %+FINAL_IMMORTAL_INFO =run_tutorial(final_immortal)%,	{~30} sr_idle@nil %+FINAL_TO_MONOLITH_INFO =run_tutorial(final_to_monolith)%
+on_player_outside  									= sr_idle@monolith_final_idle %=stop_tutorial(bad_final_monolith)%
+
+[sr_idle@nil]

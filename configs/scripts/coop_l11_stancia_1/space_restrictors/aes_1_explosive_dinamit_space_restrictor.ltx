@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_damage_dinamit_idle
+
+[sr_idle@start_damage_dinamit_idle]
+on_player_inside  									= {-AES_1_DAMAGE_DINAMIT_INFO} sr_idle@nil %=hit_obj(aes_1_explosive_barrel_0015:barrel:5000:5000:aes_1_explosive_dinamit_1_point) =hit_obj(aes_1_explosive_dinamit_1:link:5000:5000:aes_1_explosive_dinamit_1_point) =hit_obj(aes_1_explosive_dinamit_2:link:5000:5000:aes_1_explosive_dinamit_1_point) =hit_obj(aes_1_explosive_dinamit_3:link:5000:5000:aes_1_explosive_dinamit_1_point) =hit_obj(aes_1_explosive_dinamit_4:link:5000:5000:aes_1_explosive_dinamit_1_point) +AES_1_DAMAGE_DINAMIT_INFO%
+
+[sr_idle@nil]

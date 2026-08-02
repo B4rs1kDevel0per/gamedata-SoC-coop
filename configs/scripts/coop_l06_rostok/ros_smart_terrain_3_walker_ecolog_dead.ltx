@@ -1,0 +1,77 @@
+[logic@ros_smart_terrain_3_walker_ecolog_dead_1]
+active = walker@ros_smart_terrain_3_walker_ecolog_dead_1
+suitable = {=check_npc_name(ros_smart_terrain_3_ecolog_random_1)} true
+prior = 300
+
+[walker@ros_smart_terrain_3_walker_ecolog_dead_1]
+path_walk = walker_1_walk
+path_look = walker_1_look
+def_state_standing = guard
+meet = no_meet
+on_game_timer = 1 | remark@suiside_shot_1
+
+[remark@presets_1]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_1]:remark@presets_1
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================
+
+[logic@ros_smart_terrain_3_walker_ecolog_dead_2]
+active = walker@ros_smart_terrain_3_walker_ecolog_dead_2
+suitable = {=check_npc_name(ros_smart_terrain_3_ecolog_random_2)} true
+prior = 300
+
+[walker@ros_smart_terrain_3_walker_ecolog_dead_2]
+path_walk = walker_2_walk
+path_look = walker_2_look
+def_state_standing = guard
+meet = no_meet
+on_game_timer = 1 | remark@suiside_shot_2
+
+[remark@presets_2]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_2]:remark@presets_2
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================
+
+[logic@ros_smart_terrain_3_walker_ecolog_dead_3]
+active = walker@ros_smart_terrain_3_walker_ecolog_dead_3
+suitable = {=check_npc_name(ros_smart_terrain_3_ecolog_random_3)} true
+prior = 300
+
+[walker@ros_smart_terrain_3_walker_ecolog_dead_3]
+path_walk = walker_3_walk
+path_look = walker_3_look
+def_state_standing = guard
+meet = no_meet
+on_game_timer = 1 | remark@suiside_shot_3
+
+[remark@presets_3]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_3]:remark@presets_3
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================

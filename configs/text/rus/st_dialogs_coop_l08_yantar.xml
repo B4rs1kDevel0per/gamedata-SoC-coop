@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="yan_smart_terrain_1_ecolog_saharov_open_door_dialog_0">
+        <text>Док, можно комнатой воспользоваться?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_open_door_dialog_1">
+        <text>Да, конечно. Один момент, я вам открою</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_open_door_dialog_2">
+        <text>Благодарю</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_break_dialog_0">
+        <text>До встречи</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_start_dialog_0">
+        <text>Здравствуйте, как ваши дела?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_x16_preparation_dialog_0">
+        <text>Профессор попросил нас прогуляться по местам замеров.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_x16_preparation_dialog_1">
+        <text>Великолепно! Вот, держите. Это - ПКС Сахарова. ПКС означает... Впрочем, его название вам всё равно ничего не скажет. Всё, что вам нужно знать, это то, что он откалиброван и полностью готов к использованию. Вам нужно нажать на эту... нет, вот на эту кнопку, и разместить прибор в зоне проведения замеров, а после немного подождать, пока он работает.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_x16_preparation_dialog_2">
+        <text>Хорошо, профессор. Вроде, ничего сложного.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_x16_preparation_dialog_3">
+        <text>Вы абсолютно правы! Всё очень просто! Я бы и сам пошел с вами, провёл замеры, но там повсюду эти... В смысле, у меня накопилось много дел, здесь в бункере. Кхм, да... Позвольте, я отмечу интересующие нас места для замеров у вас в КПК. Вот так. Вы готовы выдвигаться?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_x16_preparation_dialog_4">
+        <text>Готовы.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_break_dialog_0">
+        <text>До встречи.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_0">
+        <text>Всё готово, вот показания прибора</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_1">
+        <text>Да, всё отлично! Теперь мне следует провести настройку и корректировку</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_2">
+        <text>Хорошо, это надолго?</text>
+    </string>	
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_3">
+        <text>Займет некоторое время, не всё сразу друг мой</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_4">
+        <text>Хорошо, мы подождем</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_5">
+        <text>Можете пока помочь Круглову, возможно у него есть ещё какие-нибудь для вас задачи</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_measurements_dialog_6">
+        <text>Хорошо, мы пойдем</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_give_psi_protection_helmet_dialog_0">
+        <text>У вас получилось настроить шлемы?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_give_psi_protection_helmet_dialog_1">
+        <text>Да, всё отлично! Шлемы настроены и готовы к использованию. Теперь думаю вам пора в лабораторию. Удачи.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_give_psi_protection_helmet_dialog_2">
+        <text>Мы пошли</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_installation_is_disabled_dialog_0">
+        <text>Установка отключена</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_installation_is_disabled_dialog_1">
+        <text>Вы замечательно потрудились. Отключение излучения позволяет снарядить новые экспедиции и исследовать недоступные прежде территории. И ещё...Возьмите скромное вознаграждение за ваши труды.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_installation_is_disabled_dialog_2">
+        <text>Благодарю</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_start_dialog_0">
+        <text>Да-да? Что Вас интересует?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_0">
+        <text>Мы ищем лабораторию X16. Бармен сказал, Вы можете знать её местонахождение.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_1">
+        <text>Нас уже довольно давно интересует лаборатория X16...Вернее, то устройство внутри, которое генерирует излучение, непосредственно влияющее на сознание людей. Вынужден разочаровать вас, молодые люди: туда не пробиться без специальной пси-защиты. Результат будет заведомо трагичен - даже если удастся избежать полчищ зомби вокруг входа в лабораторию, вы рискуете превратиться в них. Все это очень серьезно. Правда, мы разработали устройство, которое помогает экранировать излучение, но для более точной настройки необходимо провести ряд дополнительных замеров. Если вы поможете нам в этом, через некоторое время мы, пожалуй, сможем предоставить для полевых испытаний окончательно откалиброванные прототипы.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_2">
+        <text>Замеры?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_3">
+        <text>Если вы сделаете все необходимые замеры, я подготовлю к работе прототипы защитного устройства и отдам их вам. Они, скорее всего, позволят вам проникнуть в лабораторию.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_4">
+        <text>Хорошо, мы согласны.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_5">
+        <text>Ну вот и отлично! Поговорите с Кругловым, он вам всё объяснит - и отправляйтесь.</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_talk_to_the_saharov_x16_dialog_6">
+        <text>Хорошо.</text>
+    </string>
+
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_0">
+        <text>Мне нужна работа, что есть на примете?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_1">
+        <text>Есть кое-что...</text>
+    </string>
+
+
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_2">
+        <text>Найти артефакт...</text>
+    </string>	
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_6">
+        <text>Выбирай:</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_7">
+        <text>Найти "Кристалл"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_14">
+        <text>Найти "Огненный шар"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_15">
+        <text>Найти "Глаз"</text>
+    </string>
+
+
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_5">
+        <text>Найти часть мутанта...</text>
+    </string>	
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_12">
+        <text>Выбирай:</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_13">
+        <text>Найти 4 "Стопы Снорка"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_20">
+        <text>Найти 3 "Щупальца Кровососа"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_21">
+        <text>Найти 1 "Коготь Химеры"</text>
+    </string>
+
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_dialog_22">
+        <text>Ничего</text>
+    </string>
+
+
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_0">
+        <text>Я по поводу задания...</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_1">
+        <text>Слушаю</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_2">
+        <text>Я принес артефакт "Кристалл"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_3">
+        <text>Я принес артефакт "Огненный шар"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_4">
+        <text>Я принес артефакт "Глаз"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_11">
+        <text>Я принес "Стопы Снорка"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_12">
+        <text>Я принес "Щупальца Кровососа"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_13">
+        <text>Я принес "Коготь Химеры"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_idle_dialog_14">
+        <text>Ничего</text>
+    </string>
+	
+	
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_0">
+        <text>Я хочу отказаться от заказа...</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_1">
+        <text>От какого?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_2">
+        <text>Я отказываюсь от заказа на "Кристалл"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_3">
+        <text>Я отказываюсь от заказа на "Огненный шар"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_4">
+        <text>Я отказываюсь от заказа на "Глаз"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_11">
+        <text>Я отказываюсь от заказа на "Стопы Снорка"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_12">
+        <text>Я отказываюсь от заказа на "Щупальца Кровососа"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_13">
+        <text>Я отказываюсь от заказа на "Коготь Химеры"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_saharov_secondary_quests_fail_dialog_14">
+        <text>Ничего</text>
+    </string>
+	
+	
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_0">
+        <text>Мне нужна работа, что есть на примете?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_1">
+        <text>Есть кое-что...</text>
+    </string>
+
+
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_4">
+        <text>Зачистить местность от мутантов...</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_10">
+        <text>Выбирай:</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_11">
+        <text>На болоте около "Бункера ученых"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_18">
+        <text>Справа от "Бункера ученых"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_19">
+        <text>Около "Упавшего вертолёта"</text>
+    </string>	
+
+
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_dialog_22">
+        <text>Ничего</text>
+    </string>
+
+
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_0">
+        <text>Я по поводу задания...</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_1">
+        <text>Слушаю</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_8">
+        <text>Я убил мутантов на болоте около "Бункера ученых"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_9">
+        <text>Я убил мутантов справа от "Бункера ученых"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_10">
+        <text>Я убил мутантов около "Упавшего вертолёта"</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_idle_dialog_14">
+        <text>Ничего</text>
+    </string>
+	
+	
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_0">
+        <text>Я хочу отказаться от заказа...</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_1">
+        <text>От какого?</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_8">
+        <text>Я отказываюсь от заказа на зачистку местности "На болоте около "Бункера ученых""</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_9">
+        <text>Я отказываюсь от заказа на зачистку местности "Справа от "Бункера ученых""</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_10">
+        <text>Я отказываюсь от заказа на зачистку местности "Около "Упавшего вертолёта""</text>
+    </string>
+    <string id="yan_smart_terrain_1_ecolog_kruglov_secondary_quests_fail_dialog_14">
+        <text>Ничего</text>
+    </string>	
+</string_table>

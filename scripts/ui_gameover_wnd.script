@@ -1,0 +1,30 @@
+class "gameover_wnd" (CUIScriptWnd)
+
+function gameover_wnd:__init() super()
+end
+
+function gameover_wnd:__finalize()
+end
+
+function gameover_wnd:InitControls()
+
+	local xml = CScriptXmlInit()
+	xml:ParseFile("gameover_wnd.xml")
+	
+	xml:InitWindow("gameover_wnd", 0, self)
+	self:SetAutoDelete(true)
+	
+	self.timer = xml:InitTextWnd("gameover_wnd:timer_text", self)
+	local button = xml:Init3tButton("gameover_wnd:button_disconnect", self)
+	self:Register(button, "btn_disconnect")
+	
+	self:AddCallback("btn_disconnect", ui_events.BUTTON_CLICKED, self.OnBtnDisconnect, self)
+end
+
+function gameover_wnd:OnBtnDisconnect()
+	get_console():execute("disconnect")
+end
+
+function gameover_wnd:getTimer()
+	return self.timer
+end

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+;===========================COOP=============================================================================================================================================================================================================================================
+	<string id="coop_l01_escape_zone_mark">
+		<text>На Кордон</text>
+	</string>
+	<string id="coop_l02_garbage_zone_mark">
+		<text>На Свалку</text>
+	</string>	
+	<string id="coop_l03_agroprom_zone_mark">
+		<text>На Агропром</text>
+	</string>
+	<string id="coop_l03_agroprom_underground_zone_mark">
+		<text>В Подземелья агропрома</text>
+	</string>
+	<string id="coop_l04_darkvalley_zone_mark">
+		<text>На Тёмнаю долину</text>
+	</string>
+	<string id="coop_l04_x18_zone_mark">
+		<text>В Лабораторию Х-18</text>
+	</string>
+	<string id="coop_l05_bar_zone_mark">
+		<text>На Бар</text>
+	</string>
+	<string id="coop_l06_rostok_zone_mark">
+		<text>На Дикую территорию</text>
+	</string>
+	<string id="coop_l07_military_zone_mark">
+		<text>На Военные склады</text>
+	</string>
+	<string id="coop_l08_x16_zone_mark">
+		<text>В Лабораторию Х-16</text>
+	</string>
+	<string id="coop_l08_yantar_zone_mark">
+		<text>На Янтарь</text>
+	</string>
+	<string id="coop_l09_radar_zone_mark">
+		<text>На Радар</text>
+	</string>
+	<string id="coop_l09_x10_zone_mark">
+		<text>В Лабораторию Х-10</text>
+	</string>
+	<string id="coop_l10_pripyat_zone_mark">
+		<text>На Припять</text>
+	</string>
+	<string id="coop_l11_stancia_1_zone_mark">
+		<text>На ЧАЭС</text>
+	</string>
+	<string id="coop_l11_sarcofag_zone_mark">
+		<text>В Саркофаг</text>
+	</string>
+	<string id="coop_l11_control_monolith_zone_mark">
+		<text>В Управление Монолитом</text>
+	</string>
+	<string id="coop_l11_stancia_2_zone_mark">
+		<text>На ЧАЭС</text>
+	</string>
+</string_table>

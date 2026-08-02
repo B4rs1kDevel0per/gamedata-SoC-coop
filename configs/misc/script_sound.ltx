@@ -1,0 +1,1660 @@
+#include "script_sound_music_and_stories.ltx"
+#include "script_sound_coop_l01_escape.ltx"
+#include "script_sound_coop_l02_garbage.ltx"
+#include "script_sound_coop_l03_agroprom.ltx"
+#include "script_sound_coop_l03_agroprom_underground.ltx"
+#include "script_sound_coop_l04_darkvalley.ltx"
+#include "script_sound_coop_l04_x18.ltx"
+#include "script_sound_coop_l05_bar.ltx"
+#include "script_sound_coop_l06_rostok.ltx"
+#include "script_sound_coop_l07_military.ltx"
+#include "script_sound_coop_l08_yantar.ltx"
+#include "script_sound_coop_l09_radar.ltx"
+#include "script_sound_coop_l10_pripyat.ltx"
+#include "script_sound_coop_l11_control_monolith.ltx"
+#include "script_sound_coop_l11_sarcofag.ltx"
+
+[list]:list_music_and_stories, list_script_sound_l01_escape, list_script_sound_l02_garbage, list_script_coop_l03_agroprom, list_script_coop_l03_agroprom_underground, list_script_sound_l04_darkvalley, list_script_sound_l04_x18, list_script_coop_l05_bar, list_script_sound_coop_l06_rostok, list_script_sound_coop_l07_military, list_script_sound_coop_l08_yantar, list_script_sound_coop_l09_radar, list_script_sound_coop_l10_pripyat, list_script_sound_coop_l11_control_monolith, list_script_sound_coop_l11_sarcofag 
+bloodsucker_growl
+bloodsucker_hit
+bloodsucker_swarm
+boar_swarm
+boar_swamp_runaway
+state
+wait
+trader_door_open_start
+trader_door_close_start
+trader_door_close_stop
+trader_door_locked
+trader_door_unlock
+wood_small_open
+wood_small_close_start
+wood_small_close_stop
+wood_large_open
+wood_large_close_start
+wood_large_close_stop
+metal_small_open
+metal_small_close_start
+metal_small_close_stop
+power_switch
+
+pda_alarm
+pda_news
+pda_tips
+pda_task
+
+heli_damaged
+heli_down
+heli_hit
+
+patrol_sneak
+patrol_run
+patrol_walk
+fight_attack
+fight_enemy
+post_combat_wait
+post_combat_wait_long
+post_combat_relax
+alarm
+alarm_2
+
+meet_hello
+meet_hide_weapon
+meet_use_no_default
+meet_use_no_fight
+meet_use_no_weapon
+meet_use_no_talk_leader
+
+corpse_loot_begin
+corpse_loot_good
+corpse_loot_bad
+
+help_thanks
+help_heavy
+
+surge_earthquake_sound_looped
+surge_earthquake_sound
+blowout_begin
+blowout_rumble
+blowout_hit_1
+blowout_hit_2
+blowout_hit_3
+blowout_wave_1
+blowout_wave_2
+blowout_wave_3
+
+shooting_target_up
+shooting_target_down
+shooting_target_hit
+
+steam_blowout
+
+wounded_medkit
+
+radio_call
+
+;new
+df_restricted
+
+lever_on
+lever_off
+generator_on
+generator_off
+generator_loop
+
+spotlight_idle_0
+spotlight_idle_1
+spotlight_idle_2
+spotlight_on
+spotlight_off
+
+lamp_idle_0
+lamp_idle_1
+lamp_on
+lamp_off
+
+zhar_blow
+spatial_bubble_rupture
+
+tinnitus
+
+[heli_radio_part_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l01_escape\heli_radio_part_1
+shuffle = rnd
+idle = 0,0,100
+
+[svu_shoot_a_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l01_escape\svu_shoot_a_2
+shuffle = rnd
+idle = 0,0,100
+
+[esc_player_transiver_turn_on]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_player_transiver_turn_on
+shuffle = rnd
+idle = 1,1,100
+
+[esc_player_transiver_turn_off]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_player_transiver_turn_off
+shuffle = rnd
+idle = 1,1,100
+
+[esc_player_transiver_noise_1]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_player_transiver_noise_1
+shuffle = rnd
+idle = 1,1,100
+
+[esc_player_transiver_noise_2]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_player_transiver_noise_2
+shuffle = rnd
+idle = 1,1,100
+
+[esc_table_lamp_01_cast_shadow_turn]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_table_lamp_01_cast_shadow_turn
+shuffle = rnd
+idle = 1,1,100
+
+[megafon]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\megafon_
+shuffle = rnd
+idle = 1,1,20
+
+[esc_sirena]
+type = 3d
+path = characters_voice\radio_music\coop_l01_escape\esc_sirena
+shuffle = rnd
+idle = 1,1,20
+
+[esc_wolf_thanks_players]
+type = npc
+path = scenario\coop_l01_escape\wolf_thanks_1
+shuffle = rnd
+idle = 0,0,100
+
+[wolf_to_rangers]
+type = npc
+path = scenario\coop_l01_escape\wolf_to_rangers
+shuffle = rnd
+idle = 0,0,100
+
+[wolf_to_rangers_1]
+type = npc
+path = scenario\coop_l01_escape\wolf_to_rangers_1
+shuffle = rnd
+idle = 0,0,100
+
+[trader_script1a]
+type = npc
+path = scenario\coop_l01_escape\trader\trader_script1a_
+shuffle = rnd
+idle = 0,0,100
+
+[trader_script1b]
+type = npc
+path = scenario\coop_l01_escape\trader\trader_script1b_
+shuffle = rnd
+idle = 0,0,100
+
+[trader_script1c]
+type = npc
+path = scenario\coop_l01_escape\trader\trader_script1c_
+shuffle = rnd
+idle = 0,0,100
+
+[petruha_call]
+type = npc
+path = scenario\coop_l01_escape\petruha_call
+shuffle = rnd
+idle = 0,0,100
+
+[assault_raid]
+type = npc
+path = scenario\coop_l01_escape\assault_raid
+shuffle = rnd
+idle = 0,0,100
+
+[petruha_raport]
+type = npc
+path = scenario\coop_l01_escape\petruha_raport
+shuffle = rnd
+idle = 0,0,100
+
+[assault_victory]
+type = npc
+path = scenario\coop_l01_escape\assault_victory
+shuffle = rnd
+idle = 0,0,100
+
+[assault_attack]
+type = npc
+path = scenario\coop_l01_escape\assault_attack
+shuffle = rnd
+idle = 0,0,100
+
+[shustryi_asked]
+type = npc
+path = scenario\coop_l01_escape\shustryi_asked_
+shuffle = rnd
+idle = 0,0,100
+
+[shustryi_thanks]
+type = npc
+path = scenario\coop_l01_escape\shustryi_thanks
+shuffle = rnd
+idle = 0,0,100
+
+[tolik_help]
+type = npc
+path = scenario\coop_l01_escape\tolik_help_
+shuffle = rnd
+idle = 0,0,100
+
+[tolik_help_tutor]
+type = npc
+path = scenario\coop_l01_escape\tolik_help_tutor_
+shuffle = rnd
+idle = 0,0,100
+
+[tolik_thanks]
+type = npc
+path = scenario\coop_l01_escape\tolik_thanks
+shuffle = rnd
+idle = 0,0,100
+
+[bridge_soldier]
+type = npc
+path = scenario\coop_l01_escape\bridge_soldier
+shuffle = rnd
+idle = 0,0,100
+
+[graf_help]
+type = npc
+path = scenario\coop_l01_escape\graf_help
+shuffle = rnd
+idle = 0,0,100
+
+[security_talk]
+type = npc
+path = scenario\coop_l01_escape\security_talk
+shuffle = rnd
+idle = 0,0,100
+
+[mers_replic]
+type = npc
+path = scenario\coop_l01_escape\mers_replic
+shuffle = rnd
+idle = 0,0,100
+
+
+[psy_storm]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l02_garbage\psy_storm
+shuffle = rnd
+idle = 0,0,100
+
+[dramatic_bandits_demand]
+type = npc
+path = scenario\coop_l02_garbage\dramatic_bandits_demand_
+shuffle = rnd
+idle = 0,0,100
+
+[dramatic_newbie_no_money]
+type = npc
+path = scenario\coop_l02_garbage\dramatic_newbie_no_money_
+shuffle = rnd
+idle = 0,0,100
+
+[neutrals_commander_pda_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l02_garbage\neutrals_commander_pda_1
+shuffle = rnd
+idle = 0,0,100
+
+[junkyard_1]
+type = npc
+path = scenario\coop_l02_garbage\junkyard_1
+shuffle = rnd
+idle = 0,0,100
+
+[ambush_2]
+type = npc
+path = scenario\coop_l02_garbage\ambush_2
+shuffle = rnd
+idle = 0,0,100
+
+[grey_grey_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l02_garbage\grey_grey_1
+shuffle = rnd
+idle = 0,0,100
+
+[duty_zoneguard_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l02_garbage\duty_zoneguard_1
+shuffle = rnd
+idle = 0,0,100
+
+[duty_rush]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l02_garbage\duty_rush
+shuffle = rnd
+idle = 0,0,100
+
+
+[stalker_help_1]
+type = npc
+path = scenario\coop_l03_agroprom\stalker_help_1
+shuffle = rnd
+idle = 0,0,100
+
+[stalker_help_2]
+type = npc
+path = scenario\coop_l03_agroprom\stalker_help_2_
+shuffle = rnd
+idle = 0,0,100
+
+[krot_help_pda_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l03_agroprom\krot_help_pda_1
+shuffle = rnd
+idle = 0,0,100
+
+[krot_help_pda_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l03_agroprom\krot_help_pda_2
+shuffle = rnd
+idle = 0,0,100
+
+[krot_thanks_1]
+type = npc
+path = scenario\coop_l03_agroprom\krot_thanks_1
+shuffle = rnd
+idle = 0,0,100
+
+[krot_thanks_2]
+type = npc
+path = scenario\coop_l03_agroprom\krot_thanks_2
+shuffle = rnd
+idle = 0,0,100
+
+[bloodsucker_script_attack]
+type = 3d
+path = characters_voice\scenario\coop_l03_agroprom_underground\bloodsucker_script_attack_
+shuffle = rnd
+idle = 1,1,20
+
+[controller_script_attack]
+type = 3d
+path = characters_voice\scenario\coop_l03_agroprom_underground\controller_script_attack_
+shuffle = rnd
+idle = 1,1,20
+
+
+[scammer_drives_away]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l04_darkvalley\scammer_drives_away
+shuffle = rnd
+idle = 0,0,100
+
+[scammer_friend_drives_away]
+type = npc
+path = scenario\coop_l04_darkvalley\scammer_friend_drives_away
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_bandit_wounded_1_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_bandit_wounded_1_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_bandit_wounded_2_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_bandit_wounded_2_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_bandit_wounded_3_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_bandit_wounded_3_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_players_1_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_players_1_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_players_2_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_players_2_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_players_3_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_players_3_calling
+shuffle = rnd
+idle = 0,0,100
+
+[bullet_players_4_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\bullet_players_4_calling
+shuffle = rnd
+idle = 0,0,100
+
+[partner_help_calling]
+type = npc
+path = scenario\coop_l04_darkvalley\partner_help_calling
+shuffle = rnd
+idle = 0,0,100
+
+[partner_bullet_thanks_1]
+type = npc
+path = scenario\coop_l04_darkvalley\partner_bullet_thanks_1
+shuffle = rnd
+idle = 0,0,100
+
+[partner_bullet_thanks_2]
+type = npc
+path = scenario\coop_l04_darkvalley\partner_bullet_thanks_2
+shuffle = rnd
+idle = 0,0,100
+
+[partner_bullet_thanks_3]
+type = npc
+path = scenario\coop_l04_darkvalley\partner_bullet_thanks_3
+shuffle = rnd
+idle = 0,0,100
+
+[patrol_prikaz]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l04_darkvalley\patrol_prikaz
+shuffle = rnd
+idle = 0,0,100
+
+[giant_scream]
+type = 3d
+path = characters_voice\scenario\coop_l04_x18\giant_scream
+shuffle = rnd
+idle = 1,1,20
+
+[trader_pda_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l03_agroprom\trader_pda_1
+shuffle = rnd
+idle = 0,0,100
+
+
+[bar_guard_prohodi_1]
+type = npc
+path = scenario\coop_l05_bar\bar_guard_prohodi_1
+shuffle = rnd
+idle = 0,0,100
+
+[bar_guard_stop]
+type = npc
+path = scenario\coop_l05_bar\bar_guard_stop_
+shuffle = rnd
+idle = 0,0,100
+
+[duty_hangar_1]
+type = npc
+path = scenario\coop_l05_bar\duty_hangar_1
+shuffle = rnd
+idle = 0,0,100
+
+[bar_radio_barmen]
+type = 3d
+path = characters_voice\radio_music\coop_l05_bar\bar_radio_barmen_
+shuffle = rnd
+idle = 1,1,20
+
+[bar_radio_hunter]
+type = 3d
+path = characters_voice\radio_music\coop_l05_bar\bar_radio_hunter_
+shuffle = rnd
+idle = 1,1,20
+
+[bar_informer]
+type = npc
+path = scenario\coop_l05_bar\bar_informer_
+shuffle = rnd
+idle = 0,0,100
+
+[bar_hunter]
+type = npc
+path = scenario\coop_l05_bar\bar_hunter_
+shuffle = rnd
+idle = 0,0,100
+
+[bar_veteran]
+type = npc
+path = scenario\coop_l05_bar\bar_veteran_
+shuffle = rnd
+idle = 0,0,100
+
+[bar_visitor]
+type = npc
+path = scenario\coop_l05_bar\bar_visitor_
+shuffle = rnd
+idle = 0,0,100
+
+[bar_megafon]
+type = 3d
+path = characters_voice\scenario\coop_l05_bar\bar_megafon_
+shuffle = rnd
+idle = 1,1,20
+
+[bar_barman_meet_greet]
+type = npc
+path = scenario\coop_l05_bar\bar_barman_meet_greet_
+shuffle = rnd
+idle = 0,0,100
+
+[duty_petrenko_hello]
+type = npc
+path = scenario\coop_l05_bar\duty_petrenko_hello_
+shuffle = rnd
+idle = 0,0,100
+
+[duty_petrenko]
+type = npc
+path = scenario\coop_l05_bar\duty_petrenko_
+shuffle = rnd
+idle = 0,0,100
+
+[duty_voronin]
+type = npc
+path = scenario\coop_l05_bar\duty_voronin_
+shuffle = rnd
+idle = 0,0,100
+
+[duty_voronin_hello]
+type = npc
+path = scenario\coop_l05_bar\duty_voronin_hello_
+shuffle = rnd
+idle = 0,0,100
+
+[skamarokh_music_1]
+type = npc
+path = scenario\coop_l05_bar\skamarokh_music\skamarokh_music_1_
+shuffle = rnd
+idle = 0,0,100
+
+[skamarokh_music_2]
+type = npc
+path = scenario\coop_l05_bar\skamarokh_music\skamarokh_music_2_
+shuffle = rnd
+idle = 0,0,100
+
+[sniper_radio_see_enemy_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\sniper_radio_see_enemy_1
+shuffle = rnd
+idle = 0,0,100
+
+[sniper_radio_see_enemy_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\sniper_radio_see_enemy_2
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_see_enemy_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_see_enemy_1
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_snipers_dead_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_snipers_dead_1
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_snipers_dead_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_snipers_dead_2
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_snipers_dead_3]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_snipers_dead_3
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_enemy_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_enemy_1
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_enemy_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_enemy_2
+shuffle = rnd
+idle = 0,0,100
+
+[killer_radio_enemy_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\killer_radio_enemy_1
+shuffle = rnd
+idle = 0,0,100
+
+[killer_radio_enemy_2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\killer_radio_enemy_2
+shuffle = rnd
+idle = 0,0,100
+
+[volkodav_radio_enemy_3]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\volkodav_radio_enemy_3
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_pda_help_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\kruglov_pda_help_1
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_pda_help_3]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\kruglov_pda_help_3
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_pda_4]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\kruglov_pda_4
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_pda_5]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\kruglov_pda_5
+shuffle = rnd
+idle = 0,0,100
+
+[wolfhound_pda_3]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\wolfhound_pda_3
+shuffle = rnd
+idle = 0,0,100
+
+[wolfhound_pda_6]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l06_rostok\wolfhound_pda_6
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_1]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_1
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_2]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_2
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_3]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_3
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_4]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_4
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_5]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_5
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_help_6]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_help_6
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_fireball_1]
+type = npc
+path = scenario\coop_l06_rostok\kruglov_fireball_1
+shuffle = rnd
+idle = 0,0,100
+
+
+[mil_cap_pda_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l07_military\mil_cap_pda_1
+shuffle = rnd
+idle = 0,0,100
+
+[mil_dolg_cherep]
+type = npc
+path = scenario\coop_l07_military\mil_dolg_cherep_
+shuffle = rnd
+idle = 0,0,100
+
+[mil_dolg_about_sniper]
+type = npc
+path = scenario\coop_l07_military\mil_dolg_about_sniper
+shuffle = rnd
+idle = 0,0,100
+
+[mil_dolg_cherep_command_1]
+type = npc
+path = scenario\coop_l07_military\mil_dolg_cherep_command_1
+shuffle = rnd
+idle = 0,0,100
+
+[mil_dolg_cherep_command_2]
+type = npc
+path = scenario\coop_l07_military\mil_dolg_cherep_command_2
+shuffle = rnd
+idle = 0,0,100
+
+[mil_guard_to_max]
+type = npc
+path = scenario\coop_l07_military\mil_guard_to_max
+shuffle = rnd
+idle = 0,0,100
+
+[mil_lukash_to_actor]
+type = npc
+path = scenario\coop_l07_military\mil_lukash_to_actor
+shuffle = rnd
+idle = 0,0,100
+
+[mil_max_to_player]
+type = npc
+path = scenario\coop_l07_military\mil_max_to_player
+shuffle = rnd
+idle = 0,0,100
+
+[max_go_collect]
+type = npc
+path = scenario\coop_l07_military\max_go_collect
+shuffle = rnd
+idle = 0,0,100
+
+[mil_max_to_tolyan]
+type = npc
+path = scenario\coop_l07_military\mil_max_to_tolyan
+shuffle = rnd
+idle = 0,0,100
+
+[mil_max_to_kolyan]
+type = npc
+path = scenario\coop_l07_military\mil_max_to_kolyan
+shuffle = rnd
+idle = 0,0,100
+
+[mil_collect_kolyan]
+type = npc
+path = scenario\coop_l07_military\mil_collect_kolyan
+shuffle = rnd
+idle = 0,0,100
+
+[mil_collect_laugh]
+type = npc
+path = scenario\coop_l07_military\mil_collect_laugh_
+shuffle = rnd
+idle = 0,0,100
+
+
+
+
+[x16_hum_2]
+type = looped
+path = characters_voice\scenario\coop_l08_yantar\x16_hum_2
+levels = coop_l08_yantar
+
+[x16_switch_1]
+type = 3d
+path = ambient\switch_1
+levels = coop_l08_yantar
+
+[system_message_1]
+type = 3d
+path = characters_voice\scenario\coop_l08_yantar\system_message_1
+levels = coop_l08_yantar
+
+[system_message_2]
+type = 3d
+path = characters_voice\scenario\coop_l08_yantar\system_message_2
+levels = coop_l08_yantar
+
+[system_message_3]
+type = 3d
+path = characters_voice\scenario\coop_l08_yantar\system_message_3
+levels = coop_l08_yantar
+
+[system_message_4]
+type = 3d
+path = characters_voice\scenario\coop_l08_yantar\system_message_4
+levels = coop_l08_yantar
+
+[system_message_5]
+type = 3d
+path = characters_voice\scenario\coop_l08_yantar\system_message_5
+levels = coop_l08_yantar
+
+[switch_2]
+type = 3d
+path = ambient\switch_2
+levels = coop_l08_yantar
+
+[yan_sakharov_meet]
+type = npc
+path = scenario\coop_l08_yantar\yan_sakharov_meet_
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[yan_sakharov_meet_bye]
+type = npc
+path = scenario\coop_l08_yantar\yan_sakharov_meet_bye_
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_radiation_quest_1]
+type = npc
+path = scenario\coop_l08_yantar\kruglov_radiation_quest_1
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_radiation_quest_2]
+type = npc
+path = scenario\coop_l08_yantar\kruglov_radiation_quest_2
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_radiation_quest_3]
+type = npc
+path = scenario\coop_l08_yantar\kruglov_radiation_quest_3
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[kruglov_radiation_quest_4]
+type = npc
+path = scenario\coop_l08_yantar\kruglov_radiation_quest_4
+levels = coop_l08_yantar
+shuffle = rnd
+idle = 0,0,100
+
+[rad_antenna_heli_spam]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l09_radar\rad_antenna_heli_spam
+shuffle = rnd
+idle = 0,0,100
+
+[rad_soldier_des_1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l09_radar\rad_soldier_des_1
+shuffle = rnd
+idle = 0,0,100
+
+
+
+[arena_public]
+type = npc
+path = scenario\coop_l05_bar\arena_public\arena_public_
+levels = coop_l05_bar
+shuffle = rnd
+idle = 0,0,100
+
+
+[followers_crossroads_phrase]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_crossroads_phrase
+shuffle = rnd
+idle = 0,0,100
+
+[followers_kill]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_kill_
+shuffle = rnd
+idle = 0,0,100
+
+[followers_leader_phrase1_1]
+type = npc
+path = scenario\coop_l10_pripyat\followers_leader_phrase1_1
+levels = coop_l10_pripyat
+shuffle = rnd
+idle = 0,0,100
+
+[followers_leader_phrase1_2]
+type = npc
+path = scenario\coop_l10_pripyat\followers_leader_phrase1_2
+levels = coop_l10_pripyat
+shuffle = rnd
+idle = 0,0,100
+
+[followers_start_phrase0]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_start_phrase0
+shuffle = rnd
+idle = 0,0,100
+
+[followers_start_phrase1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_start_phrase1
+shuffle = rnd
+idle = 0,0,100
+
+[followers_underground_phrase1]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_underground_phrase1
+shuffle = rnd
+idle = 0,0,100
+
+[followers_underground_phrase2]
+type = actor
+npc_prefix = false
+path = characters_voice\scenario\coop_l10_pripyat\followers_underground_phrase2
+shuffle = rnd
+idle = 0,0,100
+
+
+[monolith_alarm]
+type = 3d
+path = characters_voice\scenario\coop_l11_control_monolith\monolith_alarm
+levels = coop_l11_control_monolith
+
+[monolith_damaged]
+type = 3d
+path = characters_voice\scenario\coop_l11_control_monolith\monolith_damaged
+levels = coop_l11_control_monolith
+
+[monolith_heavy_damaged]
+type = 3d
+path = characters_voice\scenario\coop_l11_control_monolith\monolith_heavy_damaged
+levels = coop_l11_control_monolith
+
+[monolith_recharged]
+type = 3d
+path = characters_voice\scenario\coop_l11_control_monolith\monolith_recharged
+levels = coop_l11_control_monolith
+
+
+;[monolith_call]
+;type = actor
+;npc_prefix = false
+;path = characters_voice\scenario\coop_l11_sarcofag\monolith_call_
+;shuffle = rnd
+;idle = 0,0,100
+
+[monolith_call]
+type = 3d
+path = characters_voice\scenario\coop_l11_sarcofag\monolith_call_
+levels = coop_l11_sarcofag
+
+[monolith_preacher]
+type = npc
+path = scenario\coop_l11_sarcofag\monolith_preacher
+levels = coop_l11_sarcofag
+shuffle = rnd
+idle = 0,0,100
+
+
+
+
+
+
+
+
+
+
+
+[surge_earthquake_sound_looped]
+type = looped
+path = ambient\earthquake
+
+[surge_earthquake_sound]
+type = 3d
+path = ambient\earthquake
+
+[blowout_begin]
+type = 3d
+path = ambient\blowout_begin
+
+[blowout_rumble]
+type = looped
+path = ambient\blowout_rumble
+
+[blowout_hit_1]
+type = 3d
+path = ambient\blowout_hit_1
+
+[blowout_hit_2]
+type = 3d
+path = ambient\blowout_hit_2
+
+[blowout_hit_3]
+type = 3d
+path = ambient\blowout_hit_3
+
+[blowout_wave_1]
+type = 3d
+path = ambient\blowout_wave_1
+
+[blowout_wave_2]
+type = 3d
+path = ambient\blowout_wave_2
+
+[blowout_wave_3]
+type = 3d
+path = ambient\blowout_wave_3
+
+[state]
+type = npc
+npc_prefix = true
+path = states\idle\idle_
+shuffle = rnd
+idle = 7,13,100
+group_snd = true
+
+[state_1]
+type = npc|actor|3d
+actor_stereo = true|false
+npc_prefix = true|false
+path = states\idle\idle_
+shuffle = rnd|seq|loop
+idle = 3,5,100 ;min,max,rnd
+
+;************************************************************
+;Универсальная озвучка встречи
+;************************************************************
+[wait]
+type = npc
+avail_communities = stalker, bandit, dolg, freedom, army, monolith, csky, renegade, ecolog
+npc_prefix = true
+path = states\idle\idle_
+shuffle = rnd
+idle = 7,10,100
+
+;************************************************************
+;Болотная тварь и кустарниковый кабан
+;************************************************************
+
+[bloodsucker_swarm]
+type = 3d
+path = monsters\bloodsucker\swamp_run_
+shuffle = rnd
+idle = 1,1,100
+
+[boar_swarm]
+type = 3d
+path = monsters\boar\boar_swamp_run_
+shuffle = rnd
+idle = 0,0,100
+
+[boar_swamp_runaway]
+type = 3d
+path = monsters\boar\boar_swamp_runaway_
+shuffle = rnd
+idle = 0,0,100
+
+[bloodsucker_growl]
+type = 3d
+path = monsters\bloodsucker\attack_hit_
+shuffle = rnd
+idle = 0,0,100
+
+[bloodsucker_hit]
+type = 3d
+path = monsters\bloodsucker\heavy_hit_
+shuffle = rnd
+idle = 0,0,100
+
+
+
+;************************************************************
+; Alife
+;************************************************************
+
+[patrol_sneak]
+type = npc
+actor_stereo = false
+npc_prefix = true
+path = alife\patrol\sneak_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade
+shuffle = rnd
+idle = 1,1,100
+
+[patrol_run]
+type = npc
+actor_stereo = false
+npc_prefix = true
+path = alife\patrol\run_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade
+shuffle = rnd
+idle = 1,1,100
+
+[patrol_walk]
+type = npc
+actor_stereo = false
+npc_prefix = true
+path = alife\patrol\walk_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade
+shuffle = rnd
+idle = 1,1,100
+
+[fight_attack]
+type = npc
+actor_stereo = false
+npc_prefix = true
+path = fight\attack\script_attack_
+shuffle = rnd
+idle = 1,1,100
+is_combat_sound = true
+
+[fight_enemy]
+type = npc
+actor_stereo = false
+npc_prefix = true
+path = fight\enemy\enemy_
+shuffle = rnd
+idle = 1,1,100
+is_combat_sound = true
+
+[post_combat_wait]
+type = npc
+actor_stereo = false
+npc_prefix = true
+group_snd = true
+path = fight\post_combat_wait\wait_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade, ecolog
+shuffle = rnd
+idle = 3,5,100
+
+[post_combat_wait_long]
+type = npc
+actor_stereo = false
+npc_prefix = true
+group_snd = true
+path = fight\post_combat_wait\wait_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade, ecolog
+shuffle = rnd
+idle = 7,10,100
+
+[post_combat_relax]
+type = npc
+actor_stereo = false
+npc_prefix = true
+group_snd = true
+path = fight\post_combat_wait\relax_
+avail_communities = stalker, bandit, dolg, freedom, army, csky, renegade, ecolog
+shuffle = rnd
+idle = 1,1,100
+
+
+;***************************************************************
+; Звуки дверей
+;***************************************************************
+[pl_test]
+type = npc
+npc_prefix = true
+path = fight\attack\attack_
+shuffle = rnd
+idle = 1,1,100
+
+[trader_door_open_start]
+type = 3d
+path = device\door_start
+shuffle = rnd
+idle = 1,1,100
+
+[trader_door_close_start]
+type = 3d
+path = device\door_closing
+shuffle = rnd
+idle = 1,1,100
+
+[trader_door_close_stop]
+type = 3d
+path = device\door_stop
+shuffle = rnd
+idle = 1,1,100
+
+[trader_door_locked]
+type = 3d
+path = device\door_locked
+shuffle = rnd
+idle = 1,1,100
+
+[trader_door_unlock]
+type = 3d
+path = device\door_servomotor
+shuffle = rnd
+idle = 1,1,100
+
+[wood_small_open]
+type = 3d
+path = device\wood_small_open
+shuffle = rnd
+idle = 1,1,100
+
+[wood_small_close_start]
+type = 3d
+path = device\wood_small_close_start
+shuffle = rnd
+idle = 1,1,100
+
+[wood_small_close_stop]
+type = 3d
+path = device\wood_small_close_stop
+shuffle = rnd
+idle = 1,1,100
+
+[wood_large_open]
+type = 3d
+path = device\wood_large_open
+shuffle = rnd
+idle = 1,1,100
+
+[wood_large_close_start]
+type = 3d
+path = device\wood_large_close_start
+shuffle = rnd
+idle = 1,1,100
+
+[wood_large_close_stop]
+type = 3d
+path = device\wood_large_close_stop
+shuffle = rnd
+idle = 1,1,100
+
+[metal_small_open]
+type = 3d
+path = device\metal_small_open
+shuffle = rnd
+idle = 1,1,100
+
+[metal_small_close_start]
+type = 3d
+path = device\metal_small_close_start
+shuffle = rnd
+idle = 1,1,100
+
+[metal_small_close_stop]
+type = 3d
+path = device\metal_small_close_stop
+shuffle = rnd
+idle = 1,1,100
+
+[power_switch]
+type = 3d
+path = device\power_switch
+shuffle = rnd
+idle = 1,1,100
+
+;***************************************************************
+; звуки настольной рации
+;***************************************************************
+[radio_call]
+type = 3d
+path = device\radio_call
+shuffle = rnd
+idle = 0,0,100
+sync = true
+
+
+;***************************************************************
+; Озвучка ПДА
+;***************************************************************
+[pda_alarm]
+type = actor
+npc_prefix = false
+path = device\pda\pda_alarm
+shuffle = rnd
+idle = 0,0,100
+
+[pda_news]
+type = actor
+npc_prefix = false
+path = device\pda\pda_news
+shuffle = rnd
+idle = 1,1,100
+
+[pda_tips]
+type = actor
+npc_prefix = false
+path = device\pda\pda_tip
+shuffle = rnd
+idle = 1,1,100
+
+[pda_task]
+type = actor
+npc_prefix = false
+path = device\pda\pda_objective
+shuffle = rnd
+idle = 1,1,100
+
+;***************************************************************
+; Озвучка Вертиберда
+;***************************************************************
+[heli_damaged]
+type = actor
+npc_prefix = false
+path = vehicles\helicopter\damage_
+shuffle = rnd
+idle = 1,1,100
+
+[heli_down]
+type = actor
+npc_prefix = false
+path = vehicles\helicopter\death_
+shuffle = rnd
+idle = 1,1,100
+
+[heli_hit]
+type = actor
+npc_prefix = false
+path = vehicles\helicopter\hit_
+shuffle = rnd
+idle = 3,4,40
+
+;***************************************************************
+; ОСНОВНЫЕ ТЕМЫ
+;***************************************************************
+[alarm]
+type = looped
+path = ambient\siren1
+shuffle = loop
+idle = 0,0,100
+
+[alarm_2]
+type = looped
+path = ambient\siren2
+shuffle = loop
+idle = 0,0,100
+
+[meet_hello]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_hello_
+shuffle = rnd
+idle = 2,2,100
+
+[meet_hide_weapon]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_hide_weapon_
+shuffle = rnd
+idle = 5,7,100
+
+[meet_use_no_default]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_use_no_default_
+shuffle = rnd
+idle = 1,1,100
+
+[meet_use_no_fight]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_use_no_fight_
+shuffle = rnd
+idle = 2,2,100
+
+[meet_use_no_weapon]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_use_no_weapon_
+shuffle = rnd
+idle = 5,7,100
+
+[meet_use_no_talk_leader]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\meet\meet_use_no_talk_leader_
+shuffle = rnd
+idle = 5,7,100
+
+
+[corpse_loot_begin]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\loot\loot_begin_
+shuffle = rnd
+idle = 10,11,100
+
+[corpse_loot_good]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\loot\loot_good_
+shuffle = rnd
+idle = 10,11,100
+
+[corpse_loot_bad]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, csky, renegade, ecolog
+npc_prefix = true
+path = states\loot\loot_bad_
+shuffle = rnd
+idle = 10,11,100
+
+[help_heavy]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, killer, monolith csky, renegade, ecolog
+npc_prefix = true
+path = help\wounded_heavy\help_
+shuffle = rnd
+idle = 4,8,100
+
+[help_thanks]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, killer, csky, renegade, ecolog
+npc_prefix = true
+path = help\wounded_thanx\thanx_
+shuffle = rnd
+idle = 1,1,100
+
+[wounded_medkit]
+type = npc
+avail_communities = army, stalker, bandit, dolg, freedom, killer, monolith, csky, renegade, ecolog
+npc_prefix = true
+path = help\wounded\medkit_
+shuffle = rnd
+idle = 1,1,100
+
+;***************************************************************
+; ТЕМЫ ДЛЯ ТИРА
+;***************************************************************
+[shooting_target_up]
+type = 3d
+path = ambient\special\target_up
+shuffle = rnd
+idle = 0,0,100
+
+[shooting_target_down]
+type = 3d
+path = ambient\special\target_down
+shuffle = rnd
+idle = 0,0,100
+
+[shooting_target_hit]
+type = 3d
+path = ambient\special\target_hit_
+shuffle = rnd
+idle = 0,0,100
+
+[steam_blowout]
+type = 3d
+path = anomaly\steam_blowout
+shuffle = rnd
+idle = 0,0,100
+
+;****NEW*****************************************************
+;***************************************************************
+; Defence
+
+;***************************************************************
+[df_restricted]
+type = actor
+npc_prefix = false
+path = interface\df_restrictedarea
+play_always = true
+shuffle = rnd
+idle = 0,0,100
+
+[lever_on]
+type = 3d
+path = ambient\levers\lever_on
+shuffle = rnd
+idle = 1,1,100
+play_always = true
+
+[lever_off]
+type = 3d
+path = ambient\levers\lever_off
+shuffle = rnd
+idle = 1,1,100
+play_always = true
+
+[generator_on]
+type = 3d
+path = ambient\generator\generator_on
+shuffle = rnd
+idle = 1,1,100
+
+[generator_off]
+type = 3d
+path = ambient\generator\generator_off
+shuffle = rnd
+idle = 1,1,100
+
+[generator_loop]
+type = looped
+path = ambient\generator\generator_loop
+
+[spotlight_idle_0]
+type = looped
+path = ambient\spotlights\spotlight_idle_0
+
+[spotlight_idle_1]
+type = looped
+path = ambient\spotlights\spotlight_idle_1
+
+[spotlight_idle_2]
+type = looped
+path = ambient\spotlights\spotlight_idle_2
+
+[spotlight_on]
+type = 3d
+path = ambient\spotlights\spotlight_on
+shuffle = rnd
+idle = 1,1,100
+
+[spotlight_off]
+type = 3d
+path = ambient\spotlights\spotlight_off
+shuffle = rnd
+idle = 1,1,100
+
+[lamp_idle_0]
+type = looped
+path = ambient\lamp\lamp_idle_0
+
+[lamp_idle_1]
+type = looped
+path = ambient\lamp\lamp_idle_1
+
+[lamp_on]
+type = 3d
+path = ambient\lamp\lamp_on
+shuffle = rnd
+idle = 1,1,100
+
+[lamp_off]
+type = 3d
+path = ambient\lamp\lamp_off
+shuffle = rnd
+idle = 1,1,100
+
+[zhar_blow]
+type = 3d
+path = anomaly\zhar_blow
+shuffle = rnd
+idle = 0,0,100
+
+[spatial_bubble_rupture]
+type = 3d
+path = ambient\jupiter\jup_b46_spatial_bubble_rupture
+shuffle = seq
+idle = 0,0,100
+
+[tinnitus]
+type = actor
+npc_prefix = false
+path = affects\tinnitus3a
+shuffle = rnd
+idle = 1,1,100

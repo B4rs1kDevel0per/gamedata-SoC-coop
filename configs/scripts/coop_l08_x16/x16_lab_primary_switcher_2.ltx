@@ -1,0 +1,17 @@
+[logic]
+active = ph_button@x16_lab_button_2_active
+
+[ph_button@x16_lab_button_2_active]
+anim = lab_primary_switcher_idle
+tooltip = st_primary_switcher_idle_off_desc
+on_press = ph_button@x16_lab_button_2_deactivate %=run_cam_effector(fatigue)%
+
+[ph_button@x16_lab_button_2_deactivate]
+anim = lab_primary_switcher_off
+on_timer = 500 | ph_idle@system_message_3 %=turn_off(x16_switcher_hanging_lamp_2) =turn_off(x16_primari_switcher_hanging_lamp_red_2) =turn_on(x16_primari_switcher_hanging_lamp_green_2) =play_sound(x16_switch_1)%
+
+[ph_idle@system_message_3]
+on_info = %+X16_LAB_PRIMARY_SWITCHER_2_DEACTIVATE_INFO =play_sound(system_message_3)%
+on_timer = 5000 | ph_idle@nil
+
+[ph_idle@nil]

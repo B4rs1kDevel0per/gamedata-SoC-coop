@@ -1,0 +1,35 @@
+[logic]
+active = heli_move@idle
+
+[heli_move@idle]
+path_move = aes_1_helicopter_1_idle_way
+max_velocity = 300
+engine_sound = false
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_info  = {+PRI_START_GO_TO_CNPP_QUEST_TASK_INFO} heli_move@fly_ready
+;on_info  = {-ESC_TEST_INFO} heli_move@fly_ready
+
+[heli_move@fly_ready]
+path_move = aes_1_helicopter_1_idle_way
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 150 | heli_move@fly_0
+
+[heli_move@fly_0]
+path_move = aes_1_helicopter_1_move_way_0
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 7000 | heli_move@fly_1
+
+[heli_move@fly_1]
+path_move = aes_1_helicopter_1_move_way_1
+max_velocity = 300
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+;on_game_timer = 400 | %=destroy_object%

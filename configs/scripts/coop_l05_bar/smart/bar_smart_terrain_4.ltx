@@ -1,0 +1,20 @@
+[smart_terrain]
+squad_id 											= 1
+max_population 										= 1
+respawn_params 										= respawn@bar_smart_terrain_4
+respawn_idle 										= 2500
+
+[respawn@bar_smart_terrain_4]
+bar_smart_terrain_4_duty_1_squad
+bar_smart_terrain_4_duty_2_squad
+
+[bar_smart_terrain_4_duty_1_squad]
+spawn_squads 										= bar_smart_terrain_4_duty_1_squad
+spawn_num 											= 1
+
+[bar_smart_terrain_4_duty_2_squad]
+spawn_squads 										= bar_smart_terrain_4_duty_2_squad
+spawn_num 											= 1
+
+[exclusive]
+bar_smart_terrain_4_walker_voronin					= coop_l05_bar\bar_smart_terrain_4_walker_voronin.ltx

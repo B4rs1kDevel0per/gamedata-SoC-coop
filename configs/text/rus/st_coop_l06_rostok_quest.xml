@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_ros_start_go_to_yantar_quest_task_name">
+		<text>Светила науки</text>
+	</string>
+	<string id="st_ros_start_go_to_yantar_quest_task_descr">
+		<text>Отправиться в бункер ученых на озере Янтарь. Они могут что-то знать о лаборатории X-16.</text>	
+	</string>
+	
+	
+	<string id="st_ros_start_help_kruglov_quest_task_name">
+		<text>Ради науки</text>
+	</string>
+	<string id="st_ros_start_help_kruglov_quest_task_descr">
+		<text>Спасти профессора Круглова</text>	
+	</string>
+	
+	
+	<string id="st_ros_start_escort_kruglov_to_yantar_quest_task_name">
+		<text>Ради науки</text>
+	</string>
+	<string id="st_ros_start_escort_kruglov_to_yantar_quest_task_descr">
+		<text>Сопроводить профессора Круглова до Янтаря</text>	
+	</string>
+</string_table>

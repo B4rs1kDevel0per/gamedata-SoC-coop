@@ -1,0 +1,33 @@
+<window>
+	<gameover_wnd anchor="mid-center" width="1240" height="1080">
+		<auto_static anchor="top-center" x="0" y="129" width="549" height="92" stretch="1">
+			<texture>ui_ingame_big_red_header_bcg</texture>
+		    <text y="-4" font="din_next76_bold" outline="1" vert_align="c" align="c">st_game_over_uppercase</text>
+	    </auto_static>
+		
+		<auto_text anchor="top-center" x="0" y="230" width="512" height="28">
+			<text font="din_next23_bold" color="dark_red_mpe" outline="1" vert_align="c" align="c">st_gameover_sub</text>
+		</auto_text>		
+		
+		<auto_text anchor="bot-center" x="0" y="228" width="512" height="28">
+			<text font="din_next36_bold" outline="1" vert_align="c" align="c">st_gameover_load_after</text>
+		</auto_text>
+
+		<timer_text anchor="bot-center" x="0" y="176" width="50" height="28">
+			<text font="din_next36_bold" color="yellow_mpe" outline="1" vert_align="c" align="c"/>
+		</timer_text>
+		
+		<button_disconnect anchor="bot-center" x="0" y="83" width="200" height="42" stretch="1">
+			<texture>ui_ingame_default_button</texture>
+			<text font="din_next17_bold" align="c">ui_mm_disconnect</text>
+			<text_color>
+				<e color="ui_white"/>
+				<t color="ui_white"/>
+				<d color="dark_mpe"/>
+				<h color="ui_white"/>
+			</text_color>
+			<sound_h>interface\selector_button</sound_h>
+			<sound_t>interface\select_button</sound_t>	
+		</button_disconnect>
+	</gameover_wnd>
+</window>

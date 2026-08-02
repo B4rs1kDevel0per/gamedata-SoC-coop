@@ -1,0 +1,19 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_timer 											= 1000 | sr_idle@start_2 %=create_squad(mil_smart_terrain_14_duty_skull_squad:mil_smart_terrain_14) =create_squad(mil_smart_terrain_14_duty_2_squad:mil_smart_terrain_14)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@start_3 %=create_squad(mil_smart_terrain_14_duty_3_squad:mil_smart_terrain_14) =create_squad(mil_smart_terrain_14_duty_4_squad:mil_smart_terrain_14)%
+
+[sr_idle@start_3]
+on_timer 											= 1000 | sr_idle@start_4 %=create_squad(mil_smart_terrain_14_duty_5_squad:mil_smart_terrain_14) =create_squad(mil_smart_terrain_14_duty_6_squad:mil_smart_terrain_14)%
+
+[sr_idle@start_4]
+on_timer 											= 1000 | sr_idle@start_5 %=create_squad(mil_smart_terrain_14_duty_7_squad:mil_smart_terrain_14) =create_squad(mil_smart_terrain_14_duty_8_squad:mil_smart_terrain_14)%
+
+[sr_idle@start_5]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(mil_smart_terrain_14_duty_9_squad:mil_smart_terrain_14)%
+
+[sr_idle@nil]

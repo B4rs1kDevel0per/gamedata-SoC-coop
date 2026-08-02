@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Черепа(Убить снайпера на вышке):
+[sr_idle@start_quest]
+on_info  											= {+MIL_START_KILL_THE_SNIPER_ON_THE_TOWER_QUEST_TASK_INFO} sr_idle@nil %=give_task(mil_start_kill_the_sniper_on_the_tower_quest_task) =scenario_autosave(st_kill_the_sniper_on_the_tower)%
+
+[sr_idle@nil]

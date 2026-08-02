@@ -1,0 +1,27 @@
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Основные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Квест основной(Отыскать тайник Стрелка)
+[agru_start_find_the_shooter_hiding_place_task]
+icon 									= ui_inGame2_agru_start_find_the_shooter_hiding_place_task
+prior 									= 200
+storyline 								= true
+title 									= st_agru_start_find_the_shooter_hiding_place_task_name
+descr 									= st_agru_start_find_the_shooter_hiding_place_task_descr
+target 									= nil
+condlist_0 								= {=actor_has_item(dev_flash_agru)} complete %=give_task(agru_start_return_to_the_surface_task) +AGRU_START_FIND_THE_SHOOTER_HIDING_PLACE_TASK_INFO%
+condlist_1 								= {+AGRU_START_FIND_THE_SHOOTER_HIDING_PLACE_TASK_INFO} complete
+
+;Квест основной(Возвращение на поверхность)
+[agru_start_return_to_the_surface_task]
+icon 									= ui_inGame2_agru_start_return_to_the_surface_task
+prior 									= 200
+storyline 								= true
+title 									= st_agru_start_return_to_the_surface_task_name
+descr 									= st_agru_start_return_to_the_surface_task_descr
+target 									= change_level_agroprom
+condlist_0 								= {+AGRU_START_RETURN_TO_THE_SURFACE_TASK_END_INFO} complete
+
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Второстепенные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------

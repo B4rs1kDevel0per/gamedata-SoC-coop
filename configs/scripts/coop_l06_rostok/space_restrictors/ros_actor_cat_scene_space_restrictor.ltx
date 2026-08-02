@@ -1,0 +1,18 @@
+[logic]
+active 												= sr_idle@idle_start_cat_scene
+
+[sr_idle@idle_start_cat_scene]
+on_info 											= {+ROS_START_GO_TO_YANTAR_QUEST_TASK_INFO} sr_idle@nil
+on_player_inside 									= {+ROS_SNIPER_SPACE_RESTRICTOR_INFO} sr_idle@idle_start_cat_scene_idle %=disable_ui =run_postprocess(blink)%
+
+[sr_idle@idle_start_cat_scene_idle]
+on_info  											= {+ROS_SNIPER_SPACE_RESTRICTOR_INFO} sr_cutscene@fly %+ROS_SMART_TERRAIN_3_KRUGLOV_HELP_SPACE_RESTRICTOR_INFO%
+
+[sr_cutscene@fly]
+point 												= ros_actor_cat_scene_1_walk
+look 												= ros_actor_cat_scene_1_look
+cam_effector 										= scenario_cam\coop\rostok_camera
+global_cameffect 									= true
+on_signal 											= cameff_end | sr_idle@nil %=enable_ui =run_postprocess(blink) =scenario_autosave(st_help_kruglov)%
+
+[sr_idle@nil]

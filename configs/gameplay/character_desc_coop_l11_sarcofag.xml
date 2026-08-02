@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<specific_character id="sar_smart_terrain_17_monolith_preacher" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_preacher_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_preacher</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+	  dev_decoder = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_1" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_1</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_2" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_2</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_3" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_3</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_4" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_4</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_5" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_fanatic_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_5</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+	  
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+
+<specific_character id="sar_smart_terrain_17_monolith_fanatic_6" team_default = "1">
+    <name>sar_smart_terrain_17_monolith_fanatic_name</name>
+    <icon>ui_inGame2_monolit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>sar_preacher_bio</bio>
+
+    <class>sar_smart_terrain_17_monolith_fanatic_6</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>666</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_monolith\stalker_monolith_4</visual>
+    <supplies>	
+      [spawn] \n
+      
+      wpn_gauss \n
+      ammo_gauss = 10 \n
+      wpn_sig220 = 1, silencer \n
+      ammo_11.43x23_hydro = 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_7_stalker_mole_start_dialog</start_dialog>	
+	<actor_dialog>agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole</actor_dialog>
+</specific_character>
+  </xml>

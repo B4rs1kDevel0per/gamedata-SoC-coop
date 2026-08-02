@@ -1,0 +1,372 @@
+======ДЕЙСТВУЮЩИЕ ЛИЦА===================================================
+;СТАЛКЕР ГЛОБУC:
+[bar_smart_terrain_1_stalker_guide_squad]:online_offline_group
+faction = stalker
+npc = esc_smart_terrain_1_stalker_guide
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_guide_squad
+
+;БАР - АРЕНА: МУТАНТЫ - СОБАКИ:
+[bar_arny_arena_smart_terrain_dog_squad]:online_offline_group
+faction = monster
+npc = dog_strong, dog_normal, dog_normal, dog_normal, dog_normal, dog_cute, dog_cute, dog_cute
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_DOG_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_DOG_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_dog_squad
+
+;БАР - АРЕНА: МУТАНТЫ - ПСЕВДОСОБАКИ:
+[bar_arny_arena_smart_terrain_pseudodog_squad]:online_offline_group
+faction = monster
+npc = pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_PSEUDODOG_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_PSEUDODOG_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_pseudodog_squad
+
+;БАР - АРЕНА: МУТАНТЫ - КАБАНЫ:
+[bar_arny_arena_smart_terrain_boar_squad]:online_offline_group
+faction = monster
+npc = boar_strong, boar_normal, boar_normal, boar_normal, boar_normal, boar_normal, boar_normal, boar_normal 
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_BOAR_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_BOAR_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_boar_squad
+
+;БАР - АРЕНА: МУТАНТЫ - КРОВОСОСЫ:
+[bar_arny_arena_smart_terrain_bloodsucker_squad]:online_offline_group
+faction = monster
+npc = bloodsucker_strong, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_BLOODSUCKER_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_BLOODSUCKER_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_bloodsucker_squad
+
+;БАР - АРЕНА(НА ВРЕМЯ): МУТАНТЫ - СОБАКИ:
+[bar_arny_arena_smart_terrain_dtt_dog_squad]:online_offline_group
+faction = monster
+npc = dog_strong, dog_normal, dog_normal, dog_normal, dog_normal, dog_cute, dog_cute, dog_cute
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_DOG_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_DTT_DOG_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_dtt_dog_squad
+
+;БАР - АРЕНА(НА ВРЕМЯ): МУТАНТЫ - ПСЕВДОСОБАКИ:
+[bar_arny_arena_smart_terrain_dtt_pseudodog_squad]:online_offline_group
+faction = monster
+npc = pseudodog_normal, pseudodog_normal, pseudodog_normal, pseudodog_normal
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_PSEUDODOG_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_DTT_PSEUDODOG_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_dtt_pseudodog_squad
+
+;БАР - АРЕНА(НА ВРЕМЯ): МУТАНТЫ - КАБАНЫ:
+[bar_arny_arena_smart_terrain_dtt_boar_squad]:online_offline_group
+faction = monster
+npc = boar_strong, boar_normal, boar_normal, boar_normal
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BOAR_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BOAR_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_dtt_boar_squad
+
+;БАР - АРЕНА(НА ВРЕМЯ): МУТАНТЫ - КРОВОСОСЫ:
+[bar_arny_arena_smart_terrain_dtt_bloodsucker_squad]:online_offline_group
+faction = monster
+npc = bloodsucker_strong, bloodsucker_weak, bloodsucker_weak, bloodsucker_weak
+target_smart = bar_arny_arena_smart_terrain
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BLOODSUCKER_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_DTT_BLOODSUCKER_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_dtt_bloodsucker_squad
+
+;БАР - АРЕНА(СТАВКА): СТАЛКЕРЫ:
+[bar_arny_arena_smart_terrain_1_stalker_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_1, sim_default_stalker_1, sim_default_stalker_1
+target_smart = bar_arny_arena_smart_terrain_1
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_1_STALKER_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_1_STALKER_SQUAD_DEAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_1_stalker_squad
+
+;БАР - АРЕНА(СТАВКА): МУТАНТЫ - КРОВОСОСЫ:
+[bar_arny_arena_smart_terrain_2_bloodsucker_squad]:online_offline_group
+faction = monster
+npc = bloodsucker_weak, bloodsucker_weak, bloodsucker_weak
+target_smart = bar_arny_arena_smart_terrain_2
+on_death = %+BAR_ARNY_ARENA_SMART_TERRAIN_2_BLOODSUCKER_SQUAD_DEAD +BAR_ARNY_ARENA_SMART_TERRAIN_2_BLOODSUCKER_SQUAD_FAIL%
+story_id = bar_arny_arena_smart_terrain_2_bloodsucker_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(ЗРИТЕЛИ АРЕНЫ):
+[bar_arny_arena_smart_terrain_3_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_4
+target_smart = bar_arny_arena_smart_terrain_3
+spawn_point = bar_arny_arena_smart_terrain_3_1_spawn_point
+story_id = bar_arny_arena_smart_terrain_3_stalker_1_squad
+
+[bar_arny_arena_smart_terrain_3_stalker_2_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = bar_arny_arena_smart_terrain_3
+spawn_point = bar_arny_arena_smart_terrain_3_2_spawn_point
+story_id = bar_arny_arena_smart_terrain_3_stalker_2_squad
+
+[bar_arny_arena_smart_terrain_3_stalker_3_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_2, sim_default_stalker_1
+target_smart = bar_arny_arena_smart_terrain_3
+spawn_point = bar_arny_arena_smart_terrain_3_3_spawn_point
+story_id = bar_arny_arena_smart_terrain_3_stalker_3_squad
+
+[bar_arny_arena_smart_terrain_3_stalker_4_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_4, sim_default_stalker_1
+target_smart = bar_arny_arena_smart_terrain_3
+spawn_point = bar_arny_arena_smart_terrain_3_4_spawn_point
+story_id = bar_arny_arena_smart_terrain_3_stalker_4_squad
+
+[bar_arny_arena_smart_terrain_3_stalker_5_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3
+target_smart = bar_arny_arena_smart_terrain_3
+spawn_point = bar_arny_arena_smart_terrain_3_5_spawn_point
+story_id = bar_arny_arena_smart_terrain_3_stalker_5_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(БАР 100 РЕНТГЕН - ВЛАД ВОЛЧАРА):
+[bar_smart_terrain_1_stalker_vlad_volchara_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_1_stalker_vlad_volchara, bar_smart_terrain_1_stalker_bad_hunter
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_vlad_volchara_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(БАР 100 РЕНТГЕН - БАРМЕН):
+[bar_smart_terrain_1_stalker_barmen_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_1_stalker_barmen
+target_smart = bar_smart_terrain_1
+spawn_point = bar_smart_terrain_1_walker_barmen_2_spawn_point
+story_id = bar_smart_terrain_1_stalker_barmen_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(БАР 100 РЕНТГЕН):
+[bar_smart_terrain_1_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_4, sim_default_stalker_3
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_1_squad
+
+[bar_smart_terrain_1_stalker_2_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_2, sim_default_stalker_1
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_2_squad
+
+[bar_smart_terrain_1_stalker_3_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_0, sim_default_stalker_4
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_3_squad
+
+;БАР - БАР 100 РЕНТГЕН: СТАЛКЕРЫ(ОХРАНА БАРА - ГАРИК):
+[bar_smart_terrain_1_stalker_security_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_1_stalker_garik
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_security_1_squad
+
+;БАР - БАР 100 РЕНТГЕН: СТАЛКЕРЫ(ОХРАНА БАРА - ЖОРИК):
+[bar_smart_terrain_1_stalker_security_2_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_1_stalker_zhorik
+target_smart = bar_smart_terrain_1
+spawn_point = bar_smart_terrain_1_guard_zhorik_1_spawn_point
+story_id = bar_smart_terrain_1_stalker_security_2_squad
+
+;БАР - БАР 100 РЕНТГЕН: СТАЛКЕРЫ(ОСВЕДОМИТЕЛЬ):
+[bar_smart_terrain_1_stalker_informant_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_1_stalker_informant
+target_smart = bar_smart_terrain_1
+story_id = bar_smart_terrain_1_stalker_informant_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(БАР-АНГАР-1):
+[bar_smart_terrain_2_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_1
+target_smart = bar_smart_terrain_2
+spawn_point = bar_smart_terrain_2_walker_1_spawn_point
+story_id = bar_smart_terrain_2_duty_1_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(БАР-ЗАСТАВА-1):
+[bar_smart_terrain_3_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_2, sim_default_duty_0, sim_default_duty_0
+target_smart = bar_smart_terrain_3
+story_id = bar_smart_terrain_3_duty_1_squad
+
+[bar_smart_terrain_3_duty_2_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_2, sim_default_duty_0, sim_default_duty_0
+target_smart = bar_smart_terrain_3
+story_id = bar_smart_terrain_3_duty_2_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА):
+[bar_smart_terrain_4_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3, sim_default_duty_3, sim_default_duty_2
+target_smart = bar_smart_terrain_4
+story_id = bar_smart_terrain_4_duty_1_squad
+
+[bar_smart_terrain_4_duty_2_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_4, sim_default_duty_3
+target_smart = bar_smart_terrain_4
+story_id = bar_smart_terrain_4_duty_2_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - ВОРОНИН):
+[bar_smart_terrain_4_duty_voronin_squad]:online_offline_group
+faction = dolg
+npc = bar_smart_terrain_4_duty_voronin, sim_default_duty_4, sim_default_duty_4
+target_smart = bar_smart_terrain_4
+spawn_point = bar_smart_terrain_4_walker_voronin_1_spawn_point
+story_id = bar_smart_terrain_4_duty_voronin_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(БАР-ЗАСТАВА-2):
+[bar_smart_terrain_5_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_1, sim_default_duty_1, sim_default_duty_1
+target_smart = bar_smart_terrain_5
+story_id = bar_smart_terrain_5_duty_1_squad
+
+[bar_smart_terrain_5_duty_2_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_1, sim_default_duty_1, sim_default_duty_1
+target_smart = bar_smart_terrain_5
+story_id = bar_smart_terrain_5_duty_2_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(ЛЁЛИК):
+[bar_smart_terrain_6_stalker_security_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_2_stalker_lelik
+target_smart = bar_smart_terrain_6
+spawn_point = bar_smart_terrain_6_guard_lelik_1_spawn_point
+story_id = bar_smart_terrain_6_stalker_security_3_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(АРНИ):
+[bar_smart_terrain_6_stalker_arny_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_2_stalker_arny, sim_default_stalker_4
+target_smart = bar_smart_terrain_6
+spawn_point = bar_smart_terrain_6_guard_arny_1_spawn_point
+story_id = bar_smart_terrain_6_stalker_arny_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(УЛИЦА):
+[bar_smart_terrain_7_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = bar_smart_terrain_7
+story_id = bar_smart_terrain_7_stalker_1_squad
+
+[bar_smart_terrain_7_stalker_2_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = bar_smart_terrain_7
+story_id = bar_smart_terrain_7_stalker_2_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(ГАРАЖ ПЕРЕД БАРОМ):
+[bar_smart_terrain_8_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3
+target_smart = bar_smart_terrain_8
+story_id = bar_smart_terrain_8_stalker_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(МУЗЕЙ МУТАНТОВ):
+[bar_smart_terrain_9_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_9_stalker_hunter
+target_smart = bar_smart_terrain_9
+story_id = bar_smart_terrain_9_stalker_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(ПЛЮШКИН):
+[bar_smart_terrain_10_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_10_stalker_plyushkin
+target_smart = bar_smart_terrain_10
+story_id = bar_smart_terrain_10_stalker_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(КОСТЕР - 1):
+[bar_smart_terrain_11_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = bar_smart_terrain_11
+story_id = bar_smart_terrain_11_stalker_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(КОСТЕР - 2):
+[bar_smart_terrain_12_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = bar_smart_terrain_12_stalker_skamarokh, sim_default_stalker_2, sim_default_stalker_2
+target_smart = bar_smart_terrain_12
+story_id = bar_smart_terrain_12_stalker_1_squad
+
+;СТАТИСТЫ СТАЛКЕРЫ(КОСТЕР - 3):
+[bar_smart_terrain_13_stalker_1_squad]:online_offline_group
+faction = stalker
+npc = sim_default_stalker_3, sim_default_stalker_2
+target_smart = bar_smart_terrain_13
+story_id = bar_smart_terrain_13_stalker_1_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - ВАГОН):
+[bar_smart_terrain_14_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3
+target_smart = bar_smart_terrain_14
+story_id = bar_smart_terrain_14_duty_1_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - ПЕТРЕНКО):
+[bar_smart_terrain_15_duty_petrenko_1_squad]:online_offline_group
+faction = dolg
+npc = bar_smart_terrain_4_duty_petrenko, sim_default_duty_4
+target_smart = bar_smart_terrain_15
+spawn_point = bar_smart_terrain_15_walker_petrenko_1_spawn_point
+story_id = bar_smart_terrain_15_duty_petrenko_1_squad
+
+[bar_smart_terrain_15_duty_2_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_4, sim_default_duty_4
+target_smart = bar_smart_terrain_15
+story_id = bar_smart_terrain_15_duty_2_squad
+
+[bar_smart_terrain_15_duty_3_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3
+target_smart = bar_smart_terrain_15
+story_id = bar_smart_terrain_15_duty_3_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - БЛОКПОСТ):
+[bar_smart_terrain_16_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3, sim_default_duty_3
+target_smart = bar_smart_terrain_16
+story_id = bar_smart_terrain_16_duty_1_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - ВХОД В ПОДВАЛ):
+[bar_smart_terrain_17_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_4, sim_default_duty_3, sim_default_duty_3
+target_smart = bar_smart_terrain_17
+story_id = bar_smart_terrain_17_duty_1_squad
+
+[bar_smart_terrain_17_duty_2_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_4, sim_default_duty_3, sim_default_duty_3
+target_smart = bar_smart_terrain_17
+story_id = bar_smart_terrain_17_duty_2_squad
+
+;СТАТИСТЫ ДОЛГОВЦЫ(ШТАБ ДОЛГА - ОКОЛО ВАГОНА):
+[bar_smart_terrain_18_duty_1_squad]:online_offline_group
+faction = dolg
+npc = sim_default_duty_3, sim_default_duty_3
+target_smart = bar_smart_terrain_18
+story_id = bar_smart_terrain_18_duty_1_squad
+
+;МУТАНТЫ - СОБАКИ:
+[bar_smart_terrain_1_m_dog_squad]:online_offline_group
+faction = monster
+npc = dog_strong, dog_normal, dog_normal, dog_normal, dog_normal, dog_cute, dog_cute, dog_cute
+target_smart = bar_smart_terrain_1_m
+story_id = bar_smart_terrain_1_m_dog_squad
+
+[bar_smart_terrain_2_m_dog_squad]:online_offline_group
+faction = monster
+npc = dog_strong, dog_normal, dog_normal, dog_normal, dog_normal, dog_cute, dog_cute, dog_cute
+target_smart = bar_smart_terrain_2_m
+story_id = bar_smart_terrain_2_m_dog_squad

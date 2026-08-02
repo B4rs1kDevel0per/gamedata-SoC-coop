@@ -1,0 +1,36 @@
+[logic@esc_smart_terrain_1_animpoint_guide]
+suitable 											= {=check_npc_name(esc_smart_terrain_1_stalker_guide)} true
+prior 												= 300
+can_select_weapon 									= false
+level_spot 											= guider
+active 												= animpoint@esc_smart_terrain_1_animpoint_guide
+
+[animpoint@esc_smart_terrain_1_animpoint_guide]
+cover_name 											= esc_smart_terrain_1_animpoint_4
+reach_distance 										= 2
+avail_animations 									= animpoint_sit_normal
+use_camp 											= false
+meet 												= meet@esc_smart_terrain_1_animpoint_guide
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+
+[meet@esc_smart_terrain_1_animpoint_guide]
+close_snd_hello 									= nil
+close_snd_bye 										= nil
+close_anim 											= nil
+close_victim 										= nil
+far_anim 											= nil
+far_victim 											= nil
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= true
+meet_on_talking 									= true
+
+;================================================

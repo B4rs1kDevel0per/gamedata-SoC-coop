@@ -1,0 +1,16 @@
+[logic@ros_smart_terrain_3_walker_volkodav]
+active 												= walker@ros_smart_terrain_3_walker_volkodav
+suitable 											= {=check_npc_name(ros_smart_terrain_3_killer_volkodav)} true
+prior 												= 300
+
+[walker@ros_smart_terrain_3_walker_volkodav]
+path_walk 											= walker_volkodav_walk
+path_look 											= walker_volkodav_look
+def_state_standing 									= wait_rac
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+;on_info 											= {+all_kruglov_pda_help_1}
+
+;================================================

@@ -1,0 +1,13 @@
+[logic]
+active 												= sr_idle@aes_2_the_end_teleport_space_restrictor_idle
+
+[sr_idle@aes_2_the_end_teleport_space_restrictor_idle]
+on_info2 											= {+AES_2_THE_END_TELEPORT_SPACE_RESTRICTOR_STOP_INFO +AES_2_THE_END_SPACE_RESTRICTOR_INFO} sr_idle@nil
+on_player_inside  									= {-AES_2_THE_END_TELEPORT_SPACE_RESTRICTOR_STOP_INFO +AES_2_THE_END_SPACE_RESTRICTOR_INFO} sr_teleport@aes_2_the_end_teleport_space_restrictor_start
+
+[sr_teleport@aes_2_the_end_teleport_space_restrictor_start]
+point1 												= con_teleport_18_walk
+look1 												= con_teleport_18_look
+on_timer 											= 1000 | sr_idle@nil %+AES_2_THE_END_TELEPORT_SPACE_RESTRICTOR_STOP_INFO%
+
+[sr_idle@nil]

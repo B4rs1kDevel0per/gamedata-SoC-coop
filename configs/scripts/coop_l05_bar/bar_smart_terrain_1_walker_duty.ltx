@@ -1,0 +1,31 @@
+[logic@bar_smart_terrain_1_walker_duty]
+suitable 											= {=check_npc_name(sim_default_duty_1)} true
+active 												= walker@bar_smart_terrain_1_walker_duty
+can_select_weapon 									= false
+prior 												= 300
+
+[walker@bar_smart_terrain_1_walker_duty]
+path_walk 											= walker_1_walk
+path_look 											= walker_1_look
+def_state_moving1 									= walk
+def_state_moving2 									= walk
+def_state_moving3 									= walk
+invulnerable 										= false
+meet 												= meet@duty
+
+[meet@duty]
+close_snd_hello 									= duty_hangar_1
+close_snd_bye 										= duty_hangar_1
+close_anim 											= nil
+close_victim 										= actor
+close_distance  									= 2
+far_distance 										= 20
+close_snd_distance 									= 6
+far_anim 											= nil
+far_victim 											= actor
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+meet_on_talking 									= false
+
+;================================================

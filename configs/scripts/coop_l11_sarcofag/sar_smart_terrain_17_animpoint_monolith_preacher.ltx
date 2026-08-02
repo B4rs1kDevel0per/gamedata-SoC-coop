@@ -1,0 +1,59 @@
+[logic@sar_smart_terrain_17_animpoint_monolith_preacher]
+suitable 											= {=check_npc_name(sar_smart_terrain_17_monolith_preacher)} true
+prior 												= 300
+active 												= animpoint@sar_smart_terrain_17_animpoint_monolith_preacher
+
+[animpoint@sar_smart_terrain_17_animpoint_monolith_preacher]
+cover_name 											= sar_smart_terrain_17_animpoint_1
+reach_distance 										= 2
+avail_animations 									= wait_na
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+use_camp 											= false
+on_info 											= {+SAR_MONOLITH_PREACHER_ATTACK_INFO} animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_attack
+on_info2 											= {+SAR_MONOLITH_PREACHER_SAY_SPACE_RESTRICTOR_INFO} animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_say
+
+[animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_say]
+cover_name 											= sar_smart_terrain_17_animpoint_1
+reach_distance 										= 2
+avail_animations 									= pri_a17_pray_in
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+use_camp 											= false
+on_game_timer 										= 20 | %=play_sound(monolith_preacher)%
+on_signal 											= sound_end | animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_attack %+SAR_MONOLITH_PREACHER_ATTACK_INFO%
+
+[animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_attack]
+cover_name 											= sar_smart_terrain_17_animpoint_1
+reach_distance 										= 2
+avail_animations 									= wait_na
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+use_camp 											= false
+on_info 											= {+SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_1_SQUAD_DEAD +SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_2_SQUAD_DEAD +SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_3_SQUAD_DEAD +SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_4_SQUAD_DEAD +SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_5_SQUAD_DEAD +SAR_SMART_TERRAIN_17_FANATIC_MONOLITH_6_SQUAD_DEAD} animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_last_attack 
+
+[animpoint@sar_smart_terrain_17_animpoint_monolith_preacher_last_attack]
+cover_name 											= sar_smart_terrain_17_animpoint_1
+reach_distance 										= 2
+avail_animations 									= wait_na
+invulnerable 										= false
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+use_camp 											= false
+
+;================================================

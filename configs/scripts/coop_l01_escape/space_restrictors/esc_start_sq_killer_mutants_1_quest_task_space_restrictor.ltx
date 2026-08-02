@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Сидоровича(Убить мутантов в овраге около "Деревни новичков"):
+[sr_idle@start_quest]
+on_info  											= {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_STOP_DIALOG_INFO} sr_idle@nil %=give_task(esc_start_sq_killer_mutants_1_quest_task) =create_squad(esc_smart_terrain_1_m_dog_squad:esc_smart_terrain_1_m)%
+
+[sr_idle@nil]

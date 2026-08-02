@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_player_inside  									= {+CON_TEST_1_INFO} sr_idle@nil %=give_task(con_start_sneak_into_the_control_room_quest_task) +CON_TEST_1_INFO =scenario_autosave(st_sneak_into_the_control_room)%
+
+[sr_idle@nil]

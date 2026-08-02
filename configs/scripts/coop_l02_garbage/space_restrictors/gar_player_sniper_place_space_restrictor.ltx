@@ -1,0 +1,16 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн сквада на встрече:
+[sr_idle@start_1]
+;on_actor_inside 									= sr_idle@start_2 %+GAR_SNIPER_PLACE_INFO%
+on_info 											= {+GAR_MEETING_PLACE_INFO +GAR_SNIPER_PLACE_INFO} sr_idle@nil
+
+[sr_idle@start_1_1]
+on_actor_inside 									= sr_idle@start_1 %+GAR_SNIPER_PLACE_INFO%
+on_info 											= {+GAR_MEETING_PLACE_INFO +GAR_SNIPER_PLACE_INFO} sr_idle@nil
+
+[sr_idle@start_2]
+on_actor_outside 									= sr_idle@start_1_1 %-GAR_SNIPER_PLACE_INFO =give_task(bar_start_the_meeting_place_cannot_be_changed_2_quest_task)%
+on_info 											= {+GAR_MEETING_PLACE_INFO +GAR_SNIPER_PLACE_INFO} sr_idle@nil
+
+[sr_idle@nil]

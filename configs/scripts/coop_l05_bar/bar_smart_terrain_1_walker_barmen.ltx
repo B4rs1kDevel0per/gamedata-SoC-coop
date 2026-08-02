@@ -1,0 +1,53 @@
+[logic@bar_smart_terrain_1_walker_barmen]
+suitable 											= {=check_npc_name(bar_smart_terrain_1_stalker_barmen)} true
+active 												= walker@bar_smart_terrain_1_walker_barmen_1
+trade 												= misc\trade\bar_smart_terrain_1_trader_barman.ltx
+can_select_weapon 									= false
+level_spot 											= trader
+prior 												= 300
+
+[walker@bar_smart_terrain_1_walker_barmen_1]
+path_walk 											= walker_barmen_2_walk
+path_look 											= walker_barmen_2_look
+def_state_moving1 									= walk
+def_state_moving2 									= walk
+def_state_moving3 									= walk
+invulnerable 										= true
+meet 												= meet@trader
+on_info 											= {+BAR_SMART_TERRAIN_1_TRADER_BARMEN_HAS_DOCUMENTS_AGROPROM_STOP_DIALOG_INFO} walker@bar_smart_terrain_1_walker_barmen_agr_doc %=pas_b400_play_particle_2%
+
+[walker@bar_smart_terrain_1_walker_barmen_agr_doc]
+path_walk 											= walker_barmen_2_1_walk
+path_look 											= walker_barmen_2_1_look
+def_state_moving1 									= walk
+def_state_moving2 									= walk
+def_state_moving3 									= walk
+invulnerable 										= true
+meet 												= no_meet
+on_info 											= {+BAR_SMART_TERRAIN_1_TRADER_BARMEN_AGR_DOC_INFO} walker@bar_smart_terrain_1_walker_barmen_2 %=pas_b400_play_particle_3%
+
+[walker@bar_smart_terrain_1_walker_barmen_2]
+path_walk 											= walker_barmen_2_walk
+path_look 											= walker_barmen_2_look
+def_state_moving1 									= walk
+def_state_moving2 									= walk
+def_state_moving3 									= walk
+invulnerable 										= true
+meet 												= meet@trader
+
+[meet@trader]
+close_snd_hello 									= bar_barman_meet_greet
+close_snd_bye 										= bar_barman_meet_greet
+close_anim 											= nil
+close_victim 										= actor
+close_distance  									= 0
+close_snd_distance 									= 3
+far_anim 											= nil
+far_victim 											= actor
+far_distance 										= 0
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+meet_on_talking 									= false
+
+;================================================

@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start
+;Спавн Круглова и Сахарова:
+[sr_idle@start]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(x16_smart_terrain_1_z_stalker_zombied_1_squad:x16_smart_terrain_1_z)%
+
+[sr_idle@nil]

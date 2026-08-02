@@ -1,0 +1,17 @@
+[logic]
+active = ph_button@con_lab_button_active
+
+[ph_button@con_lab_button_active]
+anim = lab_primary_switcher_idle
+tooltip = st_primary_switcher_idle_off_desc
+on_press = ph_button@con_lab_button_deactivate
+
+[ph_button@con_lab_button_deactivate]
+anim = lab_primary_switcher_off
+on_timer = 500 | ph_idle@system_message
+
+[ph_idle@system_message]
+on_info = %+CON_LAB_PRIMARY_SWITCHER_DEACTIVATE_INFO%
+on_timer = 5000 | ph_idle@nil
+
+[ph_idle@nil]

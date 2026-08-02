@@ -1,0 +1,102 @@
+#include "spawn_sections_general.ltx"
+#include "spawn_sections_coop_l01_escape.ltx"
+#include "spawn_sections_coop_l02_garbage.ltx"
+#include "spawn_sections_coop_l03_agroprom.ltx"
+#include "spawn_sections_coop_l04_darkvalley.ltx"
+#include "spawn_sections_coop_l05_bar.ltx"
+#include "spawn_sections_coop_l06_rostok.ltx"
+#include "spawn_sections_coop_l07_military.ltx"
+#include "spawn_sections_coop_l08_yantar.ltx"
+#include "spawn_sections_coop_l10_pripyat.ltx"
+#include "spawn_sections_coop_l11_sarcofag.ltx"
+#include "spawn_sections_coop_l11_control_monolith.ltx"
+
+;-----------------------------------------------------------------
+;	 actors
+;-----------------------------------------------------------------
+[actor_the_main_character]:mp_actor
+$spawn                     = "actors\actor_the_main_character"
+character_profile          = actor_the_main_character
+visual                     = actors\stalker_mp\stalker_neutral_2.ogf
+story_id 				   = actor_the_main_character
+
+[actor_strelok]:actor_the_main_character
+$spawn                     		= "actors\actor_strelok"
+character_profile          		= actor_strelok
+visual                     		= actors\stalker_mp\stalker_hero_strelok.ogf
+;story_id 				   		= actor_strelok
+outfit_sect 					= actor_strelok_outfits
+
+[actor_strelok_outfits]
+novice_outfit_soc 				= actors\stalker_mp\hero_strelok\novice_outfit_soc_hero_strelok.ogf
+novice_outfit_anomaly 			= actors\stalker_mp\hero_strelok\novice_outfit_soc_hero_strelok.ogf
+white_novice_outfit				= actors\stalker_mp\hero_strelok\white_novice_outfit_hero_strelok.ogf
+bandit_outfit_soc				= actors\stalker_mp\hero_strelok\bandit_outfit_soc_hero_strelok.ogf
+bandit_outfit_chainmail			= actors\stalker_mp\hero_strelok\bandit_outfit_soc_hero_strelok.ogf
+killer_outfit_soc				= actors\stalker_mp\hero_strelok\killer_outfit_soc_hero_strelok.ogf
+merc_outfit_fortified			= actors\stalker_mp\hero_strelok\killer_outfit_soc_hero_strelok.ogf
+monolit_outfit_soc				= actors\stalker_mp\hero_strelok\monolit_outfit_soc_hero_strelok.ogf
+soldier_outfit					= actors\stalker_mp\hero_strelok\soldier_outfit_hero_strelok.ogf
+specops_outfit_soc				= actors\stalker_mp\hero_strelok\specops_outfit_soc_hero_strelok.ogf
+specops_outfit_therapeutic		= actors\stalker_mp\hero_strelok\specops_outfit_soc_hero_strelok.ogf
+military_outfit_soc				= actors\stalker_mp\hero_strelok\military_outfit_soc_hero_strelok.ogf
+stalker_outfit_soc				= actors\stalker_mp\hero_strelok\stalker_outfit_soc_hero_strelok.ogf
+stalker_outfit_tourist			= actors\stalker_mp\hero_strelok\stalker_outfit_soc_hero_strelok.ogf
+stalker_outfit_ghost			= actors\stalker_mp\hero_strelok\stalker_outfit_soc_hero_strelok.ogf
+scientific_outfit_soc			= actors\stalker_mp\hero_strelok\scientific_outfit_soc_hero_strelok.ogf
+exo_outfit_soc					= actors\stalker_mp\hero_strelok\exo_outfit_soc_hero_strelok.ogf
+exo_outfit_pnb-4uz				= actors\stalker_mp\hero_strelok\exo_outfit_soc_hero_strelok.ogf
+svoboda_light_outfit_soc		= actors\stalker_mp\hero_strelok\svoboda_light_outfit_soc_hero_strelok.ogf
+svoboda_light_outfit_m2			= actors\stalker_mp\hero_strelok\svoboda_light_outfit_soc_hero_strelok.ogf
+svoboda_heavy_outfit_soc		= actors\stalker_mp\hero_strelok\svoboda_heavy_outfit_soc_hero_strelok.ogf
+svoboda_scientific_outfit		= actors\stalker_mp\hero_strelok\svoboda_scientific_outfit_hero_strelok.ogf
+svoboda_exo_outfit				= actors\stalker_mp\hero_strelok\svoboda_exo_outfit_hero_strelok.ogf
+dolg_outfit_soc					= actors\stalker_mp\hero_strelok\dolg_outfit_soc_hero_strelok.ogf
+dolg_outfit_hunter				= actors\stalker_mp\hero_strelok\dolg_outfit_soc_hero_strelok.ogf
+dolg_scientific_outfit_soc		= actors\stalker_mp\hero_strelok\dolg_scientific_outfit_soc_hero_strelok.ogf
+dolg_exo_outfit					= actors\stalker_mp\hero_strelok\dolg_exo_outfit_hero_strelok.ogf
+ecolog_outfit_soc				= actors\stalker_mp\hero_strelok\ecolog_outfit_soc_hero_strelok.ogf
+protection_outfit_soc			= actors\stalker_mp\hero_strelok\protection_outfit_soc_hero_strelok.ogf
+
+[actor_partner]:mp_actor
+$spawn                = "actors\actor_partner"
+character_profile     = actor_partner
+visual                = actors\stalker_mp\stalker_hero_partner.ogf
+story_id 			  = actor_partner
+
+[actor_partner_regular]:mp_actor
+$spawn                = "actors\actor_partner_regular"
+character_profile     = actor_partner
+visual                = actors\stalker_hero\stalker_hero_1.ogf
+outfit_sect 					= actor_partner_regular_outfits
+
+[actor_partner_regular_outfits]
+novice_outfit_soc 				= actors\stalker_mp\hero_partner\novice_outfit_soc_hero_partner.ogf
+novice_outfit_anomaly 			= actors\stalker_mp\hero_partner\novice_outfit_soc_hero_partner.ogf
+white_novice_outfit				= actors\stalker_mp\hero_partner\white_novice_outfit_hero_partner.ogf
+bandit_outfit_soc				= actors\stalker_mp\hero_partner\bandit_outfit_soc_hero_partner.ogf
+bandit_outfit_chainmail			= actors\stalker_mp\hero_partner\bandit_outfit_soc_hero_partner.ogf
+killer_outfit_soc				= actors\stalker_mp\hero_partner\killer_outfit_soc_hero_partner.ogf
+merc_outfit_fortified			= actors\stalker_mp\hero_partner\killer_outfit_soc_hero_partner.ogf
+monolit_outfit_soc				= actors\stalker_mp\hero_partner\monolit_outfit_soc_hero_partner.ogf
+soldier_outfit					= actors\stalker_mp\hero_partner\soldier_outfit_hero_partner.ogf
+specops_outfit_soc				= actors\stalker_mp\hero_partner\specops_outfit_soc_hero_partner.ogf
+specops_outfit_therapeutic		= actors\stalker_mp\hero_partner\specops_outfit_soc_hero_partner.ogf
+military_outfit_soc				= actors\stalker_mp\hero_partner\military_outfit_soc_hero_partner.ogf
+stalker_outfit_soc				= actors\stalker_mp\hero_partner\stalker_outfit_soc_hero_partner.ogf
+stalker_outfit_tourist			= actors\stalker_mp\hero_partner\stalker_outfit_soc_hero_partner.ogf
+stalker_outfit_ghost			= actors\stalker_mp\hero_partner\stalker_outfit_soc_hero_partner.ogf
+scientific_outfit_soc			= actors\stalker_mp\hero_partner\scientific_outfit_soc_hero_partner.ogf
+exo_outfit_soc					= actors\stalker_mp\hero_partner\exo_outfit_soc_hero_partner.ogf
+exo_outfit_pnb-4uz				= actors\stalker_mp\hero_partner\exo_outfit_soc_hero_partner.ogf
+svoboda_light_outfit_soc		= actors\stalker_mp\hero_partner\svoboda_light_outfit_soc_hero_partner.ogf
+svoboda_light_outfit_m2			= actors\stalker_mp\hero_partner\svoboda_light_outfit_soc_hero_partner.ogf
+svoboda_heavy_outfit_soc		= actors\stalker_mp\hero_partner\svoboda_heavy_outfit_soc_hero_partner.ogf
+svoboda_scientific_outfit		= actors\stalker_mp\hero_partner\svoboda_scientific_outfit_hero_partner.ogf
+svoboda_exo_outfit				= actors\stalker_mp\hero_partner\svoboda_exo_outfit_hero_partner.ogf
+dolg_outfit_soc					= actors\stalker_mp\hero_partner\dolg_outfit_soc_hero_partner.ogf
+dolg_outfit_hunter				= actors\stalker_mp\hero_partner\dolg_outfit_soc_hero_partner.ogf
+dolg_scientific_outfit_soc		= actors\stalker_mp\hero_partner\dolg_scientific_outfit_soc_hero_partner.ogf
+dolg_exo_outfit					= actors\stalker_mp\hero_partner\dolg_exo_outfit_hero_partner.ogf
+ecolog_outfit_soc				= actors\stalker_mp\hero_partner\ecolog_outfit_soc_hero_partner.ogf
+protection_outfit_soc			= actors\stalker_mp\hero_partner\protection_outfit_soc_hero_partner.ogf

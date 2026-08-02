@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Бармена(Найти и принести "Щупальца Кровососов"):
+[sr_idle@start_quest]
+on_info  											= {+BAR_SMART_TERRAIN_1_TRADER_BARMEN_SQ_MUTANT_KROVOSOS_PART_3_STOP_DIALOG_INFO} sr_idle@nil %=give_task(bar_start_sq_mutant_krovosos_part_3_quest_task)%
+
+[sr_idle@nil]

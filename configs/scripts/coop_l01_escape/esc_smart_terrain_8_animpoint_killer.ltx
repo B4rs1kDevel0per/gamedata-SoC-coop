@@ -1,0 +1,18 @@
+
+[logic@esc_smart_terrain_8_animpoint_killer]
+suitable 											= {=check_npc_name(esc_smart_terrain_8_stalker_killer)} true
+prior 												= 300
+active 												= animpoint@esc_smart_terrain_8_animpoint_killer
+
+[animpoint@esc_smart_terrain_8_animpoint_killer]
+cover_name 											= esc_smart_terrain_8_animpoint_1
+reach_distance 										= 2
+use_camp 											= true
+on_info 											= {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_STOP_DIALOG_INFO} animpoint@esc_smart_terrain_8_animpoint_killer_enemy %=actor_enemy%
+
+[animpoint@esc_smart_terrain_8_animpoint_killer_enemy]
+cover_name 											= esc_smart_terrain_8_animpoint_1
+reach_distance 										= 2
+use_camp 											= true
+
+;================================================

@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+BAR_START_GO_TO_MILITARY_QUEST_TASK_INFO%
+;on_info 											= {-BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+BAR_START_GO_TO_MILITARY_QUEST_TASK_INFO =give_task(bar_start_go_to_military_quest_task)%
+
+[sr_idle@nil]

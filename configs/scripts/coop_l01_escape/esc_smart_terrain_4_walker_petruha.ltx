@@ -1,0 +1,80 @@
+[logic@esc_smart_terrain_4_walker_petruha]
+suitable 											= {=check_npc_name(esc_smart_terrain_4_stalker_petruha)} true
+active 												= walker@esc_smart_terrain_4_walker_petruha
+prior 												= 300
+
+[walker@esc_smart_terrain_4_walker_petruha]
+path_walk 											= walker_petruha_1_walk
+path_look 											= walker_petruha_1_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= binocular
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO} walker@esc_smart_terrain_4_walker_start_dialog
+
+[walker@esc_smart_terrain_4_walker_start_dialog]
+path_walk 											= walker_petruha_1_2_walk
+path_look 											= walker_petruha_1_2_look
+meet 												= meet@hello_players
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+target 												= story | actor
+on_info 											= {+ESC_SMART_TERRAIN_3_BANDIT_1_SQUAD_DEAD} walker@esc_smart_terrain_1_stalker_petruha_help_atp_start_2
+on_info2 											= {+ESC_START_KILL_BANDITS_ON_THE_ATP_QUEST_TASK_INFO} walker@esc_smart_terrain_1_stalker_petruha_help_atp_start_1
+
+[walker@esc_smart_terrain_1_stalker_petruha_help_atp_start_1]
+path_walk 											= walker_petruha_1_walk
+path_look 											= walker_petruha_1_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= guard
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+on_timer 											= 2000 | walker@esc_smart_terrain_1_stalker_petruha_help_atp_start_2 %=play_sound(run_attack) =scenario_autosave(st_kill_bandits_on_the_atp)%
+
+[walker@esc_smart_terrain_1_stalker_petruha_help_atp_start_2]
+path_walk 											= walker_petruha_2_walk
+path_look 											= walker_petruha_2_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= guard
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+use_camp 											= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+
+[meet@hello_players]
+close_snd_hello 									= petruha_call
+close_snd_bye   									= nil
+close_anim 											= hello_wpn
+close_victim 										= actor
+far_anim 											= guard_na
+far_victim 											= actor
+close_distance  									= 10
+far_distance 										= 20
+close_snd_distance 									= 10
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

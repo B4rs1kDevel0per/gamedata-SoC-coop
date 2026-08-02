@@ -1,0 +1,83 @@
+[logic@esc_smart_terrain_3_walker_shustry]
+suitable 											= {=check_npc_name(esc_smart_terrain_3_stalker_shustry)} true
+active 												= walker@esc_smart_terrain_3_walker_shustry
+prior 												= 300
+
+[walker@esc_smart_terrain_3_walker_shustry]
+path_walk 											= walker_shustry_4_walk
+path_look 											= walker_shustry_4_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= prisoner
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+combat_ignore_cond 									= {=check_enemy_name(sim_default_bandit_0)} true
+on_info 											= {+ESC_SMART_TERRAIN_3_BANDIT_1_SQUAD_DEAD} walker@esc_smart_terrain_3_walker_4_help_me
+
+[walker@esc_smart_terrain_3_walker_4_help_me]
+path_walk 											= walker_shustry_4_walk
+path_look 											= walker_shustry_4_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= prisoner
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+ESC_SMART_TERRAIN_3_BANDIT_1_SQUAD_DEAD} %=play_sound(shustryi_asked)%
+on_info2 											= {=dist_to_actor_le(3)} walker@esc_smart_terrain_3_walker_good %=stop_sound(shustryi_asked)%
+
+[walker@esc_smart_terrain_3_walker_good]
+path_walk 											= walker_shustry_4_walk
+path_look 											= walker_shustry_4_look
+meet 												= meet@thanks_players
+invulnerable 										= true
+def_state_standing 									= guard
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+ESC_START_ESCORT_THE_STALKER_SHUSTRY_QUEST_TASK_INFO +ESC_SMART_TERRAIN_3_STALKER_SHUSTRY_GO_TO_VILAGE_STOP_DIALOG_INFO} companion@go_after_player %=scenario_autosave(st_escort_the_stalker_shustry)%
+
+[companion@go_after_player]
+meet 												= no_meet
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+allow_break 										= false
+invulnerable 										= true
+on_info 											= {+ESC_SMART_TERRAIN_1_STALKER_WOLF_HELP_ATP_END_STOP_DIALOG_INFO} sleeper@esc_smart_terrain_3_camp
+
+[sleeper@esc_smart_terrain_3_camp]
+path_main 											= camp_shustry_1_walk
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+meet 												= no_meet
+invulnerable 										= true
+
+[meet@thanks_players]
+close_snd_hello 									= shustryi_thanks
+close_snd_bye   									= shustryi_thanks
+close_anim 											= guard
+close_victim 										= actor
+far_anim 											= guard
+far_victim 											= actor
+close_distance  									= 2
+far_distance 										= 2
+close_snd_distance 									= 2
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

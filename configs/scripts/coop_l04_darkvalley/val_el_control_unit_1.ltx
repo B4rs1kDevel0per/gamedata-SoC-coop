@@ -1,0 +1,17 @@
+[logic]
+active = ph_button@val_el_control_unit_1_off
+
+[ph_button@val_el_control_unit_1_off]
+anim = idle_open_off
+tooltip = st_primary_switcher_idle_off_desc
+on_press = ph_button@val_el_control_unit_1_on
+
+[ph_button@val_el_control_unit_1_on]
+anim = idle_open_on
+on_timer = 100 | ph_idle@system_message_2
+
+[ph_idle@system_message_2]
+on_info = %+VAL_VAL_DOOR_METAL_2_OPEN_INFO%
+on_timer = 5000 | ph_idle@nil
+
+[ph_idle@nil]

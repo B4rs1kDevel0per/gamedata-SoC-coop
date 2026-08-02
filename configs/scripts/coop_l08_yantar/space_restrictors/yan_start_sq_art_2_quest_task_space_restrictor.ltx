@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Сахарова(Найти и принести артефакт "Огненный шар"):
+[sr_idle@start_quest]
+on_info  											= {+YAN_SMART_TERRAIN_1_ECOLOG_SAHAROV_SQ_ART_2_STOP_DIALOG_INFO} sr_idle@nil %=give_task(yan_start_sq_art_2_quest_task)%
+
+[sr_idle@nil]

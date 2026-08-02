@@ -1,0 +1,10 @@
+[logic]
+active 												= sr_idle@start_quest_1
+;Начало игры(Начало начал, Важное поручение):
+[sr_idle@start_quest_1]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_INFORMANT_THE_MEETING_PLACE_CANNOT_BE_CHANGED_STOP_DIALOG_INFO} sr_idle@start_quest_2 %=give_task(bar_start_the_meeting_place_cannot_be_changed_1_quest_task)%
+
+[sr_idle@start_quest_2]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_INFORMANT_THE_MEETING_PLACE_CANNOT_BE_CHANGED_STOP_DIALOG_INFO} sr_idle@nil %=give_task(bar_start_the_meeting_place_cannot_be_changed_2_quest_task)%
+
+[sr_idle@nil]

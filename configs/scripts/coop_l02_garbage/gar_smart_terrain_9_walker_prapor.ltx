@@ -1,0 +1,21 @@
+[logic@gar_smart_terrain_9_walker_prapor]
+suitable 											= {=check_npc_name(gar_smart_terrain_8_duty_prapor)} true
+active 												= walker@gar_smart_terrain_9_walker_prapor
+prior 												= 300
+
+[walker@gar_smart_terrain_9_walker_prapor]
+path_walk 											= walker_prapor_walk
+path_look 											= walker_prapor_look
+def_state_standing 									= guard
+def_state_moving 									= assault
+invulnerable 										= true
+meet 												= no_meet
+;on_timer 											= 5000 | walker@gar_smart_terrain_9_walker_duty_1_attack
+
+[walker@gar_smart_terrain_9_walker_duty_1_attack]                                                                                                                                                 
+path_walk 											= walker_prapor_walk
+path_look 											= walker_prapor_look                                                                                                                                                                                                                                                                             
+def_state_moving 									= assault                                                                                                                                               
+meet 												= no_meet    
+
+;================================================

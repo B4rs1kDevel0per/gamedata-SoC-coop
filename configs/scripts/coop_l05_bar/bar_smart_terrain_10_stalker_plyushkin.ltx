@@ -1,0 +1,35 @@
+[logic@bar_smart_terrain_10_stalker_plyushkin]
+suitable 											= {=check_npc_name(bar_smart_terrain_10_stalker_plyushkin)} true
+active 												= animpoint@bar_smart_terrain_10_stalker_plyushkin
+prior 												= 150
+level_spot = mechanic
+
+[meet@bar_smart_terrain_10_stalker_plyushkin]
+close_snd_hello 									= nil
+close_snd_bye 										= nil
+close_anim 											= nil
+close_victim 										= nil
+far_anim 											= nil
+far_victim 											= nil
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= true
+meet_on_talking 									= true
+
+[animpoint@bar_smart_terrain_10_stalker_plyushkin]
+cover_name 											= bar_smart_terrain_10_animpoint_1
+invulnerable 										= true
+use_camp 											= true
+meet 												= meet
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+
+
+;================================================

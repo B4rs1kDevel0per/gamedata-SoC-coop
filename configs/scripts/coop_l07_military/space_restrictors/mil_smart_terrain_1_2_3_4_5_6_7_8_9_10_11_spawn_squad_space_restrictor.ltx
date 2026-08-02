@@ -1,0 +1,37 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_timer 											= 1000 | sr_idle@start_2
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@start_3
+
+[sr_idle@start_3]
+on_timer 											= 1000 | sr_idle@start_4 %=create_squad(mil_smart_terrain_16_freedom_1_squad:mil_smart_terrain_16) =create_squad(mil_smart_terrain_2_freedom_2_squad:mil_smart_terrain_2)%
+
+[sr_idle@start_4]
+on_timer 											= 1000 | sr_idle@start_5 %=create_squad(mil_smart_terrain_2_freedom_3_squad:mil_smart_terrain_2)%
+
+[sr_idle@start_5]
+on_timer 											= 1000 | sr_idle@start_6 %=create_squad(mil_smart_terrain_3_freedom_1_squad:mil_smart_terrain_3) =create_squad(mil_smart_terrain_3_freedom_2_squad:mil_smart_terrain_3)%
+
+[sr_idle@start_6]
+on_timer 											= 1000 | sr_idle@start_7 %=create_squad(mil_smart_terrain_3_freedom_3_squad:mil_smart_terrain_3)%
+
+[sr_idle@start_7]
+on_timer 											= 1000 | sr_idle@start_8 %=create_squad(mil_smart_terrain_4_freedom_1_squad:mil_smart_terrain_4) =create_squad(mil_smart_terrain_5_freedom_1_squad:mil_smart_terrain_5)%
+
+[sr_idle@start_8]
+on_timer 											= 1000 | sr_idle@start_9 %=create_squad(mil_smart_terrain_6_freedom_1_squad:mil_smart_terrain_6) =create_squad(mil_smart_terrain_7_freedom_1_squad:mil_smart_terrain_7)%
+
+[sr_idle@start_9]
+on_timer 											= 1000 | sr_idle@start_10 %=create_squad(mil_smart_terrain_8_freedom_1_squad:mil_smart_terrain_8) =create_squad(mil_smart_terrain_9_freedom_1_squad:mil_smart_terrain_9)%
+
+[sr_idle@start_10]
+on_timer 											= 1000 | sr_idle@start_11 %=create_squad(mil_smart_terrain_10_freedom_1_squad:mil_smart_terrain_10)%
+
+[sr_idle@start_11]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(mil_smart_terrain_11_freedom_1_squad:mil_smart_terrain_11)%
+
+[sr_idle@nil]

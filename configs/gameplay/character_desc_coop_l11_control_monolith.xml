@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<specific_character id="con_smart_terrain_13_ecolog_representative_awareness" team_default = "1">
+    <name>con_smart_terrain_13_ecolog_representative_awareness_name</name>
+    <icon>ui_inGame2_saharov</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>con_smart_terrain_13_ecolog_representative_awareness</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="1000000" max="2000000" infinitive="1"></money>
+    <rank>2071</rank>
+    <reputation>603</reputation>
+    <visual>actors\stalker_ecolog\stalker_ucheniy_2</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+        [spawn] \n
+
+    </supplies>
+	<start_dialog>con_smart_terrain_13_ecolog_representative_awareness_start_dialog</start_dialog>	
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_1_dialog</actor_dialog>
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_2_dialog</actor_dialog>
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_3_dialog</actor_dialog>
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_4_dialog</actor_dialog>
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_5_dialog</actor_dialog>
+	<actor_dialog>con_smart_terrain_13_ecolog_representative_awareness_6_dialog</actor_dialog>
+    </specific_character>
+  </xml>

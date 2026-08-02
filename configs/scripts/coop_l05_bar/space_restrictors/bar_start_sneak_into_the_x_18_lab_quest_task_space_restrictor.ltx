@@ -1,0 +1,13 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_info 											= {+BAR_SMART_TERRAIN_1_TRADER_BARMEN_HAS_DOCUMENTS_AGROPROM_STOP_DIALOG_INFO} sr_idle@start_quest
+
+[sr_idle@start_quest]
+on_timer 											= 30000 | sr_idle@start_quest_give %+BAR_SMART_TERRAIN_1_TRADER_BARMEN_AGR_DOC_INFO%
+
+[sr_idle@start_quest_give]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_DARKVALLEY_STOP_DIALOG_INFO} sr_idle@nil %=give_task(bar_start_sneak_into_the_x_18_lab_quest_task)%
+
+[sr_idle@nil]

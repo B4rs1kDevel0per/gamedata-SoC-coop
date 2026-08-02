@@ -1,0 +1,35 @@
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Основные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Квест Бармена(Отправится на Янтарь)
+[ros_start_go_to_yantar_quest_task]
+icon 									= ui_inGame2_ros_start_go_to_yantar_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_ros_start_go_to_yantar_quest_task_name
+descr 									= st_ros_start_go_to_yantar_quest_task_descr
+target 									= ros_yan_level_changer
+condlist_0 								= {+ROS_START_GO_TO_YANTAR_QUEST_TASK_INFO} complete
+
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Второстепенные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Квест Круглова(Ради науки: Спасти профессора Круглова)
+[ros_start_help_kruglov_quest_task]
+icon 									= ui_inGame2_ros_start_help_kruglov_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_ros_start_help_kruglov_quest_task_name
+descr 									= st_ros_start_help_kruglov_quest_task_descr
+target 									= ros_smart_terrain_4_ecolog_kruglov
+condlist_0 								= {+ROS_SMART_TERRAIN_3_KILLER_1_SQUAD_DEAD} complete %=give_task(ros_start_escort_kruglov_to_yantar_quest_task)%
+
+;Квест Круглова(Ради науки: Сопроводить профессора Круглова до Янтаря)
+[ros_start_escort_kruglov_to_yantar_quest_task]
+icon 									= ui_inGame2_ros_start_escort_kruglov_to_yantar_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_ros_start_escort_kruglov_to_yantar_quest_task_name
+descr 									= st_ros_start_escort_kruglov_to_yantar_quest_task_descr
+target 									= ros_smart_terrain_4_ecolog_kruglov
+condlist_0 								= {+YAN_SMART_TERRAIN_1_WALKER_KRUGLOV_GO_TO_SAXAROV_INFO} complete

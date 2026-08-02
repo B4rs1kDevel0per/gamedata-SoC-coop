@@ -1,0 +1,35 @@
+;*****************************************************************
+;******************УНИКАЛЬНЫЕ КОСТЮМЫ И ШЛЕМЫ ЗОВ ПРИПЯТИ*********
+;*****************************************************************
+[stalker_outfit_barge]:stalker_outfit
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn 			= "outfit\stalker_outfit_barge"
+
+cost				= 6200
+
+upgrades                = up_gr_firstab_stalker_outfit, up_gr_seconab_stalker_outfit, up_gr_thirdab_stalker_outfit
+installed_upgrades      = up_firsta_stalker_outfit, up_firstc_stalker_outfit, up_secona_stalker_outfit
+upgrade_scheme          = upgrade_scheme_stalker_outfit
+
+[helm_hardhat_snag]:helm_hardhat
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn 			= "outfit\helm_hardhat_snag"
+
+cost			= 1400
+
+upgrades                = up_gr_firstab_helm_hardhat, up_gr_seconab_helm_hardhat
+installed_upgrades      = up_firsta_helm_hardhat
+upgrade_scheme          = upgrade_scheme_helm_hardhat
+
+[helm_respirator_joker]:helm_respirator
+GroupControlSection	= spawn_group
+discovery_dependency =
+$spawn 			= "outfit\helm_respirator_joker"
+
+cost			= 1200
+
+upgrades                = up_gr_firstab_helm_respirator
+installed_upgrades      = up_firsta_helm_respirator, up_firstc_helm_respirator
+upgrade_scheme          = upgrade_scheme_helm_respirator

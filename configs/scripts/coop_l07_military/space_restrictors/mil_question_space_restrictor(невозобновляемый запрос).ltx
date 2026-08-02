@@ -1,0 +1,11 @@
+[logic]
+active 												= sr_idle@mil_question_space_restrictor_idle
+
+[sr_idle@mil_question_space_restrictor_idle]
+on_info 											= {+ESC_TEST_999_INFO} sr_idle@nil
+on_player_inside 									= {-ESC_TEST_999_INFO =isClient} sr_idle@mil_question_space_restrictor_start %=show_test_dialog(st_test_text_yes_no:true)%
+
+[sr_idle@mil_question_space_restrictor_start]
+on_info 											= {+ESC_TEST_999_INFO} sr_idle@nil %=xrmpe_teleport_local_actor(mil_smart_terrain_12_yes_temp_1_walk:mil_smart_terrain_12_yes_temp_1_look)%
+
+[sr_idle@nil]

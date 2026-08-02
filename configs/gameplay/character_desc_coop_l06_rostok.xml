@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+    <specific_character id="ros_smart_terrain_3_killer_volkodav" team_default = "1">
+    <name>ros_smart_terrain_3_killer_volkodav_name</name>
+    <icon>ui_inGame2_volkodav</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>ros_smart_terrain_3_killer_volkodav</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="2000" max="5000" infinitive="0"></money>
+    <rank>2071</rank>
+    <reputation>-603</reputation>
+    <visual>actors\stalker_merc\stalker_ki_head_2</visual>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+      [spawn] \n
+      
+      wpn_l85_m1 \n
+      ammo_5.56x45_ap = 1 \n
+      wpn_usp = 1 \n
+      ammo_11.43x23_hydro = 1 \n
+      grenade_rgo = 3 \n
+	  hand_radio = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>	
+
+<specific_character id="ros_smart_terrain_3_ecolog_random_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_kruglov</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>ros_smart_terrain_3_ecolog_random_1</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="2000" max="5000" infinitive="0"></money>
+    <rank>2071</rank>
+    <reputation>-603</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_1</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+        [spawn] \n
+		wpn_val_m1 \n
+		ammo_9x39_ap = 3 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+		hand_radio = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="ros_smart_terrain_3_ecolog_random_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_kruglov</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>ros_smart_terrain_3_ecolog_random_2</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="2000" max="5000" infinitive="0"></money>
+    <rank>2071</rank>
+    <reputation>-603</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_1</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+        [spawn] \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+		hand_radio = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="ros_smart_terrain_3_ecolog_random_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_kruglov</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>ros_smart_terrain_3_ecolog_random_3</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="2000" max="5000" infinitive="0"></money>
+    <rank>2071</rank>
+    <reputation>-603</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_1</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+        [spawn] \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+		hand_radio = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="ros_smart_terrain_4_ecolog_kruglov" team_default = "1">
+    <name>ros_smart_terrain_4_ecolog_kruglov_name</name>
+    <icon>ui_inGame2_kruglov</icon>
+    <map_icon x="0" y="6"></map_icon>
+    <bio>none</bio>
+    <class>ros_smart_terrain_4_ecolog_kruglov</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="2000" max="5000" infinitive="0"></money>
+    <rank>2071</rank>
+    <reputation>-603</reputation>
+    <visual>actors\stalker_ecolog\stalker_ecolog_1</visual>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <crouch_type>1</crouch_type>
+    <supplies>
+        [spawn] \n
+		wpn_l85_m2 = 1 \n
+        wpn_walther \n
+        ammo_9x19_fmj \n
+		hand_radio = 1 \n
+
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+  </xml>
+  

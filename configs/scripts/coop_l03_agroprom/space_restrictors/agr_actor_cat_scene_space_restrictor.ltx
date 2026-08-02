@@ -1,0 +1,18 @@
+[logic]
+active 												= sr_idle@idle_start_cat_scene
+
+[sr_idle@idle_start_cat_scene]
+on_player_inside 									= {+AGR_STALKER_HELP_1_INFO} sr_idle@idle_start_cat_scene_idle %=disable_ui =run_postprocess(blink)%
+on_info 											= {+AGR_SMART_TERRAIN_7_STALKER_MOLE_TALK_TO_THE_STALKER_MOLE_STOP_DIALOG_INFO =isClient} sr_idle@nil
+
+[sr_idle@idle_start_cat_scene_idle]
+on_info  											= {+AGR_STALKER_HELP_1_INFO} sr_cutscene@fly %+AGR_THE_ORDER_TO_KILL_STALKER_SPACE_RESTRICTOR_INFO%  
+
+[sr_cutscene@fly]
+point 												= agr_actor_cat_scene_1_walk
+look 												= agr_actor_cat_scene_1_look
+cam_effector 										= scenario_cam\coop_l03_agroprom\agr_actor_cat_scene
+global_cameffect 									= true
+on_signal 											= cameff_end | sr_idle@nil %=enable_ui =run_postprocess(blink) +AGR_INVULNERABLE_OFF_INFO%
+
+[sr_idle@nil]

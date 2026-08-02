@@ -1,0 +1,319 @@
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_1]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_1
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_1]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 50 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_1_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_1_1]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 30 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_1
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_2]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_2
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_2]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= binocular
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 20 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_2_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_2_1]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 60 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_2
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_3]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_3
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_3]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 80 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_3_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_3_1]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 50 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_3
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_4]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_4
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_4]
+path_walk 											= guard_4_walk
+path_look 											= guard_4_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= guard_chasovoy
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 60 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_4_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_4_1]
+path_walk 											= guard_4_walk
+path_look 											= guard_4_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 80 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_4
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_5]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_5
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_5]
+path_walk 											= guard_5_walk
+path_look 											= guard_5_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 80 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_5_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_5_1]
+path_walk 											= guard_5_walk
+path_look 											= guard_5_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 50 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_5
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_6]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_6
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_6]
+path_walk 											= guard_6_walk
+path_look 											= guard_6_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= hello
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 40 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_6_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_6_1]
+path_walk 											= guard_6_walk
+path_look 											= guard_6_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 20 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_6
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_7]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_7
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_7]
+path_walk 											= guard_7_walk
+path_look 											= guard_7_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 70 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_7_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_7_1]
+path_walk 											= guard_7_walk
+path_look 											= guard_7_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 50 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_7
+
+;================================================
+
+[logic@bar_arny_arena_smart_terrain_3_guard_stalker_8]
+active 												= walker@bar_arny_arena_smart_terrain_3_guard_stalker_8
+prior 												= 300
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_8]
+path_walk 											= guard_8_walk
+path_look 											= guard_8_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= hello
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 80 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_8_1
+
+[walker@bar_arny_arena_smart_terrain_3_guard_stalker_8_1]
+path_walk 											= guard_8_walk
+path_look 											= guard_8_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+invulnerable 										= true
+def_state_standing 									= threat_danger
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+meet 												= no_meet
+on_game_timer 										= 70 | %=play_sound(arena_public)%
+on_signal 											= sound_end | walker@bar_arny_arena_smart_terrain_3_guard_stalker_8
+
+;================================================

@@ -1,0 +1,16 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_timer 											= 1000 | sr_idle@start_2 %=create_squad(bar_smart_terrain_1_stalker_barmen_squad:bar_smart_terrain_1) =create_squad(bar_smart_terrain_1_stalker_security_1_squad:bar_smart_terrain_1)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@start_3 %=create_squad(bar_smart_terrain_1_stalker_security_2_squad:bar_smart_terrain_1) =create_squad(bar_smart_terrain_1_stalker_informant_squad:bar_smart_terrain_1) =create_squad(bar_smart_terrain_1_stalker_vlad_volchara_squad:bar_smart_terrain_1)%
+
+[sr_idle@start_3]
+on_timer 											= 1000 | sr_idle@start_4 %=create_squad(bar_smart_terrain_4_duty_voronin_squad:bar_smart_terrain_4) =create_squad(bar_smart_terrain_6_stalker_security_1_squad:bar_smart_terrain_6)%
+
+[sr_idle@start_4]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(bar_smart_terrain_6_stalker_arny_1_squad:bar_smart_terrain_6) =create_squad(bar_smart_terrain_15_duty_petrenko_1_squad:bar_smart_terrain_15)%
+
+[sr_idle@nil]

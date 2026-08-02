@@ -1,0 +1,101 @@
+[logic@esc_smart_terrain_5_walker_tolik]
+suitable 											= {=check_npc_name(esc_smart_terrain_5_stalker_tolik)} true
+active 												= walker@esc_smart_terrain_5_walker_tolik
+prior 												= 300
+
+[walker@esc_smart_terrain_5_walker_tolik]
+path_walk 											= walker_tolik_1_walk
+path_look 											= walker_tolik_1_look
+;def_state_standing 									= prisoner
+meet 												= no_meet
+invulnerable 										= false
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+wounded 											= wounded@esc_smart_terrain_5_stalker_tolik_wounded
+on_info  											= {+ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO} %=play_sound(tolik_help)%
+on_info2 											= {=dist_to_actor_le(10)} walker@esc_smart_terrain_5_walker_tolik_1
+on_info3 											= {+ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO} remark@suiside_shot_1
+
+[walker@esc_smart_terrain_5_walker_tolik_1]
+path_walk 											= walker_tolik_1_walk
+path_look 											= walker_tolik_1_look
+meet 												= meet@hello_players
+invulnerable 										= false
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+wounded 											= wounded@esc_smart_terrain_5_stalker_tolik_wounded
+on_info 											= {+ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO} remark@suiside_shot_1
+on_info2 											= {+ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO} walker@esc_smart_terrain_5_walker_tolik_thanks
+
+[walker@esc_smart_terrain_5_walker_tolik_thanks]
+path_walk 											= walker_tolik_2_walk
+path_look 											= walker_tolik_2_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+meet 												= no_meet
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO} %=play_sound(tolik_thanks)% walker@esc_smart_terrain_5_walker_tolik_thanks_and
+
+[walker@esc_smart_terrain_5_walker_tolik_thanks_and]
+path_walk 											= walker_tolik_2_walk
+path_look 											= walker_tolik_2_look
+def_state_moving1 									= run
+def_state_moving2 									= run
+def_state_moving3 									= run
+meet 												= no_meet
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true 
+
+[meet@hello_players]
+close_snd_hello 									= nil
+close_snd_bye   									= nil
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 2
+far_distance 										= 20
+close_snd_distance 									= 6
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+[wounded@esc_smart_terrain_5_stalker_tolik_wounded]
+hp_state 											= 101|wounded_heavy@nil
+hp_state_see 										= 101|wounded_heavy@nil
+hp_victim 											= 101|actor
+hp_cover 											= 101|false
+hp_fight 											= 101|false
+autoheal 											= false
+not_for_help 										= true
+
+[remark@presets_1]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_1]:remark@presets_1
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================

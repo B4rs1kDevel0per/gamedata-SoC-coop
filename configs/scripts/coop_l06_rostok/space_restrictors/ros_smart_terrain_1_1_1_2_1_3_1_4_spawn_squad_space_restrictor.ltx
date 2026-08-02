@@ -1,0 +1,11 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_info 											= {+ROS_START_GO_TO_YANTAR_QUEST_TASK_INFO} sr_idle@nil
+on_info2 											= {-ROS_START_GO_TO_YANTAR_QUEST_TASK_INFO} sr_idle@start_2 %=create_squad(ros_smart_terrain_1_1_killer_1_squad:ros_smart_terrain_1_1) =create_squad(ros_smart_terrain_1_2_killer_1_squad:ros_smart_terrain_1_2)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(ros_smart_terrain_1_3_killer_1_squad:ros_smart_terrain_1_3) =create_squad(ros_smart_terrain_1_4_killer_1_squad:ros_smart_terrain_1_4)% 
+
+[sr_idle@nil]

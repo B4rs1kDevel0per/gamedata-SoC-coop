@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start
+;Спавн Счастливчика:
+[sr_idle@start]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(val_smart_terrain_16_stalker_1_squad:val_smart_terrain_16) =create_squad(val_smart_terrain_16_stalker_2_squad:val_smart_terrain_16) =create_squad(val_smart_terrain_16_stalker_3_squad:val_smart_terrain_16)%
+
+[sr_idle@nil]

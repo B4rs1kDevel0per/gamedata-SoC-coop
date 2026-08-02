@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_esc_start_main_quest_task_name">
+		<text>Начало начал</text>
+	</string>
+	<string id="st_esc_start_main_quest_task_descr">
+		<text>Снова пора в путь!</text>
+	</string>
+	
+
+	<string id="st_esc_start_talk_to_the_sidorovich_quest_task_name">
+		<text>Важное поручение</text>
+	</string>
+	<string id="st_esc_start_talk_to_the_sidorovich_quest_task_descr">
+		<text>Поговорить с Сидоровичем. Похоже, у местного барыги есть для нас задание.</text>
+	</string>
+	
+
+	<string id="st_esc_start_find_stalker_shustry_quest_task_name">
+		<text>Важное поручение</text>
+	</string>
+	<string id="st_esc_start_find_stalker_shustry_quest_task_descr">
+		<text>Посыльный Сидоровича по прозвищу Шустрый пропал где-то в районе АТП, при нем была необходимая барыге флешка. Торговец чётко дал понять, что приоритет - информация. Но вдруг и Шустрый еще жив?</text>
+	</string>
+	
+
+	<string id="st_esc_start_talk_to_the_wolf_quest_task_name">
+		<text>Разузнать про ситуацию с Шустрым</text>
+	</string>
+	<string id="st_esc_start_talk_to_the_wolf_quest_task_descr">
+		<text>Поговорить с Волком на счет Шустрого. Вдруг, он знает что-то важное о бедняге?</text>
+	</string>
+
+
+	<string id="st_esc_start_save_the_stalker_shustry_quest_task_name">
+		<text>Спасти сталкера Шустрого</text>
+	</string>
+	<string id="st_esc_start_save_the_stalker_shustry_quest_task_descr">
+		<text>Волк сказал, что на группу Шустрого напали бандиты. Шакалы. Парня увели на АТП. Быть может, его удастся отбить? Ну, а на крайний случай, хоть флешку понятно, где искать.</text>
+	</string>
+	
+
+	<string id="st_esc_start_escort_the_stalker_shustry_quest_task_name">
+		<text>Спасти сталкера Шустрого</text>
+	</string>		
+	<string id="st_esc_start_escort_the_stalker_shustry_quest_task_descr">
+		<text>Сопроводить Шустрого до деревни новичков. Парню неслабо досталось, надо бы убедиться, что он доберётся до своих в целости.</text>
+	</string>
+	
+	
+	<string id="st_esc_start_talk_to_petruha_quest_task_name">
+		<text>Своих не бросаем</text>
+	</string>
+	<string id="st_esc_start_talk_to_petruha_quest_task_descr">
+		<text>Встретиться с ребятами Волка неподалёку от АТП. Нужно поговорить с Петрухой на счет зачистки АТП от бандитов и решить, что делать. </text>
+	</string>
+	
+
+	<string id="st_esc_start_kill_bandits_on_the_atp_quest_task_name">
+		<text>Рейд на АТП</text>
+	</string>
+	<string id="st_esc_start_kill_bandits_on_the_atp_quest_task_descr">
+		<text>Помочь ребятам Петрухи разобраться с бандитами на АТП. Эти козлы давно напрашивались.</text>
+	</string>
+	
+
+	<string id="st_esc_start_go_back_to_the_wolf_quest_task_name">
+		<text>Вернуться к Волку</text>
+	</string>
+	<string id="st_esc_start_go_back_to_the_wolf_quest_task_descr">
+		<text>Бандитов перебили, Шустрого спасли. Надо бы вернуться за наградой, Волк обещал не обидеть.</text>
+	</string>
+	
+	
+	<string id="st_esc_start_talk_to_the_sidorovich_quest_1_task_name">
+		<text>Похоже, что-то намечается</text>
+	</string>
+	<string id="st_esc_start_talk_to_the_sidorovich_quest_1_task_descr">
+		<text>Военные куда-то отправили вертушки. Похоже, намечается что-то серьезное. Надо бы спросить у Сидоровича, что происходит. Уж он-то знает.</text>
+	</string>
+	
+	
+	<string id="st_esc_start_talk_to_the_fox_quest_1_task_name">
+		<text>Лис может что-то знать</text>
+	</string>
+	<string id="st_esc_start_talk_to_the_fox_quest_1_task_descr">
+		<text>Нужно встретиться с этим Лисом. Сидорович сказал, что он может что-то знать о том, что так заинтересовало военных. И во что мы вляпались?</text>
+	</string>
+	
+	
+	<string id="st_esc_start_talk_to_the_fox_quest_2_task_name">
+		<text>Дорога на север</text>
+	</string>
+	<string id="st_esc_start_talk_to_the_fox_quest_2_task_descr">
+		<text>Лис рассказал, что военные откопали какие-то важные документы, в которых говорится, что в центр Зоны всё же можно попасть, ну и дела! И, разумеется, Бармену эти документы очень интересны. Наша задача - отправиться на НИИ Агропром и достать бумаги. Значит, первым делом - на Свалку, а оттуда добраться до Агропрома - раз плюнуть.</text>
+	</string>
+
+
+	<string id="st_esc_start_kill_dogs_quest_task_name">
+		<text>Спасение Лиса</text>
+	</string>
+	<string id="st_esc_start_kill_dogs_quest_task_descr">
+		<text>Убить собак, преследующих Лиса</text>
+	</string>
+
+
+	<string id="st_esc_start_5_bottles_of_vodka_for_kuznetsov_quest_task_name">
+		<text>Отдохнуть на службе</text>
+	</string>
+	<string id="st_esc_start_5_bottles_of_vodka_for_kuznetsov_quest_task_descr">
+		<text>Если мы хотим пройти через блокпост, нам нужно принести Кузнецову 5 бутылок водки</text>
+	</string>	
+	
+	
+	<string id="st_esc_start_sq_art_1_quest_task_name">
+		<text>Заказ на "Медуза"</text>
+	</string>
+	<string id="st_esc_start_sq_art_1_quest_task_descr">
+		<text>Найти и принести артефакт "Медуза"</text>
+	</string>	
+	<string id="st_esc_start_sq_art_2_quest_task_name">
+		<text>Заказ на "Кровь камня"</text>
+	</string>
+	<string id="st_esc_start_sq_art_2_quest_task_descr">
+		<text>Найти и принести артефакт "Кровь камня"</text>
+	</string>
+	<string id="st_esc_start_sq_art_3_quest_task_name">
+		<text>Заказ на "Каменный цветок"</text>
+	</string>
+	<string id="st_esc_start_sq_art_3_quest_task_descr">
+		<text>Найти и принести артефакт "Каменный цветок"</text>
+	</string>
+	
+	
+	<string id="st_esc_start_sq_killer_1_quest_task_name">
+		<text>Заказ на сталкера "Макрушник"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_1_quest_task_descr">
+		<text>Найти и убить сталкера "Макрушника"</text>
+	</string>	
+	<string id="st_esc_start_sq_killer_2_quest_task_name">
+		<text>Заказ на сталкеров "3 балбеса"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_2_quest_task_descr">
+		<text>Найти и убить сталкеров "3 балбеса"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_3_quest_task_name">
+		<text>Заказ на сталкера "Снайпера-неудачника"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_3_quest_task_descr">
+		<text>Найти и убить сталкера "Снайпера-неудачника"</text>
+	</string>
+	
+	
+	<string id="st_esc_start_sq_killer_mutants_1_quest_task_name">
+		<text>Заказ на мутантов "Овраг около Деревни новичков"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_mutants_1_quest_task_descr">
+		<text>Убить мутантов в овраге около "Деревни новичков"</text>
+	</string>	
+	<string id="st_esc_start_sq_killer_mutants_2_quest_task_name">
+		<text>Заказ на мутантов "Холм за АТП"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_mutants_2_quest_task_descr">
+		<text>Убить мутантов на холме за "АТП"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_mutants_3_quest_task_name">
+		<text>Заказ на мутантов "Овраг около Элеватора"</text>
+	</string>
+	<string id="st_esc_start_sq_killer_mutants_3_quest_task_descr">
+		<text>Убить мутантов в враге около "Элеватора"</text>
+	</string>
+
+
+	<string id="st_esc_start_sq_mutant_boar_part_1_quest_task_name">
+		<text>Заказ на "Копыто Кабана"</text>
+	</string>
+	<string id="st_esc_start_sq_mutant_boar_part_1_quest_task_descr">
+		<text>Найти и принести 7 "Копыт Кабана"</text>
+	</string>	
+	<string id="st_esc_start_sq_mutant_dog_part_2_quest_task_name">
+		<text>Заказ на "Хвост Собаки"</text>
+	</string>
+	<string id="st_esc_start_sq_mutant_dog_part_2_quest_task_descr">
+		<text>Найти и принести 10 "Хвостов Собаки"</text>
+	</string>
+	<string id="st_esc_start_sq_mutant_flesh_part_3_quest_task_name">
+		<text>Заказ на "Глаз Плоти"</text>
+	</string>
+	<string id="st_esc_start_sq_mutant_flesh_part_3_quest_task_descr">
+		<text>Найти и принести 2 "Глаз Плоти"</text>
+	</string>
+</string_table>

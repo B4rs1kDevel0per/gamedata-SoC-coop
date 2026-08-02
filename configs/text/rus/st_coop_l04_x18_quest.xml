@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_x18_start_go_to_x18_doc_1_task_name">
+		<text>В поисках тайн</text>
+	</string>
+	<string id="st_x18_start_go_to_x18_doc_1_task_descr">
+		<text>Найти документ №1</text>
+	</string>
+
+	<string id="st_x18_start_find_the_password_x18_codedoor_1_task_name">
+		<text>"Заперто!"</text>
+	</string>
+	<string id="st_x18_start_find_the_password_x18_codedoor_1_task_descr">
+		<text>Необходимо найти пароль от первой двери</text>
+	</string>	
+
+	<string id="st_x18_start_go_to_x18_doc_2_task_name">
+		<text>В поисках тайн</text>
+	</string>
+	<string id="st_x18_start_go_to_x18_doc_2_task_descr">
+		<text>Найти документ №2</text>
+	</string>	
+
+	<string id="st_x18_start_find_the_password_x18_codedoor_2_task_name">
+		<text>"Снова заперто!"</text>
+	</string>
+	<string id="st_x18_start_find_the_password_x18_codedoor_2_task_descr">
+		<text>Необходимо найти пароль от второй двери</text>
+	</string>	
+
+	<string id="st_x18_start_kill_the_flame_poltergeist_quest_task_name">
+		<text>"Не опять, а снова заперто!"</text>
+	</string>
+	<string id="st_x18_start_kill_the_flame_poltergeist_quest_task_descr">
+		<text>Необходимо убить полтергейста</text>
+	</string>
+
+	<string id="st_x18_start_go_to_x18_doc_3_task_name">
+		<text>В поисках тайн</text>
+	</string>
+	<string id="st_x18_start_go_to_x18_doc_3_task_descr">
+		<text>Найти документ №3</text>
+	</string>
+
+	<string id="st_x18_start_get_out_of_the_lab_quest_task_name">
+		<text>На выход!</text>
+	</string>
+	<string id="st_x18_start_get_out_of_the_lab_quest_task_descr">
+		<text>Выбраться из лаборатории</text>
+	</string>	
+</string_table>

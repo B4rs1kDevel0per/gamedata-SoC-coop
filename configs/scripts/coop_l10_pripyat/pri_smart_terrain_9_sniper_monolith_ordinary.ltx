@@ -1,0 +1,69 @@
+[logic@pri_smart_terrain_9_sniper_monolith_ordinary_1]
+suitable 											= {=check_npc_name(sim_default_monolith_3)} true
+active 												= camper@pri_smart_terrain_9_sniper_monolith_ordinary_1
+prior 												= 50
+on_hit 												= hit@sniper_dead_1
+
+[camper@pri_smart_terrain_9_sniper_monolith_ordinary_1]
+path_walk 											= sniper_monolith_ordinary_1_walk
+path_look 											= sniper_monolith_ordinary_1_look
+radius 												= 2
+def_state_campering_fire 							= threat_fire
+def_state_campering 								= threat
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+shoot 												= always
+sniper 												= true
+on_info  											= {+PRI_SMART_TERRAIN_9_SNIPER_MONOLITH_ORDINARY_1_INFO} remark@suiside_shot_1
+
+[remark@presets_1]
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+use_camp 											= false
+
+[remark@suiside_shot_1]:remark@presets_1
+on_game_timer 										= 1 | nil %=kill_npc%
+meet 												= no_meet
+
+[hit@sniper_dead_1]
+on_info 											= %+PRI_SMART_TERRAIN_9_SNIPER_MONOLITH_ORDINARY_1_INFO%
+
+;================================================
+
+[logic@pri_smart_terrain_9_sniper_monolith_ordinary_2]
+suitable 											= {=check_npc_name(sim_default_monolith_3)} true
+active 												= camper@pri_smart_terrain_9_sniper_monolith_ordinary_2
+prior 												= 50
+on_hit 												= hit@sniper_dead_2
+
+[camper@pri_smart_terrain_9_sniper_monolith_ordinary_2]
+path_walk 											= sniper_monolith_ordinary_2_walk
+path_look 											= sniper_monolith_ordinary_2_look
+radius 												= 2
+def_state_campering_fire 							= threat_fire
+def_state_campering 								= threat
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+shoot 												= always
+sniper 												= true
+on_info  											= {+PRI_SMART_TERRAIN_10_SNIPER_MONOLITH_ORDINARY_2_INFO} remark@suiside_shot_2
+
+[remark@suiside_shot_2]:remark@presets_1
+on_game_timer 										= 1 | nil %=kill_npc%
+meet 												= no_meet
+
+[hit@sniper_dead_2]
+on_info 											= %+PRI_SMART_TERRAIN_10_SNIPER_MONOLITH_ORDINARY_2_INFO%
+
+;================================================

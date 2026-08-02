@@ -1,0 +1,17 @@
+[logic]
+active = ph_button@x10_lab_button_1_active
+
+[ph_button@x10_lab_button_1_active]
+anim = lab_primary_switcher_idle
+tooltip = st_primary_switcher_idle_off_desc
+on_press = ph_button@x10_lab_button_1_deactivate %=run_cam_effector(surge_01)%
+
+[ph_button@x10_lab_button_1_deactivate]
+anim = lab_primary_switcher_off
+on_timer = 500 | ph_idle@system_message_2 %=play_sound(x16_switch_1)%
+
+[ph_idle@system_message_2]
+on_info = %+X10_LAB_PRIMARY_SWITCHER_1_DEACTIVATE_INFO%
+on_timer = 5000 | ph_idle@nil
+
+[ph_idle@nil]

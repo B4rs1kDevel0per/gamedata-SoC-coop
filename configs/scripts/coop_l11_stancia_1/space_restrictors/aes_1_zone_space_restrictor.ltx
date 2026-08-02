@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_surge_idle
+
+[sr_idle@start_surge_idle]
+on_player_inside  									= {-CON_TEST_1_INFO} sr_idle@nil %=stc_surge%
+
+[sr_idle@nil]

@@ -1,0 +1,30 @@
+[logic]
+active 												= sr_idle@determine_cl_sv
+type 												= no_save
+
+[sr_idle@determine_cl_sv]
+on_info 											= {=isServer} sr_idle@sv_control
+on_info2 											= {=isClient} sr_idle@cl_control
+
+;server logic
+[sr_idle@sv_control]
+on_player_inside 									= sr_idle@sv_mil_question_space_restrictor_start %=show_test_dialog(st_test_text_yes_no:true)%
+
+[sr_idle@sv_mil_question_space_restrictor_start]
+on_info 											= {+ESC_TEST_999_INFO} sr_idle@sv_mil_question_space_restrictor_go
+
+[sr_idle@sv_mil_question_space_restrictor_go]
+on_info 											= {+ESC_TEST_999_INFO} %-ESC_TEST_999_INFO%
+on_game_timer 										= 20 | sr_idle@sv_control %=xrmpe_teleport_local_actor(mil_smart_terrain_12_yes_temp_1_walk:mil_smart_terrain_12_yes_temp_1_look)%
+
+
+;client logic
+[sr_idle@cl_control]
+on_player_inside 									= sr_idle@cl_mil_question_space_restrictor_start %=show_test_dialog(st_test_text_yes_no:true)%
+
+[sr_idle@cl_mil_question_space_restrictor_start]
+on_info 											= {+ESC_TEST_999_INFO} sr_idle@cl_mil_question_space_restrictor_go %=xrmpe_teleport_local_actor(mil_smart_terrain_12_yes_temp_1_walk:mil_smart_terrain_12_yes_temp_1_look)%
+on_info2 											= {+ESC_TEST_666_INFO} sr_idle@cl_mil_question_space_restrictor_go %=xrmpe_teleport_local_actor(mil_smart_terrain_12_no_temp_1_walk:mil_smart_terrain_12_no_temp_1_look)%
+
+[sr_idle@cl_mil_question_space_restrictor_go]
+on_game_timer 										= 20 | sr_idle@cl_control %-ESC_TEST_999_INFO -ESC_TEST_666_INFO%

@@ -1,0 +1,34 @@
+[logic@bar_smart_terrain_1_animpoint_bad_hunter]
+suitable 											= {=check_npc_name(bar_smart_terrain_1_stalker_bad_hunter)} true
+active 												= animpoint@bar_smart_terrain_1_animpoint_bad_hunter
+prior 												= 150
+can_select_weapon 									= false
+
+[animpoint@bar_smart_terrain_1_animpoint_bad_hunter]
+cover_name 											= bar_smart_terrain_1_animpoint_11
+invulnerable 										= true
+use_camp 											= true
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+meet 												= meet@hello_players
+
+[meet@hello_players]
+close_snd_hello 									= bar_hunter
+close_snd_bye   									= bar_hunter
+close_anim 											= nil
+close_victim 										= nil
+far_anim 											= nil
+far_victim 											= nil
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+use 												= {=actor_enemy} false, true
+allow_break 										= true
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

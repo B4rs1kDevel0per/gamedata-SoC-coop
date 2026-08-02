@@ -1,0 +1,181 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	Базовый класс для частей мутантов
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mutant_part_base]:identity_immunities
+$spawn			= "devices\mutant_tushkano_part"
+GroupControlSection	= spawn_group
+discovery_dependency	=
+cform			= skeleton
+class			= II_ATTCH
+inv_grid_width		= 1
+inv_grid_height		= 1
+can_trade		= true
+quest_item		= false
+
+;---------------------------------------------------------------------------------------------
+;								ГОЛОВА ТУШКАНО
+;---------------------------------------------------------------------------------------------
+[mutant_tushkano_part]:mutant_part_base
+$spawn			= "devices\mutant_tushkano_part"
+visual			= dynamics\equipments\item_tushkano_head.ogf
+inv_name		= st_mutant_tushkano_part_name
+inv_name_short		= st_mutant_tushkano_part_name_short
+description		= st_mutant_tushkano_part_descr
+inv_weight		= 0.12
+cost			= 80
+inv_grid_x		= 35
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								ХВОСТ СЛЕПОГО ПСА
+;---------------------------------------------------------------------------------------------
+[mutant_dog_part]:mutant_part_base
+$spawn			= "devices\mutant_dog_part"
+visual			= dynamics\equipments\item_dog_tail.ogf
+inv_name		= st_mutant_dog_part_name
+inv_name_short		= st_mutant_dog_part_name_short
+description		= st_mutant_dog_part_descr
+inv_weight		= 0.20
+cost			= 120
+inv_grid_x		= 27
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								ГЛАЗ ПЛОТИ
+;---------------------------------------------------------------------------------------------
+[mutant_flesh_part]:mutant_part_base
+$spawn			= "devices\mutant_flesh_part"
+visual			= dynamics\equipments\item_flesh_eye.ogf
+inv_name		= st_mutant_flesh_part_name
+inv_name_short		= st_mutant_flesh_part_name_short
+description		= st_mutant_flesh_part_descr
+inv_weight		= 0.15
+cost			= 140
+inv_grid_x		= 28
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								КОПЫТО КАБАНА
+;---------------------------------------------------------------------------------------------
+[mutant_boar_part]:mutant_part_base
+$spawn			= "devices\mutant_boar_part"
+visual			= dynamics\equipments\item_boar_leg.ogf
+inv_name		= st_mutant_boar_part_name
+inv_name_short		= st_mutant_boar_part_name_short
+description		= st_mutant_boar_part_descr
+inv_weight		= 1.10
+cost			= 220
+inv_grid_x		= 20
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								РУКА ЗОМБИ
+;---------------------------------------------------------------------------------------------
+[mutant_zombie_part]:mutant_part_base
+$spawn			= "devices\mutant_zombie_part"
+visual			= dynamics\equipments\item_zombie_hand.ogf
+inv_name		= st_mutant_zombie_part_name
+inv_name_short		= st_mutant_zombie_part_name_short
+description		= st_mutant_zombie_part_descr
+inv_weight		= 0.45
+cost			= 280
+inv_grid_x		= 29
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								СТОПА СНОРКА
+;---------------------------------------------------------------------------------------------
+[mutant_snork_part]:mutant_part_base
+$spawn			= "devices\mutant_snork_part"
+visual			= dynamics\equipments\item_snork_leg.ogf
+inv_name		= st_mutant_snork_part_name
+inv_name_short		= st_mutant_snork_part_name_short
+description		= st_mutant_snork_part_descr
+inv_weight		= 0.60
+cost			= 500
+inv_grid_x		= 34
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								ХВОСТ ПСЕВДОСОБАКИ
+;---------------------------------------------------------------------------------------------
+[mutant_psevdodog_part]:mutant_part_base
+$spawn			= "devices\mutant_psevdodog_part"
+visual			= dynamics\equipments\item_psevdodog_tail.ogf
+inv_name		= st_mutant_psevdodog_part_name
+inv_name_short		= st_mutant_psevdodog_part_name_short
+description		= st_mutant_psevdodog_part_descr
+inv_weight		= 0.35
+cost			= 650
+inv_grid_x		= 33
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								РУКА БЮРЕРА
+;---------------------------------------------------------------------------------------------
+[mutant_burer_part]:mutant_part_base
+$spawn			= "devices\mutant_burer_part"
+visual			= dynamics\equipments\item_burer_hand.ogf
+inv_name		= st_mutant_burer_part_name
+inv_name_short		= st_mutant_burer_part_name_short
+description		= st_mutant_burer_part_descr
+inv_weight		= 0.50
+cost			= 950
+inv_grid_x		= 21
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								ЩУПАЛЬЦА КРОВОСОСА
+;---------------------------------------------------------------------------------------------
+[mutant_krovosos_part]:mutant_part_base
+$spawn			= "devices\mutant_krovosos_part"
+visual			= dynamics\equipments\item_krovosos_jaw.ogf
+inv_name		= st_mutant_krovosos_part_name
+inv_name_short		= st_mutant_krovosos_part_name_short
+description		= st_mutant_krovosos_part_descr
+inv_weight		= 0.40
+cost			= 1300
+inv_grid_x		= 30
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								РУКА КОНТРОЛЕРА
+;---------------------------------------------------------------------------------------------
+[mutant_controller_part]:mutant_part_base
+$spawn			= "devices\mutant_controller_part"
+visual			= dynamics\equipments\item_controller_hand.ogf
+inv_name		= st_mutant_controller_part_name
+inv_name_short		= st_mutant_controller_part_name_short
+description		= st_mutant_controller_part_descr
+inv_weight		= 0.50
+cost			= 2000
+inv_grid_x		= 26
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								КОГОТЬ ХИМЕРЫ
+;---------------------------------------------------------------------------------------------
+[mutant_chimera_part]:mutant_part_base
+$spawn			= "devices\mutant_chimera_part"
+visual			= dynamics\equipments\item_chimera_claw.ogf
+inv_name		= st_mutant_chimera_part_name
+inv_name_short		= st_mutant_chimera_part_name_short
+description		= st_mutant_chimera_part_descr
+inv_weight		= 0.75
+cost			= 2400
+inv_grid_x		= 23
+inv_grid_y		= 3
+
+;---------------------------------------------------------------------------------------------
+;								РУКА ПСЕВДОГИГАНТА
+;---------------------------------------------------------------------------------------------
+[mutant_gigant_part]:mutant_part_base
+$spawn			= "devices\mutant_gigant_part"
+visual			= dynamics\equipments\item_psevdogigant_hand.ogf
+inv_name		= st_mutant_gigant_part_name
+inv_name_short		= st_mutant_gigant_part_name_short
+description		= st_mutant_gigant_part_descr
+inv_weight		= 2.80
+cost			= 4200
+inv_grid_x		= 32
+inv_grid_y		= 3

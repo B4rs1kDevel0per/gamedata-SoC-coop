@@ -1,0 +1,19 @@
+[logic@esc_smart_terrain_10_sniper_loser]
+suitable 											= {=check_npc_name(esc_smart_terrain_10_stalker_sniper_loser)} true
+active 												= walker@esc_smart_terrain_10_sniper_loser
+prior 												= 300
+
+[walker@esc_smart_terrain_10_sniper_loser]
+path_walk 											= walker_1_walk
+path_look 											= walker_1_look
+meet 												= no_meet
+def_state_standing 									= hide
+on_info 											= {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_STOP_DIALOG_INFO} walker@esc_smart_terrain_10_sniper_loser_enemy %=actor_enemy%
+
+[walker@esc_smart_terrain_10_sniper_loser_enemy]
+path_walk 											= walker_1_walk
+path_look 											= walker_1_look
+meet 												= no_meet
+def_state_standing 									= hide
+
+;================================================

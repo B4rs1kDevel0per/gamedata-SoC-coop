@@ -1,0 +1,20 @@
+<w>
+	<file name="ui\ui_models_torso_addon">	
+		<texture id="stalker_hero_neutral_1" 			x="0" y="0" width="120" height="120" />
+		<texture id="stalker_hero_degtyarev_1" 			x="120" y="0" width="120" height="120" />
+		<texture id="stalker_hero_strelok" 			x="720" y="240" width="120" height="120" />
+				
+		<texture id="stalker_neutral_1_gazik" 		x="0" y="240"	width="120" height="120" />
+		<texture id="stalker_neutral_1_maska" 	x="240" y="240"	width="120" height="120" />
+		<texture id="stalker_neutral_1_balaclava"  x="120" y="240"	width="120" height="120" />
+		<texture id="stalker_neutral_1_onanist" 	x="360" y="240"	width="120" height="120" />
+		<texture id="stalker_neutral_1_petruha" 	x="480" y="240"	width="120" height="120" />
+
+		<texture id="stalker_neutral_blouse_1" 			x="240" y="240" width="120" height="120" />	
+		<texture id="stalker_neutral_blouse_2" 			x="840" y="360" width="120" height="120" />
+		<texture id="stalker_neutral_blouse_3" 			x="0" 	y="480" width="120" height="120" />	
+		<texture id="stalker_neutral_blouse_4" 			x="120" y="480" width="120" height="120" />		
+		<texture id="stalker_neutral_blouse_5" 			x="240" y="480" width="120" height="120" />
+		<texture id="stalker_neutral_blouse_6" 			x="360" y="480" width="120" height="120" />			
+	</file>
+</w>

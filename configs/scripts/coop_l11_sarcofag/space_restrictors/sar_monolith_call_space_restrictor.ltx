@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle
+
+[sr_idle]
+on_info 											= {-SAR_BAD_FINAL_MONOLITH_1_INFO =dist_to_actor_le(350)} sr_idle@wait  %=play_sound(monolith_call)%
+
+[sr_idle@wait]
+on_game_timer 										= 250 | sr_idle

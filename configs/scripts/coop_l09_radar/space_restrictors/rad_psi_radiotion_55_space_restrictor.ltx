@@ -1,0 +1,32 @@
+[logic]
+active = sr_idle@idle_players
+
+[sr_idle@idle_players]
+on_player_inside = {=local_actor_alive} sr_psy_antenna
+on_info = {=actor_has_item(dev_psi_protection_helmet)} sr_psy_antenna@psi_protection_helmet
+
+[sr_psy_antenna]
+eff_intensity = 55
+hit_intensity = 55
+phantom_prob = 0
+postprocess = psy_antenna.ppe
+no_static = false
+on_player_outside = {!local_actor_alive} sr_idle@idle_players 
+on_info = {+X10_LAB_PRIMARY_SWITCHER_1_DEACTIVATE_INFO +X10_LAB_PRIMARY_SWITCHER_2_DEACTIVATE_INFO} sr_psy_antenna@nil
+on_info2 = {=actor_has_item(dev_psi_protection_helmet)} sr_psy_antenna@psi_protection_helmet
+;on_info2 = {=actor_helmet_in_slot(helm_psi_protection))} sr_psy_antenna@psi_protection_helmet
+
+[sr_psy_antenna@psi_protection_helmet]
+eff_intensity = 55
+hit_intensity = 0
+phantom_prob = 0
+postprocess = psy_antenna.ppe
+no_static = false
+on_info = {+X10_LAB_PRIMARY_SWITCHER_1_DEACTIVATE_INFO +X10_LAB_PRIMARY_SWITCHER_2_DEACTIVATE_INFO} sr_psy_antenna@nil
+on_info2 = {!actor_has_item(dev_psi_protection_helmet)} sr_psy_antenna
+;on_info2 = {!actor_helmet_in_slot(helm_psi_protection))} sr_psy_antenna
+
+[sr_psy_antenna@nil]
+eff_intensity = 0
+hit_intensity = 0
+no_static = true

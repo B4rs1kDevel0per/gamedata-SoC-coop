@@ -1,0 +1,10 @@
+<w>
+	<file name="ui\ui_actor_portrets_mpe">
+		<texture id="ui_actor_p_stalker_neutral_blouse_1" 				x="495" y="648" width="165" height="108" />	
+		<texture id="ui_actor_p_stalker_neutral_blouse_2" 				x="660" y="648" width="165" height="108" />	
+		<texture id="ui_actor_p_stalker_neutral_blouse_3" 				x="825" y="648" width="165" height="108" />	
+		<texture id="ui_actor_p_stalker_neutral_blouse_4" 				x="0" 	y="756" width="165" height="108" />
+		<texture id="ui_actor_p_stalker_neutral_blouse_5" 				x="165" y="756" width="165" height="108" />
+		<texture id="ui_actor_p_stalker_neutral_blouse_6" 				x="330" y="756" width="165" height="108" />			
+	</file>
+</w>

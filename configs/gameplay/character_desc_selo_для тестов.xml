@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+
+	<specific_character id="actor_the_main_character" no_random = "1">
+		<name>st_actor_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+			wpn_addon_silencer_svd  \n
+   			ammo_7.62x54_7h14 	= 30\n
+			af_electra_flash_soc = 2\n
+			dev_psi_protection_helmet = 1\n
+
+		</supplies>
+
+		<money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_the_main_character</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_strelok</visual>
+	</specific_character>
+	
+	<specific_character id="actor_partner_default_0" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+			</supplies>
+	
+	    <money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_1</visual>
+	</specific_character>		
+	
+	<specific_character id="actor_partner_default_1" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+		</supplies>
+	
+	    <money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_2</visual>
+	</specific_character>		
+	
+	<specific_character id="actor_partner_default_2" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+		</supplies>
+
+		<money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_3</visual>
+	</specific_character>		
+
+	<specific_character id="actor_partner_default_3" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+		</supplies>
+
+		<money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_4</visual>
+	</specific_character>	
+	
+	<specific_character id="actor_partner_default_5" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+		</supplies>
+
+		<money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_neutral_blouse_5</visual>
+	</specific_character>	
+
+	<specific_character id="actor_partner_default_6" team_default = "1">
+		<name>st_partner_name</name>
+		<icon>ui_inGame2_Hero</icon>
+		<map_icon x="2" y="5"></map_icon>
+
+		<team>mp_actor</team>
+		<supplies>
+		
+			[spawn] \n
+			stalker_outfit 			\n
+   			grenade_f1 			= 4 \n
+			wpn_colt1911			\n
+			ammo_11.43x23_fmj   = 1 \n
+			wpn_l85					\n
+			ammo_5.56x45_ap = 3		\n
+   			wpn_svd					\n
+			wpn_addon_scope		  	\n
+   			ammo_7.62x54_7h14 	= 30\n
+			
+		</supplies>
+
+		<money min="0"  max="0"  infinitive="0"/>
+
+		<class>actor_partner</class>
+		<community>stalker</community>
+
+		<rank>0</rank>
+		<reputation>0</reputation>
+		<visual>actors\stalker_mp\stalker_doctor</visual>
+	</specific_character>			
+</xml>

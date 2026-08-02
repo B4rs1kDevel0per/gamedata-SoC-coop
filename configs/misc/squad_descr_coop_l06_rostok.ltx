@@ -1,0 +1,122 @@
+======ДЕЙСТВУЮЩИЕ ЛИЦА===================================================
+;НАЁМНИКИ(СНАЙПЕРЫ, СТАТИСТЫ):
+[ros_smart_terrain_1_1_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0
+target_smart = ros_smart_terrain_1_1
+story_id = ros_smart_terrain_1_1_killer_1_squad
+
+[ros_smart_terrain_1_2_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0
+target_smart = ros_smart_terrain_1_2
+on_death = %+ROS_SMART_TERRAIN_1_KILLER_1_2_SQUAD_DEAD%
+story_id = ros_smart_terrain_1_2_killer_1_squad
+
+[ros_smart_terrain_1_3_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0
+target_smart = ros_smart_terrain_1_3
+on_death = %+ROS_SMART_TERRAIN_1_KILLER_1_3_SQUAD_DEAD%
+story_id = ros_smart_terrain_1_3_killer_1_squad
+
+[ros_smart_terrain_1_4_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0
+target_smart = ros_smart_terrain_1_4
+story_id = ros_smart_terrain_1_4_killer_1_squad
+
+[ros_smart_terrain_1_5_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_0
+target_smart = ros_smart_terrain_1_5
+story_id = ros_smart_terrain_1_5_killer_1_squad
+
+[ros_smart_terrain_1_6_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_1, sim_default_killer_2
+target_smart = ros_smart_terrain_1_6
+story_id = ros_smart_terrain_1_6_killer_1_squad
+
+[ros_smart_terrain_2_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_2, sim_default_killer_2, sim_default_killer_2, sim_default_killer_2
+target_smart = ros_smart_terrain_2
+story_id = ros_smart_terrain_2_killer_1_squad
+
+[ros_smart_terrain_3_killer_1_squad]:online_offline_group
+faction = killer
+npc = ros_smart_terrain_3_killer_volkodav, sim_default_killer_3, sim_default_killer_3, sim_default_killer_3, sim_default_killer_3
+target_smart = ros_smart_terrain_3
+on_death = %+ROS_SMART_TERRAIN_3_KILLER_1_SQUAD_DEAD%
+story_id = ros_smart_terrain_3_killer_1_squad
+
+[ros_smart_terrain_3_ecolog_random_1_squad]:online_offline_group
+faction = ecolog
+npc = ros_smart_terrain_3_ecolog_random_1
+target_smart = ros_smart_terrain_3
+spawn_point = ros_smart_terrain_3_walker_2_spawn_point
+story_id = ros_smart_terrain_3_ecolog_random_1_squad
+
+[ros_smart_terrain_3_ecolog_random_2_squad]:online_offline_group
+faction = ecolog
+npc = ros_smart_terrain_3_ecolog_random_2
+target_smart = ros_smart_terrain_3
+spawn_point = ros_smart_terrain_3_walker_3_spawn_point
+story_id = ros_smart_terrain_3_ecolog_random_2_squad
+
+[ros_smart_terrain_3_ecolog_random_3_squad]:online_offline_group
+faction = ecolog
+npc = ros_smart_terrain_3_ecolog_random_3
+target_smart = ros_smart_terrain_3
+spawn_point = ros_smart_terrain_3_walker_4_spawn_point
+story_id = ros_smart_terrain_3_ecolog_random_3_squad
+
+[ros_smart_terrain_4_ecolog_kruglov_squad]:online_offline_group
+faction = ecolog
+npc = ros_smart_terrain_4_ecolog_kruglov
+target_smart = ros_smart_terrain_4
+story_id = ros_smart_terrain_4_ecolog_kruglov_squad
+
+[ros_smart_terrain_5_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_3, sim_default_killer_3
+target_smart = ros_smart_terrain_5
+on_death = %+ROS_SMART_TERRAIN_5_KILLER_1_SQUAD_DEAD%
+story_id = ros_smart_terrain_5_killer_1_squad
+
+[ros_smart_terrain_5_killer_2_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_3
+target_smart = ros_smart_terrain_5
+on_death = %+ROS_SMART_TERRAIN_5_KILLER_2_SQUAD_DEAD%
+story_id = ros_smart_terrain_5_killer_2_squad
+
+[ros_smart_terrain_6_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3, sim_default_killer_3, sim_default_killer_3
+target_smart = ros_smart_terrain_6
+on_death = %+ROS_SMART_TERRAIN_6_KILLER_1_SQUAD_DEAD%
+story_id = ros_smart_terrain_6_killer_1_squad
+
+[ros_smart_terrain_7_killer_1_squad]:online_offline_group
+faction = killer
+npc = sim_default_killer_3
+target_smart = ros_smart_terrain_7
+spawn_point = ros_smart_terrain_7_camper_1_spawn
+story_id = ros_smart_terrain_7_killer_1_squad
+
+;МУТАНТЫ - СНОРКИ:
+[ros_smart_terrain_1_m_snork_squad]:online_offline_group
+faction = monster
+npc = snork_indoor_strong, snork_indoor_strong
+target_smart = ros_smart_terrain_1_m
+story_id = ros_smart_terrain_1_m_snork_squad
+
+
+;ЗОМБИРОВАННЫЕ(ПЕРЕХОД НА "ЯНТАРЬ"):
+[ros_smart_terrain_1_z_stalker_zombied_1_squad]:online_offline_group
+faction = monster
+npc = sim_default_zombied_2, sim_default_zombied_1
+target_smart = ros_smart_terrain_1_z
+story_id = ros_smart_terrain_1_z_stalker_zombied_1_squad

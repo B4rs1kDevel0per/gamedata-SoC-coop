@@ -1,0 +1,158 @@
+<w>
+    <file name="ui\ui_actor_portrets_unique">
+	<texture id="ui_actor_p_stalker_hero_degtyarev_1" x="246" y="870" width="123" height="87" />
+
+	<texture id="ui_portret_Sich" x="0" y="0" width="123" height="87" />
+	<texture id="ui_portret_Noy" x="0" y="87" width="123" height="87" />
+	<texture id="ui_portret_Sultan" x="0" y="174" width="123" height="87" />
+	<texture id="ui_portret_Zulus" x="0" y="261" width="123" height="87" />
+	<texture id="ui_portret_Brodyaga_dolg" x="0" y="348" width="123" height="87" />
+	<texture id="ui_portret_Shulga" x="0" y="435" width="123" height="87" />
+	<texture id="ui_portret_Flint" x="0" y="522" width="123" height="87" />
+	<texture id="ui_portret_Brodyaga_svoboda" x="0" y="609" width="123" height="87" />
+	<texture id="ui_portret_Dyadka_Yar" x="0" y="696" width="123" height="87" />
+	<texture id="ui_portret_Loki" x="0" y="783" width="123" height="87" />
+	<texture id="ui_portret_Brodyaga_monolit" x="0" y="870" width="123" height="87" />
+
+	<texture id="ui_portret_Novikov" x="123" y="0" width="123" height="87" />
+	<texture id="ui_portret_Vano" x="123" y="87" width="123" height="87" />
+	<texture id="ui_portret_Kostoprav" x="123" y="174" width="123" height="87" />
+	<texture id="ui_portret_Tremor" x="123" y="261" width="123" height="87" />
+	<texture id="ui_portret_Kardan" x="123" y="348" width="123" height="87" />
+	<texture id="ui_portret_Gluhar" x="123" y="435" width="123" height="87" />
+	<texture id="ui_portret_Gavaets" x="123" y="522" width="123" height="87" />
+	<texture id="ui_portret_Garik" x="123" y="609" width="123" height="87" />
+	<texture id="ui_portret_Lotsman" x="123" y="696" width="123" height="87" />
+	<texture id="ui_portret_Gonta" x="123" y="783" width="123" height="87" />
+	<texture id="ui_portret_Zveroboy" x="123" y="870" width="123" height="87" />
+
+	<texture id="ui_portret_Boroda" x="246" y="0" width="123" height="87" />
+	<texture id="ui_portret_Vano_nauchniy" x="246" y="87" width="123" height="87" />
+	<texture id="ui_portret_Strelok" x="246" y="174" width="123" height="87" />
+	<texture id="ui_portret_Azot" x="246" y="261" width="123" height="87" />
+	<texture id="ui_portret_Sokolov" x="246" y="348" width="123" height="87" />
+	<texture id="ui_portret_Rogovets" x="246" y="435" width="123" height="87" />
+	<texture id="ui_portret_Kovalskiy" x="246" y="522" width="123" height="87" />
+	<texture id="ui_portret_Sokolov_ecolog" x="246" y="609" width="123" height="87" />
+	<texture id="ui_portret_German" x="246" y="696" width="123" height="87" />
+	<texture id="ui_portret_Ozerskiy" x="246" y="783" width="123" height="87" />
+	<texture id="ui_portret_Hero" x="246" y="870" width="123" height="87" />
+	
+	<texture id="ui_inGame2_wolf" 				x="0" 	y="0"  width="123" height="87" />
+	<texture id="ui_inGame2_sidorovich" 		x="123" y="0"  width="123" height="87" />
+	<texture id="ui_inGame2_guide" 				x="246" y="0"  width="123" height="87" />	
+	<texture id="ui_inGame2_shustry" 			x="369" y="0"  width="123" height="87" />	
+	<texture id="ui_inGame2_petruha" 			x="492" y="0"  width="123" height="87" />	
+	<texture id="ui_inGame2_tolik" 				x="615" y="0"  width="123" height="87" />	
+	<texture id="ui_inGame2_fox" 				x="738" y="0"  width="123" height="87" />
+	<texture id="ui_inGame2_kuznetsov" 			x="0"	y="87" width="123" height="87" />	
+			
+	<texture id="ui_inGame2_yurik" 				x="123" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_gray" 				x="246" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_devil" 				x="369" y="87"  width="123" height="87" />
+			
+	<texture id="ui_inGame2_mole" 				x="492" y="87"  width="123" height="87" />
+			
+	<texture id="ui_inGame2_borov" 				x="615" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_bullet" 			x="0" 	y="261" width="123" height="87" />	
+			
+	<texture id="ui_inGame2_garik" 				x="738" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_zhorik" 			x="738" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_lelik" 				x="738" y="87"  width="123" height="87" />	
+	<texture id="ui_inGame2_barmen" 			x="0" 	y="174" width="123" height="87" />	
+	<texture id="ui_inGame2_arny" 				x="123" y="174" width="123" height="87" />	
+	<texture id="ui_inGame2_voronin" 			x="246" y="174" width="123" height="87" />	
+	<texture id="ui_inGame2_petrenko" 			x="369" y="174" width="123" height="87" />
+	<texture id="ui_inGame2_hunter" 			x="861" y="0"  	width="123" height="87" />	
+	<texture id="ui_inGame2_plyushkin" 			x="861" y="87"  width="123" height="87" />
+	<texture id="ui_inGame2_skamarokh" 			x="861" y="174" width="123" height="87" />
+	
+	<texture id="ui_inGame2_lukash" 			x="123" y="261" width="123"height="87" />
+	<texture id="ui_inGame2_miser" 				x="246" y="261" width="123" height="87" />
+	<texture id="ui_inGame2_cap" 				x="492" y="261" width="123" height="87" />
+	<texture id="ui_inGame2_skull" 				x="492" y="348" width="123" height="87" />
+		
+	<texture id="ui_inGame2_saharov" 			x="492" y="174"  width="123" height="87" />
+	<texture id="ui_inGame2_kruglov" 			x="615" y="174"  width="123" height="87" />
+			
+	<texture id="ui_inGame2_bandit_0_1" 		x="0" 	y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_0_2" 		x="123" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_0_3" 		x="246" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_0_4" 		x="369" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_0_5" 		x="0" 	y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_2" 			x="492" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_3" 			x="615" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_3_mask" 		x="738" y="609" width="123" height="87" />
+	<texture id="ui_inGame2_bandit_4" 			x="861" y="609" width="123" height="87" />
+	
+	<texture id="ui_inGame2_Dolg_1" 			x="0" 	y="348" width="123" height="87" />
+	<texture id="ui_inGame2_Dolg_2" 			x="123" y="348" width="123" height="87" />
+	<texture id="ui_inGame2_Dolg_1_mask" 		x="246" y="348" width="123" height="87" />
+	<texture id="ui_inGame2_Dolg_3" 			x="369" y="348" width="123" height="87" />
+	<texture id="ui_inGame2_Dolg_4" 			x="492" y="348" width="123" height="87" />
+	
+	<texture id="ui_inGame2_Freedom_1" 			x="0" 	y="435" width="123" height="87" />
+	<texture id="ui_inGame2_Freedom_2" 			x="123" y="435" width="123" height="87" />
+	<texture id="ui_inGame2_Freedom_2_mask" 	x="246" y="435" width="123" height="87" />
+	<texture id="ui_inGame2_Freedom_3" 			x="369" y="435" width="123" height="87" />
+	<texture id="ui_inGame2_Freedom_4" 			x="492" y="435" width="123" height="87" />
+
+	<texture id="ui_inGame2_merc_2" 			x="615" y="348" width="123" height="87" />
+	<texture id="ui_inGame2_merc_4" 			x="615" y="435" width="123" height="87" />
+
+	<texture id="ui_inGame2_monolit_1" 			x="0" 	y="522" width="123" height="87" />
+	<texture id="ui_inGame2_monolit_2" 			x="123" y="522" width="123" height="87" />
+	<texture id="ui_inGame2_monolit_3" 			x="246" y="522" width="123" height="87" />
+	<texture id="ui_inGame2_monolit_4" 			x="246" y="522" width="123" height="87" />
+
+	<texture id="ui_inGame2_neutral_0_1" 		x="0" 	y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_2" 		x="123" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_3" 		x="246" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_4" 		x="369" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_5" 		x="492" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_6" 		x="615" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_7" 		x="738" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_8" 		x="246" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_0_9" 		x="861" y="696" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_2" 			x="0" 	y="783" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_2_mask" 	x="123" y="783" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_3" 			x="246" y="783" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_4" 			x="369" y="783" width="123" height="87" />
+	<texture id="ui_inGame2_neutral_nauchniy" 	x="492" y="783" width="123" height="87" />
+
+	<texture id="ui_inGame2_Soldier_1a" 			x="369" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1b" 			x="492" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1c" 			x="492" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1d" 			x="492" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1e" 			x="369" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1f" 			x="492" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_1g" 			x="492" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_2" 			x="0" 	y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_3" 			x="123" y="870" width="123" height="87" />
+	<texture id="ui_inGame2_Soldier_4" 			x="615" y="783" width="123" height="87" />
+
+	<texture id="ui_inGame2_zombied_1" 					x="0" 	y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_1_1" 				x="123" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_1_2" 				x="246" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_dolg_1" 			x="369" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_dolg_2" 			x="492" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_freedom" 			x="615" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_gasballoon_1" 	x="738" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_gasballoon_2" 	x="861" y="957" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_gasballoon_3" 	x="0" 	y="1044" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_2_gasballoon_4" 	x="123" y="1044" width="123" height="87" />	
+	<texture id="ui_inGame2_zombied_2_ryukzak" 			x="246" y="1044" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_3" 					x="369" y="1044" width="123" height="87" />		
+	<texture id="ui_inGame2_zombied_4_1" 				x="492" y="1044" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_4_2" 				x="615" y="1044" width="123" height="87" />
+	<texture id="ui_inGame2_zombied_4_3" 				x="738" y="1044" width="123" height="87" />	
+	<texture id="ui_inGame2_zombi_2" 					x="861" y="1044" width="123" height="87" />
+	<texture id="ui_inGame2_zombi_2_1" 					x="0" 	y="1131" width="123" height="87" />
+	<texture id="ui_inGame2_zombi_2_2" 					x="123" y="1131" width="123" height="87" />
+	<texture id="ui_inGame2_zombi_2_3" 					x="246" y="1131" width="123" height="87" />
+	<texture id="ui_inGame2_zombi_2_4" 					x="369" y="1131" width="123" height="87" />
+	<texture id="ui_inGame2_zombi_2_5" 					x="492" y="1131" width="123" height="87" />	
+	<texture id="ui_inGame2_zombi_2_6" 					x="615" y="1131" width="123" height="87" />	
+	<texture id="ui_inGame2_zombi_2_7" 					x="738" y="1131" width="123" height="87" />
+   </file>
+</w>

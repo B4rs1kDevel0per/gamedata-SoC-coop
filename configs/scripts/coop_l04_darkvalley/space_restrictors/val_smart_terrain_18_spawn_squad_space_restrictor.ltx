@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start
+;Спавн Пули и раненного:
+[sr_idle@start]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(val_smart_terrain_18_duty_bullet_squad:val_smart_terrain_18) =create_squad(val_smart_terrain_18_bandit_1_squad:val_smart_terrain_18)%
+
+[sr_idle@nil]

@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_player_inside  									= {-AES_1_START_GO_TO_SARCOFAG_QUEST_TASK_INFO} sr_idle@nil %+AES_1_START_GO_TO_SARCOFAG_QUEST_TASK_INFO =scenario_autosave(st_get_to_the_monolith)%
+
+[sr_idle@nil]

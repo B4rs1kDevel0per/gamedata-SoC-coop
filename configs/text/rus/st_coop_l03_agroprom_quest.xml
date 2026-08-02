@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+	<string id="st_agr_start_save_the_stalker_mole_quest_task_name">
+		<text>Загнанный в угол</text>
+	</string>
+	<string id="st_agr_start_save_the_stalker_mole_quest_task_descr">
+		<text>Похоже, ребята Крота наткнулись на патруль военных, вот ведь... Крот нужен нам живым, он знает, где находится тайник этого Стрелка. Нужно что-то предпринять, и помочь Кроту. Без крови не обойдется.</text>
+	</string>
+
+
+	<string id="st_agr_start_follow_the_stalker_mole_quest_task_name">
+		<text>Загнанный в угол</text>
+	</string>		
+	<string id="st_agr_start_follow_the_stalker_mole_quest_task_descr">
+		<text>Отбились. Жалко ребят, пусть им хорошо лежится. Хорошо, что Крот цел. Но еще ничего не кончено, солдафоны вернутся. Нужно следовать за Кротом в безопасное место.</text>
+	</string>
+	
+	
+	<string id="st_agr_start_talk_to_the_stalker_mole_quest_task_name">
+		<text>Загнанный в угол</text>
+	</string>		
+	<string id="st_agr_start_talk_to_the_stalker_mole_quest_task_descr">
+		<text>Серый сдержал слово. Крот уже знал, зачем мы его ищем, и сразу рассказал о тайнике Стрелка. Точного местоположения он не знает, но тайник точно где-то под землей, в коммуникациях НИИ. Похоже, наш путь лежит вниз. Заодно и окончание рейда вояк переждем. Удачно всё сложилось.</text>
+	</string>	
+
+
+	<string id="st_agr_start_go_to_the_agroprom_underground_quest_task_name">
+		<text>Пора в подъземелье</text>
+	</string>
+	<string id="st_agr_start_go_to_the_agroprom_underground_quest_task_descr">
+		<text>Спуститься в подземелье</text>
+	</string>	
+	
+	
+	<string id="st_agr_start_break_into_a_military_base_quest_task_name">
+		<text>Вломиться на базу военных</text>
+	</string>
+	<string id="st_agr_start_break_into_a_military_base_quest_task_descr">
+		<text>Флешка Стрелка у нас. Осталось раздобыть документы для Бармена. Нужно как-то пробраться на территорию НИИ, охраняемую военными. В самое пекло. Наверняка, документы именно там.</text>	
+	</string>
+	
+	
+	<string id="st_agr_start_the_destination_is_a_bar_quest_task_name">
+		<text>Пункт назначения - Бар</text>
+	</string>
+	<string id="st_agr_start_the_destination_is_a_bar_quest_task_descr">
+		<text>Нужно срочно валить с Агропрома! Шум, что мы подняли, наверное был слышен и у стен ЧАЭС. Быстрее, к Бармену, пока нас с воздуха ракетами не накрыли.</text>	
+	</string>	
+</string_table>

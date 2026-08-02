@@ -1,0 +1,33 @@
+[logic@mil_smart_terrain_2_walker_trader_miser]
+suitable 											= {=check_npc_name(mil_smart_terrain_16_freedom_miser)} true
+active 												= walker@mil_smart_terrain_2_walker_trader_miser
+trade 												= misc\trade\mil_smart_terrain_2_trader_miser.ltx
+can_select_weapon 									= false
+level_spot 											= trader
+prior 												= 300
+
+[walker@mil_smart_terrain_2_walker_trader_miser]
+path_walk 											= walker_trader_miser_walk
+path_look 											= walker_trader_miser_look
+meet 												= no_meet
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+meet 												= meet@trader
+
+[meet@trader]
+close_snd_hello 									= duty_petrenko_hello
+close_snd_bye 										= duty_petrenko
+close_anim 											= nil
+close_victim 										= actor
+close_distance  									= 0
+close_snd_distance 									= 3
+far_anim 											= nil
+far_victim 											= actor
+far_distance 										= 0
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+meet_on_talking 									= false
+
+;================================================

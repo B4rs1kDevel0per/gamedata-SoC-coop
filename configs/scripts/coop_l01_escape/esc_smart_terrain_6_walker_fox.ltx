@@ -1,0 +1,90 @@
+[logic@esc_smart_terrain_6_walker_fox]
+suitable 											= {=check_npc_name(esc_smart_terrain_6_stalker_fox)} true
+active 												= walker@esc_smart_terrain_6_walker_fox_idle
+prior 												= 300
+can_select_weapon 									= false
+
+[walker@esc_smart_terrain_6_walker_fox_idle]
+path_walk 											= walker_fox_walk
+path_look 											= walker_fox_look
+meet 												= no_meet
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+wounded 											= wounded@esc_smart_terrain_6_stalker_fox_wounded
+on_info 											= {=dist_to_actor_le(2)} walker@esc_smart_terrain_6_walker_fox_dog_attack %=play_sound(tolik_help)%
+
+[walker@esc_smart_terrain_6_walker_fox_dog_attack]
+path_walk 											= walker_fox_walk
+path_look 											= walker_fox_look
+meet 												= meet@hello_players
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+wounded 											= wounded@esc_smart_terrain_6_stalker_fox_wounded
+on_info 											= {-ESC_SMART_TERRAIN_6_M_DOG_SQUAD_INFO +ESC_SMART_TERRAIN_6_STALKER_FOX_HELP_DIALOG_STOP_DIALOG_INFO} walker@esc_smart_terrain_6_walker_fox_thanks %=create_squad(esc_smart_terrain_6_m_dog_squad:esc_smart_terrain_6_m) =give_task(esc_start_kill_dogs_quest_task) =scenario_autosave(st_kill_dogs) +ESC_SMART_TERRAIN_6_M_DOG_SQUAD_INFO%
+on_info2 											= {+ESC_SMART_TERRAIN_6_M_DOG_SQUAD_INFO +ESC_SMART_TERRAIN_6_STALKER_FOX_HELP_DIALOG_STOP_DIALOG_INFO} walker@esc_smart_terrain_6_walker_fox_thanks
+
+[walker@esc_smart_terrain_6_walker_fox_thanks]
+path_walk 											= walker_fox_walk
+path_look 											= walker_fox_look
+meet 												= meet@hello_players_1
+invulnerable 										= true
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+ESC_SMART_TERRAIN_6_STALKER_FOX_INFO_MILITARY_STOP_DIALOG_INFO} walker@esc_smart_terrain_6_walker_fox_thanks_save %=scenario_autosave(st_talk_to_the_fox)%
+
+[walker@esc_smart_terrain_6_walker_fox_thanks_save]
+path_walk 											= walker_fox_walk
+path_look 											= walker_fox_look
+meet 												= no_meet
+invulnerable 										= true
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+
+[meet@hello_players]
+close_snd_hello 									= nil
+close_snd_bye   									= nil
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 2
+far_distance 										= 20
+close_snd_distance 									= 6
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+[meet@hello_players_1]
+close_snd_hello 									= nil
+close_snd_bye   									= nil
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 2
+far_distance 										= 20
+close_snd_distance 									= 6
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+meet_dialog 										= {+ESC_SMART_TERRAIN_6_STALKER_FOX_HELP_DIALOG_STOP_DIALOG_INFO} esc_smart_terrain_6_stalker_fox_1_start_dialog
+
+[wounded@esc_smart_terrain_6_stalker_fox_wounded]
+hp_state 											= 101|wounded_heavy@nil
+hp_state_see 										= 101|wounded_heavy@nil
+hp_victim 											= 101|actor
+hp_cover 											= 101|false
+hp_fight 											= 101|false
+autoheal 											= false
+not_for_help 										= true
+
+;================================================

@@ -1,0 +1,7 @@
+[logic]
+active 									= sr_idle@x10_save_st_turn_off_the_radar_start
+
+[sr_idle@x10_save_st_turn_off_the_radar_start]
+on_actor_inside 						= sr_idle@nil %=scenario_autosave(st_turn_off_the_radar)% 
+
+[sr_idle@nil]

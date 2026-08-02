@@ -1,0 +1,176 @@
+[logic@pri_smart_terrain_1_walker_leader]
+suitable 											= {=check_npc_name(pri_smart_terrain_1_stalker_master)} true
+active 												= walker@pri_smart_terrain_1_walker_leader_1_idle
+prior 												= 300
+
+[walker@pri_smart_terrain_1_walker_leader_1_idle]
+path_walk 											= walker_leader_1_walk
+path_look 											= walker_leader_1_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= ward
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO -PRI_FOLLOWERS_CROSSROADS_PHRASE_INFO +PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO} walker@pri_smart_terrain_1_walker_leader_ambush_1_start
+on_info2 											= {+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO +PRI_FOLLOWERS_CROSSROADS_PHRASE_INFO +PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO} walker@pri_smart_terrain_1_walker_leader_2_idle
+on_info3 											= {-PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO -PRI_FOLLOWERS_CROSSROADS_PHRASE_INFO +PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO} walker@pri_smart_terrain_1_walker_leader_depot
+
+[walker@pri_smart_terrain_1_walker_leader_depot]
+path_walk 											= walker_leader_1_walk
+path_look 											= walker_leader_1_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= ward
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_game_timer 										= 20 | %=play_sound(followers_leader_phrase1_1)%
+on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_ambush
+
+[walker@pri_smart_terrain_1_walker_leader_ambush]
+path_walk 											= walker_leader_1_walk
+path_look 											= walker_leader_1_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= ward
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_game_timer 										= 20 | %=play_sound(followers_leader_phrase1_2)%
+;on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_4_ambush_4_start %+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO =give_task(pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task) +PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_1_SQUAD_DEAD +PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_2_SQUAD_DEAD%
+on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_ambush_1_start %+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO =give_task(pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task)%
+;on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_ambush_1_start %+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO%
+
+[walker@pri_smart_terrain_1_walker_leader_ambush_1_start]
+path_walk 											= walker_leader_2_walk
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= hide
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= false
+on_signal 											= path_end | walker@pri_smart_terrain_1_walker_leader_ambush_2_start
+
+[walker@pri_smart_terrain_1_walker_leader_ambush_2_start]
+path_walk 											= walker_leader_3_walk
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= hide
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+on_info 											= {+PRI_SMART_TERRAIN_KILLS_SQUAD_1_INFO} walker@pri_smart_terrain_1_walker_leader_2_idle
+
+[walker@pri_smart_terrain_1_walker_leader_2_idle]
+path_walk 											= walker_leader_4_walk
+path_look 											= walker_leader_4_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= ward
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_game_timer 										= 20 | %=play_sound(followers_crossroads_phrase)%
+on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_3_idle %+PRI_FOLLOWERS_CROSSROADS_PHRASE_INFO%
+
+[walker@pri_smart_terrain_1_walker_leader_3_idle]
+path_walk 											= walker_leader_4_walk
+path_look 											= walker_leader_4_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= press
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_game_timer 										= 20 | %=play_sound(followers_leader_phrase1_2)%
+on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_4_ambush_3_start %+PRI_SMART_TERRAIN_1_WALKER_LEADER_4_AMBUSH_3_INFO%
+
+[walker@pri_smart_terrain_1_walker_leader_4_ambush_3_start]
+path_walk 											= walker_leader_5_walk
+path_look 											= walker_leader_5_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+on_info 											= {+PRI_SMART_TERRAIN_13_ORDINARY_MONOLITH_1_SQUAD_DEAD +PRI_SMART_TERRAIN_14_ORDINARY_MONOLITH_1_SQUAD_DEAD +PRI_SMART_TERRAIN_15_ORDINARY_MONOLITH_1_SQUAD_DEAD} walker@pri_smart_terrain_1_walker_leader_4_idle
+
+[walker@pri_smart_terrain_1_walker_leader_4_idle]
+path_walk 											= walker_leader_5_walk
+path_look 											= walker_leader_5_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= hide
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+on_game_timer 										= 20 | %=play_sound(followers_underground_phrase1)%
+on_signal 											= sound_end | walker@pri_smart_terrain_1_walker_leader_4_idle_players
+
+[walker@pri_smart_terrain_1_walker_leader_4_idle_players]
+path_walk 											= walker_leader_5_walk
+path_look 											= walker_leader_5_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= hide
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+on_info 											= {+PRI_AMBUSH_1_INFO_IDLE_INFO} walker@pri_smart_terrain_1_walker_leader_4_ambush_4_start %+PRI_SMART_TERRAIN_1_WALKER_LEADER_4_AMBUSH_4_INFO%
+
+[walker@pri_smart_terrain_1_walker_leader_4_ambush_4_start]
+path_walk 											= walker_leader_6_walk
+path_look 											= walker_leader_6_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= ward
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= false
+combat_ignore_keep_when_attacked 					= false
+on_info 											= {+PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_1_SQUAD_DEAD +PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_2_SQUAD_DEAD} walker@pri_smart_terrain_1_walker_leader_4_ambush_4_idle %=scenario_autosave(st_underground_parking)%
+
+[walker@pri_smart_terrain_1_walker_leader_4_ambush_4_idle]
+path_walk 											= walker_leader_6_walk
+path_look 											= walker_leader_6_look
+meet 												= no_meet
+invulnerable 										= true
+def_state_standing 									= guard_na
+def_state_moving 									= assault
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+
+;================================================

@@ -1,0 +1,18 @@
+[logic]
+active 												= sr_particle@monolith_fanatic_teleport_idle
+
+[sr_particle@monolith_fanatic_teleport_idle]
+name 												= anomaly2\emi_damage_big_smoke
+path 												= sar_smart_terrain_17_particle_point_1
+mode 												= 2
+looped 												= true
+on_info 											= {+SAR_MONOLITH_PREACHER_ATTACK_INFO} sr_particle@monolith_fanatic_teleport_start
+
+[sr_particle@monolith_fanatic_teleport_start]
+name 												= anomaly2\teleport_out_00
+path 												= sar_smart_terrain_17_particle_point_1
+mode 												= 2
+looped 												= true
+on_game_timer 										= 20 | {+SAR_MONOLITH_PREACHER_ATTACK_INFO} sr_idle@nil
+
+[sr_idle@nil]

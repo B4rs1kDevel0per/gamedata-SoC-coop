@@ -1,0 +1,32 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_info 											= {+PRI_SMART_TERRAIN_2_3_4_5_6_7_8_9_10_SPAWN_SQUAD_STOP_INFO} sr_idle@nil
+on_timer 											= 1000 | sr_idle@start_2 %=create_squad(pri_smart_terrain_2_sniper_monolith_1_squad:pri_smart_terrain_2)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@start_3 %=create_squad(pri_smart_terrain_3_sniper_monolith_1_squad:pri_smart_terrain_3)%
+
+[sr_idle@start_3]
+on_timer 											= 1000 | sr_idle@start_4 %=create_squad(pri_smart_terrain_4_sniper_monolith_1_squad:pri_smart_terrain_4)%
+
+[sr_idle@start_4]
+on_timer 											= 1000 | sr_idle@start_5 %=create_squad(pri_smart_terrain_5_sniper_monolith_1_squad:pri_smart_terrain_5)%
+
+[sr_idle@start_5]
+on_timer 											= 1000 | sr_idle@start_6 %=create_squad(pri_smart_terrain_6_sniper_monolith_1_squad:pri_smart_terrain_6)%
+
+[sr_idle@start_6]
+on_timer 											= 1000 | sr_idle@start_7 %=create_squad(pri_smart_terrain_7_sniper_monolith_1_squad:pri_smart_terrain_7)%
+
+[sr_idle@start_7]
+on_timer 											= 1000 | sr_idle@start_8 %=create_squad(pri_smart_terrain_8_sniper_monolith_1_squad:pri_smart_terrain_8)%
+
+[sr_idle@start_8]
+on_timer 											= 1000 | sr_idle@start_9 %=create_squad(pri_smart_terrain_9_sniper_monolith_1_squad:pri_smart_terrain_9)%
+
+[sr_idle@start_9]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(pri_smart_terrain_10_sniper_monolith_1_squad:pri_smart_terrain_10) +PRI_SMART_TERRAIN_2_3_4_5_6_7_8_9_10_SPAWN_SQUAD_STOP_INFO%
+
+[sr_idle@nil]

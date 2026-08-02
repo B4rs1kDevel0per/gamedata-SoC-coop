@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Сидоровича(Найти и убить сталкера "Name_3"):
+[sr_idle@start_quest]
+on_info  											= {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_STOP_DIALOG_INFO} sr_idle@nil %=give_task(esc_start_sq_killer_2_quest_task) =create_squad(esc_smart_terrain_9_stalker_1_squad:esc_smart_terrain_9) =remove_squad(esc_smart_terrain_8_m_dog_squad) =remove_squad(esc_smart_terrain_8_m_dog_squad) =remove_squad(esc_smart_terrain_8_m_dog_squad)%
+
+[sr_idle@nil]

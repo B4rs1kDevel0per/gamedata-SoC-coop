@@ -1,0 +1,85 @@
+[logic@val_smart_terrain_16_walker_stalker_lucky]
+suitable 								= {=check_npc_name(val_smart_terrain_16_stalker_lucky)} true
+active 									= walker@val_smart_terrain_16_walker_stalker_lucky_1_idle
+prior 									= 300
+can_select_weapon 						= false
+
+[walker@val_smart_terrain_16_walker_stalker_lucky_1_idle]
+path_walk 								= walker_lucky_1_walk
+path_look 								= walker_lucky_1_look
+meet 									= no_meet
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+wounded 								= wounded@val_smart_terrain_16_stalker_lucky_wounded
+on_info  								= {-ESC_TEST_INFO} %=play_sound(tolik_help)%
+on_info2 								= {=dist_to_actor_le(2)} walker@val_smart_terrain_16_walker_stalker_lucky_2_idle %+VAL_SMART_TERRAIN_16_STALKER_LUCKY_HELP_INFO%
+on_info3  								= {+VAL_SMART_TERRAIN_16_STALKER_LUCKY_END_INFO} walker@val_smart_terrain_16_walker_stalker_lucky_end
+
+[walker@val_smart_terrain_16_walker_stalker_lucky_2_idle]
+path_walk 								= walker_lucky_1_walk
+path_look 								= walker_lucky_1_look
+meet 									= meet@hello_players
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+wounded 								= wounded@val_smart_terrain_16_stalker_lucky_wounded
+on_info  								= {+VAL_SMART_TERRAIN_16_STALKER_LUCKY_HELP_STOP_DIALOG_INFO} companion@go_after_player
+
+[companion@go_after_player]
+meet 									= no_meet
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+allow_break 							= false
+on_info 								= {+VAL_SMART_TERRAIN_16_STALKER_LUCKY_END_INFO} walker@val_smart_terrain_16_walker_stalker_lucky_end
+
+[walker@val_smart_terrain_16_walker_stalker_lucky_end]
+path_walk 								= walker_lucky_2_walk
+path_look 								= walker_lucky_2_look
+meet 									= no_meet
+def_state_moving1 						= run
+def_state_moving2 						= run
+def_state_moving3 						= run
+def_state_standing 						= sit
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+
+[meet@hello_players]
+close_snd_hello 						= nil
+close_snd_bye   						= nil
+close_anim 								= nil
+close_victim 							= actor
+far_anim 								= nil
+far_victim 								= actor
+close_distance  						= 0
+far_distance 							= 0
+close_snd_distance 						= 3
+abuse           						= false
+use 									= {=actor_enemy} false, true
+allow_break 							= false
+trade_enable 							= false
+meet_on_talking 						= false
+meet_dialog 							= {+all_val_smart_terrain_16_stalker_lucky_help_info} val_smart_terrain_16_stalker_lucky_2_start_dialog
+
+[wounded@val_smart_terrain_16_stalker_lucky_wounded]
+hp_state 								= 101|wounded_heavy@nil
+hp_state_see 							= 101|wounded_heavy@nil
+hp_victim 								= 101|actor
+hp_cover 								= 101|false
+hp_fight 								= 101|false
+autoheal 								= false
+not_for_help 							= true
+
+;================================================

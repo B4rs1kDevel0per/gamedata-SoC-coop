@@ -1,0 +1,10 @@
+[logic]
+active 												= sr_idle@con_codedoor_left_incon_locked_idle
+
+[sr_idle@con_codedoor_left_incon_locked_idle]
+on_player_inside  									= {+CON_LAB_PRIMARY_SWITCHER_DEACTIVATE_INFO} sr_idle@con_monolith_generator_info %+CON_ZONE_TELEPORT_SPACE_RESTRICTOR_IDLE_INFO%
+
+[sr_idle@con_monolith_generator_info]
+on_info 											= {+CON_MONOLITH_GENERATOR_1_INFO +CON_MONOLITH_GENERATOR_2_INFO +CON_MONOLITH_GENERATOR_3_INFO +CON_MONOLITH_GENERATOR_4_INFO +CON_MONOLITH_GENERATOR_5_INFO +CON_MONOLITH_GENERATOR_6_INFO} sr_idle@nil
+
+[sr_idle@nil]

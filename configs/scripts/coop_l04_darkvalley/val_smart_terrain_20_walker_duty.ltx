@@ -1,0 +1,52 @@
+[logic@val_smart_terrain_20_walker_duty_1]
+suitable 								= {=check_npc_name(sim_default_duty_0_default_no_items)} true
+active 									= walker@val_smart_terrain_20_walker_duty_1
+prior 									= 300
+can_select_weapon 						= false
+
+[walker@val_smart_terrain_20_walker_duty_1]
+path_walk 								= walker_1_walk
+path_look 								= walker_1_look
+def_state_moving1 						= sprint
+def_state_moving2 						= sprint
+def_state_moving3 						= sprint
+meet 									= no_meet
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+on_info  								= {+VAL_VAL_DOOR_METAL_2_OPEN_INFO} walker@val_smart_terrain_20_walker_duty_go_1
+
+[walker@val_smart_terrain_20_walker_duty_go_1]
+path_walk 								= walker_2_walk
+path_look 								= walker_2_look
+def_state_moving1 						= sprint
+def_state_moving2 						= sprint
+def_state_moving3 						= sprint
+meet 									= no_meet
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+on_signal 								= path_end | walker@val_smart_terrain_20_walker_duty_go_2
+
+[walker@val_smart_terrain_20_walker_duty_go_2]
+path_walk 								= walker_3_walk
+path_look 								= walker_3_look
+def_state_moving1 						= sprint
+def_state_moving2 						= sprint
+def_state_moving3 						= sprint
+meet 									= no_meet
+combat_ignore_cond 						= true
+combat_ignore_keep_when_attacked 		= true
+invulnerable 							= true
+gather_items_enabled 					= false
+help_wounded_enabled 					= false
+corpse_detection_enabled 				= false
+on_signal 								= path_end | %=remove_squad(val_smart_terrain_20_duty_1_squad)%
+
+;================================================

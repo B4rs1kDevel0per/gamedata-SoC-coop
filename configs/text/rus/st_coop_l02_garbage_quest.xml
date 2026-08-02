@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>	
+
+	
+	<string id="st_gar_start_save_the_stalker_yurik_from_bandits_quest_task_name">
+		<text>Спасти Юрика</text>
+	</string>
+	<string id="st_gar_start_save_the_stalker_yurik_from_bandits_quest_task_descr">
+		<text>Убейте бандитов и спасите Юрика</text>
+	</string>
+	
+
+	<string id="st_gar_start_talk_to_yurik_quest_task_name">
+		<text>Поговорить с Юриком</text>
+	</string>
+	<string id="st_gar_start_talk_to_yurik_quest_task_descr">
+		<text>Поговорить с Юриком</text>
+	</string>
+	
+	
+	<string id="st_gar_start_talk_to_devil_quest_task_name">
+		<text>Преступление и наказание</text>
+	</string>
+	<string id="st_gar_start_talk_to_devil_quest_task_descr">
+		<text>Бес, командир отряда нейтралов, вызывает всех, кто слышит, и просит о помощи. Не отозваться было бы западлом. Нужно выдвигаться к кладбищу техники, главное - не опоздать.</text>
+	</string>
+	
+	
+	<string id="st_gar_start_help_to_repel_the_bandits_attack_quest_task_name">
+		<text>Преступление и наказание</text>
+	</string>
+	<string id="st_gar_start_help_to_repel_the_bandits_attack_quest_task_descr">
+		<text>Бандиты двигаются со стороны НИИ Агропром. Нужно устроить им засаду и перебить этих крыс.</text>
+	</string>
+
+
+	<string id="st_gar_start_talk_to_devil_1_quest_task_name">
+		<text>Преступление и наказание</text>
+	</string>
+	<string id="st_gar_start_talk_to_devil_1_quest_task_descr">
+		<text>Поговорить с Бесом и забрать награду</text>
+	</string>
+	
+	
+	<string id="st_gar_start_help_the_gray_to_fight_off_the_bandits_quest_task_name">
+		<text>Полный беспредел</text>
+	</string>
+	<string id="st_gar_start_help_the_gray_to_fight_off_the_bandits_quest_task_descr">
+		<text>Еще один сигнал SOS, на этот раз - со стороны ангара. Похоже, это Серый, брат Лиса. Бандиты, эти скоты, совсем озверели. Вольных бродяг в беде оставлять нельзя, нужно помочь парням. И с Серым пообщаться.</text>
+	</string>
+	
+	
+	<string id="st_gar_start_talk_to_gray_quest_task_name">
+		<text>Полный беспредел</text>
+	</string>
+	<string id="st_gar_start_talk_to_gray_quest_task_descr">
+		<text>Похоже, отбились. Надо бы поговорить с Серым, Лис говорил, что его брат что-то разнюхал о каком-то сталкере, что, вроде как, добрался до центра Зоны.</text>
+	</string>	
+
+
+	<string id="st_gar_start_go_to_the_agroprom_quest_task_name">
+		<text>На Агропром</text>
+	</string>
+	<string id="st_gar_start_go_to_the_agroprom_quest_task_descr">
+		<text>Серый сказал, некий Стрелок был в центре Зоны - и вернулся! И, что важнее, друг Серого - Крот, раскопал тайник этого самого Стрелка! Нужно найти Крота, и всё разузнать. Серый, в благодарность за нашу помощь, обещал связаться с ним и предупредить о нашем визите. \n По словам Серого, военные выбили бандитов с территории НИИ, и неплохо там укрепились. Теперь ясно, куда направлялись те вертушки. Судя по всему, безопасно до Агропрома можно добраться только по старому ж/д туннелю. Похоже, выбор у нас небольшой.</text>
+	</string>	
+
+
+	<string id="st_gar_start_help_fight_off_the_mutants_quest_task_name">
+		<text>Волна мутантов</text>
+	</string>
+	<string id="st_gar_start_help_fight_off_the_mutants_quest_task_descr">
+		<text>Помочь долговцам отбиться от мутантов.</text>	
+	</string>
+</string_table>

@@ -1,0 +1,77 @@
+[logic@agr_smart_terrain_3_guard_stalker_1]
+suitable 											= {=check_npc_name(sim_default_stalker_2)} true
+active 												= walker@agr_smart_terrain_3_guard_stalker_1
+prior 												= 300
+
+[walker@agr_smart_terrain_3_guard_stalker_1]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_standing 									= threat_na
+def_state_moving 									= walk
+meet 												= no_meet
+gather_items_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_keep_when_attacked 					= true
+combat_ignore_cond									= true 
+on_info  											= {+AGR_THE_ORDER_TO_KILL_MOLE_SPACE_RESTRICTOR_INFO} walker@agr_smart_terrain_3_guard_stalker_1_attack   
+
+[walker@agr_smart_terrain_3_guard_stalker_1_attack]                                                                                                                                                 
+path_walk 											= guard_1_walk                                                                                                                                      
+path_look 											= guard_1_look                                                                                                                                      
+def_state_standing 									= threat_na                                                                                                                                          
+def_state_moving 									= walk                                                                                                                                               
+meet 												= no_meet                                                                                                                                                                                                                                                                                    
+
+;================================================    
+
+[logic@agr_smart_terrain_3_guard_stalker_2]
+suitable 											= {=check_npc_name(sim_default_stalker_2)} true
+active 												= walker@agr_smart_terrain_3_guard_stalker_2
+prior 												= 300
+
+[walker@agr_smart_terrain_3_guard_stalker_2]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_standing 									= threat_na
+def_state_moving 									= walk
+meet 												= no_meet
+gather_items_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_keep_when_attacked 					= true
+combat_ignore_cond									= {=check_enemy_name(sim_default_military_0)} true, {=check_enemy_name(sim_default_military_1)} true  
+on_info  											= {+AGR_THE_ORDER_TO_KILL_MOLE_SPACE_RESTRICTOR_INFO} walker@agr_smart_terrain_3_guard_stalker_2_attack   
+
+[walker@agr_smart_terrain_3_guard_stalker_2_attack]                                                                                                                                                 
+path_walk 											= guard_2_walk                                                                                                                                      
+path_look 											= guard_2_look                                                                                                                                      
+def_state_standing 									= threat_na                                                                                                                                          
+def_state_moving 									= walk                                                                                                                                               
+meet 												= no_meet                                                                                                                                                                                                                                                                                    
+
+;================================================       
+
+[logic@agr_smart_terrain_3_guard_stalker_3]
+suitable 											= {=check_npc_name(sim_default_stalker_2)} true
+active 												= walker@agr_smart_terrain_3_guard_stalker_3
+prior 												= 300
+
+[walker@agr_smart_terrain_3_guard_stalker_3]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_standing 									= threat_na
+def_state_moving 									= walk
+meet 												= no_meet
+gather_items_enabled 								= false
+corpse_detection_enabled 							= false
+combat_ignore_keep_when_attacked 					= true
+combat_ignore_cond									= {=check_enemy_name(sim_default_military_0)} true, {=check_enemy_name(sim_default_military_1)} true 
+on_info  											= {+AGR_THE_ORDER_TO_KILL_MOLE_SPACE_RESTRICTOR_INFO} walker@agr_smart_terrain_3_guard_stalker_3_attack   
+
+[walker@agr_smart_terrain_3_guard_stalker_3_attack]                                                                                                                                                 
+path_walk 											= guard_3_walk                                                                                                                                      
+path_look 											= guard_3_look                                                                                                                                      
+def_state_standing 									= threat_na                                                                                                                                          
+def_state_moving 									= walk                                                                                                                                               
+meet 												= no_meet                                                                                                                                                                                                                                                                                    
+
+;================================================       

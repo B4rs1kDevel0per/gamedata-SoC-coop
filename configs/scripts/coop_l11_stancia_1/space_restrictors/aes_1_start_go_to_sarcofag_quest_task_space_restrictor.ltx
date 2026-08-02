@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+PRI_START_GO_TO_CNPP_QUEST_TASK_INFO%
+;on_info 											= {-BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+PRI_START_GO_TO_CNPP_QUEST_TASK_INFO =give_task(aes_1_start_go_to_sarcofag_quest_task) =scenario_autosave(st_go_to_sarcofag)%
+
+[sr_idle@nil]

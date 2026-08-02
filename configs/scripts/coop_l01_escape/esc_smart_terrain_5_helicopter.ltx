@@ -1,0 +1,52 @@
+[logic]
+active = heli_move@idle
+
+[heli_move@idle]
+path_move = esc_helicopter_idle_way
+max_velocity = 300
+engine_sound = false
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_info1  = {+ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO} heli_move@fly_0
+on_info2  = {+ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO} heli_move@fly_0
+
+[heli_move@fly_0]
+path_move = esc_helicopter_move_way_0
+max_velocity = 300
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_info1  = {+ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO} heli_move@fly_1
+on_info2  = {+ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO} heli_move@fly_1
+
+[heli_move@fly_1]
+path_move = esc_helicopter_move_way_1
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 18000 | heli_move@fly_2 %=play_sound(heli_radio_part_1)%
+
+[heli_move@fly_2]
+path_move = esc_helicopter_move_way_2
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 5000 | heli_move@fly_3
+
+[heli_move@fly_3]
+path_move = esc_helicopter_move_way_3
+max_velocity = 300
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 10000 | heli_move@fly_4
+
+[heli_move@fly_4]
+path_move = esc_helicopter_move_way_3
+max_velocity = 300
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_game_timer = 5 | %=destroy_object%

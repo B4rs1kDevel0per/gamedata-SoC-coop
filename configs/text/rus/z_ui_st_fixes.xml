@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="mm_mp_join">
+		<text>ПОДКЛЮЧИТЬСЯ</text>
+	</string>
+	<string id="coop_jupiter_underground">
+		<text>Путепровод «Припять-1»</text>
+	</string>
+</string_table>

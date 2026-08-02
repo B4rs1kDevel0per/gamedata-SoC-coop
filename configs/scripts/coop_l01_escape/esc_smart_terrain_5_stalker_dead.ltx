@@ -1,0 +1,49 @@
+[logic@esc_smart_terrain_5_stalker_dead_1]
+suitable = {=check_npc_name(sim_default_stalker_0)} true
+active = walker@esc_smart_terrain_5_stalker_dead_1
+prior = 300
+
+[walker@esc_smart_terrain_5_stalker_dead_1]
+path_walk = stalker_dead_1_walk
+path_look = stalker_dead_1_look
+meet = no_meet
+on_game_timer = 1 | remark@suiside_shot_1
+
+[remark@presets_1]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_1]:remark@presets_1
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================
+
+[logic@esc_smart_terrain_5_stalker_dead_2]
+suitable = {=check_npc_name(sim_default_stalker_0)} true
+active = walker@esc_smart_terrain_5_stalker_dead_2
+prior = 300
+
+[walker@esc_smart_terrain_5_stalker_dead_2]
+path_walk = stalker_dead_2_walk
+path_look = stalker_dead_2_look
+meet = no_meet
+on_game_timer = 1 | remark@suiside_shot_2
+
+[remark@presets_2]
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+gather_items_enabled = false
+help_wounded_enabled = false
+corpse_detection_enabled = false
+use_camp = false
+
+[remark@suiside_shot_2]:remark@presets_2
+on_game_timer = 1 | nil %=kill_npc%
+meet = no_meet
+
+;================================================

@@ -1,0 +1,36 @@
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Основные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Основной квест(Добраться до ЧАЭС)
+[pri_start_go_to_cnpp_quest_task]
+icon 									= ui_inGame2_pri_start_go_to_cnpp_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_pri_start_go_to_cnpp_quest_task_name
+descr 									= st_pri_start_go_to_cnpp_quest_task_descr
+target 									= pri_level_changer
+condlist_0 								= {+PRI_START_GO_TO_CNPP_QUEST_TASK_INFO} complete %=give_task(aes_1_start_go_to_sarcofag_quest_task)%
+
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Второстепенные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Дополнительный квест(Встретиться с группой сталкеров)
+[pri_start_meet_a_group_of_stalkers_quest_task]
+icon 									= ui_inGame2_pri_start_meet_a_group_of_stalkers_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_pri_start_meet_a_group_of_stalkers_quest_task_name
+descr 									= st_pri_start_meet_a_group_of_stalkers_quest_task_descr
+target 									= pri_smart_terrain_1_stalker_leader_squad
+;condlist_0 								= {+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO} complete %=give_task(pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task)%
+condlist_0 								= {+PRI_SMART_TERRAIN_1_WALKER_LEADER_IDLE_INFO} complete
+
+;Дополнительный квест(Помочь сталкерам добраться до подземной парковки)
+[pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task]
+icon 									= ui_inGame2_pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task_name
+descr 									= st_pri_start_help_the_stalkers_get_to_the_underground_parking_quest_task_descr
+target 									= pri_smart_terrain_1_stalker_leader_squad
+condlist_0 								= {+PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_1_SQUAD_DEAD +PRI_SMART_TERRAIN_19_ORDINARY_MONOLITH_2_SQUAD_DEAD} complete

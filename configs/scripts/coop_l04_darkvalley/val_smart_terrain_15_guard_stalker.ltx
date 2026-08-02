@@ -1,0 +1,140 @@
+[logic@val_smart_terrain_15_guard_stalker_1]
+active 												= camper@val_smart_terrain_15_guard_stalker_1
+prior 												= 300
+
+[camper@val_smart_terrain_15_guard_stalker_1]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_campering 								= guard
+use_camp 											= true
+turn_on_campfire 									= true
+on_info  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_FAIL_STOP_DIALOG} camper@val_smart_terrain_15_guard_stalker_1_fail %=actor_enemy%
+on_info2  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_GOOD_STOP_DIALOG +VAL_SCAMMER_DRIVES_AWAY_INFO} camper@val_smart_terrain_15_guard_stalker_1_2
+on_info3  											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_1_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_1_2]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_campering 								= guard
+use_camp 											= true
+turn_on_campfire 									= true
+meet 												= meet@hello_players_1
+on_info 											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_1_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_1_fail]
+path_walk 											= guard_1_walk
+path_look 											= guard_1_look
+def_state_campering 								= guard_fire
+
+[meet@hello_players_1]
+close_snd_hello 									= scammer_friend_drives_away
+close_snd_bye   									= scammer_friend_drives_away
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= false
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================
+
+[logic@val_smart_terrain_15_guard_stalker_2]
+active 												= camper@val_smart_terrain_15_guard_stalker_2
+prior 												= 300
+
+[camper@val_smart_terrain_15_guard_stalker_2]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_campering 								= guard
+use_camp 											= true
+turn_on_campfire 									= true
+on_info  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_FAIL_STOP_DIALOG} camper@val_smart_terrain_15_guard_stalker_2_fail %=actor_enemy%
+on_info2  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_GOOD_STOP_DIALOG +VAL_SCAMMER_DRIVES_AWAY_INFO} camper@val_smart_terrain_15_guard_stalker_2_2
+on_info3  											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_2_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_2_2]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_campering 								= guard
+use_camp 											= true
+turn_on_campfire 									= true
+meet 												= meet@hello_players_2
+on_info  											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_2_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_2_fail]
+path_walk 											= guard_2_walk
+path_look 											= guard_2_look
+def_state_campering 								= guard_fire
+
+[meet@hello_players_2]
+close_snd_hello 									= scammer_friend_drives_away
+close_snd_bye   									= scammer_friend_drives_away
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= false
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================
+
+[logic@val_smart_terrain_15_guard_stalker_3]
+active 												= camper@val_smart_terrain_15_guard_stalker_3
+prior 												= 300
+
+[camper@val_smart_terrain_15_guard_stalker_3]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_campering 								= sit
+use_camp 											= true
+turn_on_campfire 									= true
+show_spot 											= false
+on_info  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_FAIL_STOP_DIALOG} camper@val_smart_terrain_15_guard_stalker_3_fail %=actor_enemy%
+on_info2  											= {+VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_GOOD_STOP_DIALOG +VAL_SCAMMER_DRIVES_AWAY_INFO} camper@val_smart_terrain_15_guard_stalker_3_2
+on_info3  											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_3_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_3_2]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_campering 								= sit
+use_camp 											= true
+turn_on_campfire 									= true
+show_spot 											= false
+meet 												= meet@hello_players_3
+on_info  											= {+VAL_SMART_TERRAIN_15_STALKER_FAIL_INFO} camper@val_smart_terrain_15_guard_stalker_3_fail %=actor_enemy%
+
+[camper@val_smart_terrain_15_guard_stalker_3_fail]
+path_walk 											= guard_3_walk
+path_look 											= guard_3_look
+def_state_campering 								= guard_fire
+show_spot 											= false
+
+[meet@hello_players_3]
+close_snd_hello 									= scammer_friend_drives_away
+close_snd_bye   									= scammer_friend_drives_away
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= false
+allow_break 										= false
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

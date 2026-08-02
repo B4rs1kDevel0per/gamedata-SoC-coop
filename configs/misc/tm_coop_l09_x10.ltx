@@ -1,0 +1,26 @@
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Основные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------
+;Квест Бармена(Отключить Радар)
+[x10_start_turn_off_the_radar_quest_task]
+icon 									= ui_inGame2_x10_start_turn_off_the_radar_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_x10_start_turn_off_the_radar_quest_task_name
+descr 									= st_x10_start_turn_off_the_radar_quest_task_descr
+target 									= nil
+condlist_0 								= {+X10_LAB_PRIMARY_SWITCHER_2_DEACTIVATE_INFO} complete %=give_task(x10_start_leave_the_bunker_and_go_to_pripyat_quest_task)%
+
+;Основной квест(Покинуть бункер и отправиться в Припять)
+[x10_start_leave_the_bunker_and_go_to_pripyat_quest_task]
+icon 									= ui_inGame2_x10_start_leave_the_bunker_and_go_to_pripyat_quest_task
+prior 									= 200
+storyline 								= true
+title 									= st_x10_start_leave_the_bunker_and_go_to_pripyat_quest_task_name
+descr 									= st_x10_start_leave_the_bunker_and_go_to_pripyat_quest_task_descr
+target 									= rad_level_changer_2
+condlist_0 								= {+PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO} complete
+
+;--------------------------------------------------------------------------------------------------------------------------------------
+;-- Второстепенные квесты:
+;--------------------------------------------------------------------------------------------------------------------------------------

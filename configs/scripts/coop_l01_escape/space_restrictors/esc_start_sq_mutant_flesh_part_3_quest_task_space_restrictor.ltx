@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Сидоровича(Найти и принести "Глаз Плоти"):
+[sr_idle@start_quest]
+on_info  											= {+ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_STOP_DIALOG_INFO} sr_idle@nil %=give_task(esc_start_sq_mutant_flesh_part_3_quest_task)%
+
+[sr_idle@nil]

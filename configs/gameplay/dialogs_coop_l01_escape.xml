@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+    <!-- Фрагмент 1 -->
+    <dialog id="esc_smart_terrain_1_stalker_guide_help">
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_stalker_guide_help_1</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_stalker_guide_help_2</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_stalker_guide_help_4</text>
+                <next>6</next>
+                <next>7</next>
+                <next>8</next>
+                <next>9</next>
+                <next>10</next>
+                <next>11</next>
+                <next>12</next>
+                <next>13</next>
+                <next>14</next>
+                <next>15</next>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_stalker_guide_help_6</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_GAR_INFO</give_flag>
+            </phrase>
+            <phrase id="7">
+                <text>esc_smart_terrain_1_stalker_guide_help_7</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGR_INFO</give_flag>
+            </phrase>
+            <phrase id="8">
+                <text>esc_smart_terrain_1_stalker_guide_help_8</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AGRU_INFO</give_flag>
+            </phrase>
+            <phrase id="9">
+                <text>esc_smart_terrain_1_stalker_guide_help_9</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_VAL_INFO</give_flag>
+            </phrase>
+            <phrase id="10">
+                <text>esc_smart_terrain_1_stalker_guide_help_10</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X18_INFO</give_flag>
+            </phrase>
+            <phrase id="11">
+                <text>esc_smart_terrain_1_stalker_guide_help_11</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_BAR_INFO</give_flag>
+            </phrase>
+            <phrase id="12">
+                <text>esc_smart_terrain_1_stalker_guide_help_12</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_ROS_INFO</give_flag>
+            </phrase>
+            <phrase id="13">
+                <text>esc_smart_terrain_1_stalker_guide_help_13</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_MIL_INFO</give_flag>
+            </phrase>
+            <phrase id="14">
+                <text>esc_smart_terrain_1_stalker_guide_help_14</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X16_INFO</give_flag>
+            </phrase>
+            <phrase id="15">
+                <text>esc_smart_terrain_1_stalker_guide_help_15</text>
+                <action>dialogs.break_dialog</action>
+				<give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_YAN_INFO</give_flag>
+            </phrase>
+            <phrase id="16">
+                <text>esc_smart_terrain_1_stalker_guide_help_16</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_RAD_INFO</give_flag>
+            </phrase>
+            <phrase id="17">
+                <text>esc_smart_terrain_1_stalker_guide_help_17</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_X10_INFO</give_flag>
+            </phrase>
+            <phrase id="18">
+                <text>esc_smart_terrain_1_stalker_guide_help_18</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_PRI_INFO</give_flag>
+            </phrase>
+            <phrase id="19">
+                <text>esc_smart_terrain_1_stalker_guide_help_19</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AES_1_INFO</give_flag>
+            </phrase>
+            <phrase id="20">
+                <text>esc_smart_terrain_1_stalker_guide_help_20</text>
+	                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_AES_2_INFO</give_flag>
+            </phrase>
+            <phrase id="21">
+                <text>esc_smart_terrain_1_stalker_guide_help_21</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_SAR_INFO</give_flag>
+            </phrase>
+            <phrase id="22">
+                <text>esc_smart_terrain_1_stalker_guide_help_22</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_1_STALKER_GUIDE_TO_CON_INFO</give_flag>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_guide_help_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_stalker_guide_help_5</text>
+                <next>16</next>
+                <next>17</next>
+                <next>18</next>
+                <next>19</next>
+                <next>20</next>
+                <next>21</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_stalker_guide_help_3</text>
+                <next>5</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_stalker_guide_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_guide_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_3_stalker_shustry_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_3_stalker_shustry_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_4_stalker_petruha_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_4_stalker_petruha_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_5_walker_tolik_help">
+    <has_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</has_flag>
+    <dont_has_flag>ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO</dont_has_flag>	
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_5_walker_tolik_help_1</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_5_walker_tolik_help_3</text>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_5_walker_tolik_help_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_5_walker_tolik_help_2</text>
+			    <precondition>dialogs_item.if_actor_has_medkit</precondition>
+                <action>dialogs_item.transfer_medkit</action>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_5_WALKER_TOLIK_HELP_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_5_walker_tolik_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_5_walker_tolik_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_6_stalker_fox_1_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_6_stalker_fox_1_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_6_stalker_fox_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_6_stalker_fox_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_6_stalker_fox_help_dialog">
+    <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_GO_TO_FOX_STOP_DIALOG_INFO</has_flag>
+    <dont_has_flag>ESC_SMART_TERRAIN_6_STALKER_FOX_HELP_DIALOG_STOP_DIALOG_INFO</dont_has_flag>	
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_6_stalker_fox_help_dialog_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_6_stalker_fox_help_dialog_2</text>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_6_stalker_fox_help_dialog_0</text>
+			    <precondition>dialogs_item.if_actor_has_medkit</precondition>
+                <action>dialogs_item.transfer_medkit</action>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_6_STALKER_FOX_HELP_DIALOG_STOP_DIALOG_INFO</give_flag>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_6_stalker_fox_info_military">
+    <has_flag>ESC_SMART_TERRAIN_6_M_DOG_SQUAD_DEAD</has_flag>
+    <dont_has_flag>ESC_SMART_TERRAIN_6_STALKER_FOX_INFO_MILITARY_STOP_DIALOG_INFO</dont_has_flag>	
+        <phrase_list>
+            <phrase id="7">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_7</text>
+                <give_flag>ESC_SMART_TERRAIN_6_STALKER_FOX_INFO_MILITARY_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_6</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_6_STALKER_FOX_INFO_MILITARY_STOP_DIALOG_INFO</give_flag>
+                <next>7</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_6_stalker_fox_info_military_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_7_military_kuznetsov_go_to_fox_1">
+    <has_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</has_flag>
+    <dont_has_flag>ESC_SMART_TERRAIN_7_MILITARY_KUZNETSOV_GO_TO_FOX_1_STOP_DIALOG_INFO</dont_has_flag>	
+        <phrase_list>
+            <phrase id="3">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_1_3</text>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_1_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_1_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_1_2</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_7_MILITARY_KUZNETSOV_GO_TO_FOX_1_STOP_DIALOG_INFO</give_flag>				
+                <next>3</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_7_military_kuznetsov_go_to_fox_2">
+        <precondition>dialogs_coop_l01_escape.if_actor_has_vodka_5x</precondition>
+		<has_flag>ESC_SMART_TERRAIN_7_MILITARY_KUZNETSOV_GO_TO_FOX_1_STOP_DIALOG_INFO</has_flag>
+		<dont_has_flag>ESC_SMART_TERRAIN_7_MILITARY_KUZNETSOV_GO_TO_FOX_2_STOP_DIALOG_INFO</dont_has_flag>	
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_2_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_2_0</text>
+                <action>dialogs_coop_l01_escape.transfer_vodka_5x</action>
+                <give_flag>ESC_START_5_BOTTLES_OF_VODKA_FOR_KUZNETSOV_QUEST_TASK_INFO</give_flag>
+                <next>1</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_7_military_kuznetsov_go_to_fox_2_2</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_7_MILITARY_KUZNETSOV_GO_TO_FOX_2_STOP_DIALOG_INFO</give_flag>	
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_7_military_kuznetsov_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_7_military_kuznetsov_start_dialog_0</text>
+                <dont_has_flag>all_esc_help_lost_pridurok_task_info</dont_has_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_flesh">
+        <precondition>dialogs_coop_l01_escape.if_actor_has_dev_flash_sidorovich</precondition>
+        <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_FLESH_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_flesh_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_flesh_2</text>
+				<action>dialogs_coop_l01_escape.transfer_dev_flash_sidorovich</action>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_flesh_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_flesh_4</text>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_FLESH_STOP_DIALOG_INFO</give_flag>
+                <action>dialogs_money.give_money_to_actor_1000</action>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_flesh_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_go_to_fox">
+        <has_flag>ESC_HELICOPTER_GO_TO_AGROPROM_INFO</has_flag>
+        <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_GO_TO_FOX_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_6</text>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_GO_TO_FOX_STOP_DIALOG_INFO</give_flag>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_go_to_fox_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf">
+        <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_TALK_TO_THE_WOLF_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_4</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_START_TALK_TO_THE_SIDOROVICH_QUEST_TASK_INFO</give_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_TALK_TO_THE_WOLF_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_stalker_wolf_help_atp_end">
+        <has_flag>ESC_START_ESCORT_THE_STALKER_SHUSTRY_QUEST_TASK_INFO</has_flag>
+        <dont_has_flag>ESC_SMART_TERRAIN_1_STALKER_WOLF_HELP_ATP_END_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_end_2</text>
+                <action>dialogs.break_dialog</action>
+                <action>dialogs_money.give_money_to_actor_2000</action>
+				<give_flag>ESC_SMART_TERRAIN_1_STALKER_WOLF_HELP_ATP_END_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_end_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_end_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_stalker_wolf_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_wolf_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_stalker_wolf_help_atp_the">
+        <has_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</has_flag>
+        <dont_has_flag>ESC_SMART_TERRAIN_3_BANDIT_1_SQUAD_DEAD</dont_has_flag>
+        <phrase_list>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_the_2</text>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_the_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_the_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_stalker_wolf_help_atp">
+        <has_flag>ESC_START_TALK_TO_THE_SIDOROVICH_QUEST_TASK_INFO</has_flag>
+	    <dont_has_flag>ESC_SMART_TERRAIN_1_STALKER_WOLF_HELP_ATP_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_5</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="7">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_7</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_6</text>
+                <next>7</next>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="8">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_8</text>
+				<give_flag>ESC_SMART_TERRAIN_1_STALKER_WOLF_HELP_ATP_STOP_DIALOG_INFO</give_flag>
+				<give_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</give_flag>
+                <!--action>dialogs_coop_l01_escape.give_actor_starting_gear</action-->
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_stalker_wolf_help_atp_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_4_stalker_petruha_help_atp">
+        <has_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</has_flag>
+        <dont_has_flag>ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="4">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_4</text>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_1</text>
+                <next>2</next>
+				<next>3</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_5</text>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_3</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO</give_flag>
+                <next>5</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_4_stalker_petruha_help_atp_2</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_SMART_TERRAIN_4_STALKER_PETRUHA_HELP_ATP_STOP_DIALOG_INFO</give_flag>
+                <give_flag>ESC_START_KILL_BANDITS_ON_THE_ATP_QUEST_TASK_INFO</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_3_stalker_shustry_go_to_vilage">
+        <has_flag>ESC_START_TALK_TO_THE_WOLF_QUEST_TASK_INFO</has_flag>
+        <dont_has_flag>ESC_SMART_TERRAIN_3_STALKER_SHUSTRY_GO_TO_VILAGE_STOP_DIALOG_INFO</dont_has_flag>
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_smart_terrain_3_stalker_shustry_go_to_vilage_1</text>
+                <next>2</next>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_3_stalker_shustry_go_to_vilage_3</text>
+                <next>4</next>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_3_stalker_shustry_go_to_vilage_4</text>
+                <action>dialogs_coop_l01_escape.give_actor_dev_flash_sidorovich</action>
+                <give_flag>ESC_START_ESCORT_THE_STALKER_SHUSTRY_QUEST_TASK_INFO</give_flag>
+                <give_flag>ESC_SMART_TERRAIN_3_STALKER_SHUSTRY_GO_TO_VILAGE_STOP_DIALOG_INFO</give_flag>c 
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_3_stalker_shustry_go_to_vilage_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_3_stalker_shustry_go_to_vilage_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog">
+        <phrase_list>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_3</text>
+                <next>8</next>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_6</text>
+                <next>7</next>
+                <next>14</next>
+                <next>15</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_5</text>
+                <next>12</next>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="8">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_8</text>
+                <next>9</next>
+                <next>16</next>
+                <next>17</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="10">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_10</text>
+                <next>11</next>
+                <next>18</next>
+                <next>19</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="12">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_12</text>
+                <next>13</next>
+                <next>20</next>
+                <next>21</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="13">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_13</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="20">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_20</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="21">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_21</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="19">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_19</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_3_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="18">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_18</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_2_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="11">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_11</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="16">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_16</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="9">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_9</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="17">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_17</text>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_4</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="7">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_7</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="14">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_14</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_2</text>
+                <next>6</next>
+            </phrase>
+            <phrase id="15">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_15</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="22">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_22</text>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+                <next>6</next>
+                <next>7</next>
+                <next>8</next>
+                <next>9</next>
+                <next>11</next>
+                <next>10</next>
+                <next>12</next>
+                <next>13</next>
+                <next>14</next>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_2</text>
+				<precondition>dialogs_item.if_actor_has_af_medusa</precondition>
+                <action>dialogs_item.transfer_af_medusa</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_1_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_3</text>
+				<precondition>dialogs_item.if_actor_has_af_blood</precondition>
+                <action>dialogs_item.transfer_af_blood</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_2_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_4</text>
+				<precondition>dialogs_item.if_actor_has_af_cristall_flower</precondition>
+                <action>dialogs_item.transfer_af_cristall_flower</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_3_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_5</text>
+                <has_flag>ESC_SMART_TERRAIN_8_STALKER_1_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_8_STALKER_1_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_4_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_6</text>
+                <has_flag>ESC_SMART_TERRAIN_9_STALKER_1_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_9_STALKER_1_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_5_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="7">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_7</text>
+                <has_flag>ESC_SMART_TERRAIN_10_STALKER_1_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_10_STALKER_1_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_6_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="8">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_8</text>
+                <has_flag>ESC_SMART_TERRAIN_1_M_DOG_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_M_DOG_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_7_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="9">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_9</text>
+                <has_flag>ESC_SMART_TERRAIN_7_M_BOAR_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_7_M_BOAR_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_8_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="10">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_10</text>
+                <has_flag>ESC_SMART_TERRAIN_13_M_BOAR_SQUAD_DEAD</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_13_M_BOAR_SQUAD_DEAD</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_9_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="11">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_11</text>
+				<precondition>dialogs_item.if_actor_has_mutant_boar_part_15x</precondition>
+                <action>dialogs_item.transfer_mutant_boar_part_15x</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_10_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_10_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="12">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_12</text>
+				<precondition>dialogs_item.if_actor_has_mutant_dog_part_10x</precondition>
+                <action>dialogs_item.transfer_mutant_dog_part_10x</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_11_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_11_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="13">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_13</text>
+				<precondition>dialogs_item.if_actor_has_mutant_flesh_part_5x</precondition>
+                <action>dialogs_item.transfer_mutant_flesh_part_5x</action>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_STOP_DIALOG_INFO</has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_12_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_12_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+            <phrase id="14">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_14</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_1</text>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+                <next>6</next>
+                <next>7</next>
+                <next>8</next>
+                <next>9</next>
+                <next>10</next>
+                <next>11</next>
+                <next>12</next>
+                <next>13</next>
+                <next>14</next>
+            </phrase>
+            <phrase id="14">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_14</text>
+            </phrase>
+            <phrase id="2">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_2</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_FAIL_INFO</dont_has_flag>
+				<dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_1_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_1_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="3">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_3</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_2_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_2_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="4">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_4</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_3_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_ART_3_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="5">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_5</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_1_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="6">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_6</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_2_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="7">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_7</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_3_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="8">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_8</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_1_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="9">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_9</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_2_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_2_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_2_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="10">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_10</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_3_FAIL_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_3_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_KILLER_MUTANTS_3_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="11">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_11</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_10_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_BOAR_PART_1_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="12">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_12</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_11_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_DOG_PART_2_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+            <phrase id="13">
+                <text>esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_13</text>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_FAIL_INFO</dont_has_flag>
+                <dont_has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SECONDARY_QUESTS_IDLE_12_STOP_DIALOG_INFO</dont_has_flag>
+                <give_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_FAIL_INFO</give_flag>
+                <has_flag>ESC_SMART_TERRAIN_1_TRADER_SIDOROVICH_SQ_MUTANT_FLESH_PART_3_STOP_DIALOG_INFO</has_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>	
+
+    <!-- Фрагмент 2 -->
+    <dialog id="esc_trader_start_dialog">
+        <phrase_list>
+            <phrase id="2">
+                <text></text>
+                <has_flag>ESC_RETURN_INFO</has_flag>
+                <next>21</next>
+            </phrase>
+            <phrase id="342">
+                <text>esc_trader_start_dialog_342</text>
+                <next>352</next>
+            </phrase>
+            <phrase id="51">
+                <text>esc_trader_start_dialog_51</text>
+                <next>52</next>
+            </phrase>
+            <phrase id="61">
+                <text>esc_trader_start_dialog_61</text>
+            </phrase>
+            <phrase id="91">
+                <text>esc_trader_start_dialog_91</text>
+            </phrase>
+            <phrase id="71">
+                <text>esc_trader_start_dialog_71</text>
+            </phrase>
+            <phrase id="81">
+                <text>esc_trader_start_dialog_81</text>
+            </phrase>
+            <phrase id="341">
+                <text>esc_trader_start_dialog_341</text>
+                <give_flag>ESC_START_QUEST_END_INFO</give_flag>
+                <next>351</next>
+            </phrase>
+            <phrase id="1">
+                <text></text>
+                <dont_has_flag>ESC_START_QUEST_INFO</dont_has_flag>
+                <next>11</next>
+            </phrase>
+            <phrase id="352">
+                <text>esc_trader_start_dialog_352</text>
+            </phrase>
+            <phrase id="351">
+                <text>esc_trader_start_dialog_351</text>
+                <give_flag>ESC_START_QUEST_END_INFO</give_flag>
+            </phrase>
+            <phrase id="9">
+                <text></text>
+                <has_flag>ESC_START_QUEST_END_INFO</has_flag>
+                <next>91</next>
+            </phrase>
+            <phrase id="8">
+                <text></text>
+                <has_flag>ESC_START_QUEST_END_INFO</has_flag>
+                <next>81</next>
+            </phrase>
+            <phrase id="7">
+                <text></text>
+                <has_flag>ESC_START_QUEST_END_INFO</has_flag>
+                <next>71</next>
+            </phrase>
+            <phrase id="6">
+                <text></text>
+                <has_flag>ESC_START_QUEST_END_INFO</has_flag>
+                <next>61</next>
+            </phrase>
+            <phrase id="52">
+                <text>esc_trader_start_dialog_52</text>
+                <next>53</next>
+            </phrase>
+            <phrase id="53">
+                <text>esc_trader_start_dialog_53</text>
+                <give_flag>ESC_START_QUEST_X18_END_INFO</give_flag>
+            </phrase>
+            <phrase id="41">
+                <text>esc_trader_start_dialog_41</text>
+            </phrase>
+            <phrase id="4">
+                <text></text>
+                <dont_has_flag>ESC_START_QUEST_END_INFO</dont_has_flag>
+                <has_flag>ESC_START_QUEST_INFO</has_flag>
+                <next>41</next>
+            </phrase>
+            <phrase id="5">
+                <text></text>
+                <dont_has_flag>ESC_START_QUEST_X18_END_INFO</dont_has_flag>
+                <has_flag>ESC_START_QUEST_X18_INFO</has_flag>
+                <next>51</next>
+            </phrase>
+            <phrase id="322">
+                <text>esc_trader_start_dialog_322</text>
+            </phrase>
+            <phrase id="3">
+                <text></text>
+                <dont_has_flag>ESC_START_QUEST_END_INFO</dont_has_flag>
+                <has_flag>ESC_RETURN_INFO</has_flag>
+                <next>31</next>
+            </phrase>
+            <phrase id="321">
+                <text>esc_trader_start_dialog_321</text>
+                <next>33</next>
+            </phrase>
+            <phrase id="33">
+                <text>esc_trader_start_dialog_33</text>
+                <next>341</next>
+                <next>342</next>
+            </phrase>
+            <phrase id="21">
+                <text>esc_trader_start_dialog_21</text>
+            </phrase>
+            <phrase id="31">
+                <text>esc_trader_start_dialog_31</text>
+                <next>321</next>
+                <next>322</next>
+            </phrase>
+            <phrase id="11">
+                <text>esc_trader_start_dialog_11</text>
+                <next>12</next>
+            </phrase>
+            <phrase id="12">
+                <text>esc_trader_start_dialog_12</text>
+                <next>13</next>
+            </phrase>
+            <phrase id="13">
+                <text>esc_trader_start_dialog_13</text>
+                <next>14</next>
+            </phrase>
+            <phrase id="14">
+                <text>esc_trader_start_dialog_14</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>ESC_START_QUEST_INFO</give_flag>
+            </phrase>
+            <phrase id="0">
+                <text></text>
+                <next>1</next>
+                <next>2</next>
+                <next>3</next>
+                <next>4</next>
+                <next>5</next>
+                <next>6</next>
+                <next>7</next>
+                <next>8</next>
+                <next>9</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_trader_blockpost_box_the_start_dialog">
+        <phrase_list>
+            <phrase id="1">
+                <text>esc_trader_blockpost_box_the_start_dialog_1</text>
+            </phrase>
+            <phrase id="0">
+                <text>esc_trader_blockpost_box_the_start_dialog_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_trader_info_zone_start_dialog">
+        <has_flag>ESC_START_QUEST_INFO</has_flag>
+        <phrase_list>
+            <phrase id="5">
+                <text></text>
+                <next>61</next>
+                <next>62</next>
+                <next>63</next>
+                <next>64</next>
+                <next>65</next>
+                <next>66</next>
+                <next>67</next>
+            </phrase>
+            <phrase id="61">
+                <text>esc_trader_info_zone_start_dialog_61</text>
+                <next>71</next>
+            </phrase>
+            <phrase id="71">
+                <text>esc_trader_info_zone_start_dialog_71</text>
+                <next>81</next>
+                <next>82</next>
+                <next>83</next>
+            </phrase>
+            <phrase id="1011">
+                <text>esc_trader_info_zone_start_dialog_1011</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="91">
+                <text>esc_trader_info_zone_start_dialog_91</text>
+                <next>1011</next>
+                <next>1012</next>
+            </phrase>
+            <phrase id="92">
+                <text>esc_trader_info_zone_start_dialog_92</text>
+                <next>1021</next>
+                <next>1022</next>
+            </phrase>
+            <phrase id="1012">
+                <text>esc_trader_info_zone_start_dialog_1012</text>
+            </phrase>
+            <phrase id="1021">
+                <text>esc_trader_info_zone_start_dialog_1021</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1022">
+                <text>esc_trader_info_zone_start_dialog_1022</text>
+            </phrase>
+            <phrase id="93">
+                <text>esc_trader_info_zone_start_dialog_93</text>
+                <next>1031</next>
+                <next>1032</next>
+            </phrase>
+            <phrase id="81">
+                <text>esc_trader_info_zone_start_dialog_81</text>
+                <next>91</next>
+            </phrase>
+            <phrase id="82">
+                <text>esc_trader_info_zone_start_dialog_82</text>
+                <next>92</next>
+            </phrase>
+            <phrase id="21">
+                <text>esc_trader_info_zone_start_dialog_21</text>
+                <next>31</next>
+            </phrase>
+            <phrase id="31">
+                <text>esc_trader_info_zone_start_dialog_31</text>
+                <next>41</next>
+            </phrase>
+            <phrase id="41">
+                <text></text>
+                <next>5</next>
+            </phrase>
+            <phrase id="83">
+                <text>esc_trader_info_zone_start_dialog_83</text>
+                <next>93</next>
+            </phrase>
+            <phrase id="1031">
+                <text>esc_trader_info_zone_start_dialog_1031</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1032">
+                <text>esc_trader_info_zone_start_dialog_1032</text>
+            </phrase>
+            <phrase id="85">
+                <text>esc_trader_info_zone_start_dialog_85</text>
+            </phrase>
+            <phrase id="811">
+                <text>esc_trader_info_zone_start_dialog_811</text>
+            </phrase>
+            <phrase id="89">
+                <text>esc_trader_info_zone_start_dialog_89</text>
+            </phrase>
+            <phrase id="810">
+                <text>esc_trader_info_zone_start_dialog_810</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="87">
+                <text>esc_trader_info_zone_start_dialog_87</text>
+            </phrase>
+            <phrase id="86">
+                <text>esc_trader_info_zone_start_dialog_86</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="62">
+                <text>esc_trader_info_zone_start_dialog_62</text>
+                <next>72</next>
+            </phrase>
+            <phrase id="72">
+                <text>esc_trader_info_zone_start_dialog_72</text>
+                <next>84</next>
+                <next>85</next>
+            </phrase>
+            <phrase id="84">
+                <text>esc_trader_info_zone_start_dialog_84</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="63">
+                <text>esc_trader_info_zone_start_dialog_63</text>
+                <next>73</next>
+            </phrase>
+            <phrase id="73">
+                <text>esc_trader_info_zone_start_dialog_73</text>
+                <next>86</next>
+                <next>87</next>
+            </phrase>
+            <phrase id="64">
+                <text>esc_trader_info_zone_start_dialog_64</text>
+                <next>74</next>
+            </phrase>
+            <phrase id="74">
+                <text>esc_trader_info_zone_start_dialog_74</text>
+                <next>88</next>
+                <next>89</next>
+            </phrase>
+            <phrase id="88">
+                <text>esc_trader_info_zone_start_dialog_88</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="65">
+                <text>esc_trader_info_zone_start_dialog_65</text>
+                <next>75</next>
+            </phrase>
+            <phrase id="75">
+                <text>esc_trader_info_zone_start_dialog_75</text>
+                <next>810</next>
+                <next>811</next>
+            </phrase>
+            <phrase id="22">
+                <text>esc_trader_info_zone_start_dialog_22</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="32">
+                <text>esc_trader_info_zone_start_dialog_32</text>
+                <next>421</next>
+                <next>422</next>
+                <next>423</next>
+                <next>424</next>
+                <next>425</next>
+                <next>426</next>
+            </phrase>
+            <phrase id="421">
+                <text>esc_trader_info_zone_start_dialog_421</text>
+                <next>521</next>
+            </phrase>
+            <phrase id="66">
+                <text>esc_trader_info_zone_start_dialog_66</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="625">
+                <text>esc_trader_info_zone_start_dialog_625</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="627">
+                <text>esc_trader_info_zone_start_dialog_627</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="67">
+                <text>esc_trader_info_zone_start_dialog_67</text>
+            </phrase>
+            <phrase id="622">
+                <text>esc_trader_info_zone_start_dialog_622</text>
+            </phrase>
+            <phrase id="624">
+                <text>esc_trader_info_zone_start_dialog_624</text>
+            </phrase>
+            <phrase id="626">
+                <text>esc_trader_info_zone_start_dialog_626</text>
+            </phrase>
+            <phrase id="628">
+                <text>esc_trader_info_zone_start_dialog_628</text>
+            </phrase>
+            <phrase id="426">
+                <text>esc_trader_info_zone_start_dialog_426</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="621">
+                <text>esc_trader_info_zone_start_dialog_621</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="521">
+                <text>esc_trader_info_zone_start_dialog_521</text>
+                <next>621</next>
+                <next>622</next>
+            </phrase>
+            <phrase id="422">
+                <text>esc_trader_info_zone_start_dialog_422</text>
+                <next>522</next>
+            </phrase>
+            <phrase id="522">
+                <text>esc_trader_info_zone_start_dialog_522</text>
+                <next>623</next>
+                <next>624</next>
+            </phrase>
+            <phrase id="623">
+                <text>esc_trader_info_zone_start_dialog_623</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="423">
+                <text>esc_trader_info_zone_start_dialog_423</text>
+                <next>523</next>
+            </phrase>
+            <phrase id="523">
+                <text>esc_trader_info_zone_start_dialog_523</text>
+                <next>625</next>
+                <next>626</next>
+            </phrase>
+            <phrase id="424">
+                <text>esc_trader_info_zone_start_dialog_424</text>
+                <next>524</next>
+            </phrase>
+            <phrase id="524">
+                <text>esc_trader_info_zone_start_dialog_524</text>
+                <next>627</next>
+                <next>628</next>
+            </phrase>
+            <phrase id="425">
+                <text>esc_trader_info_zone_start_dialog_425</text>
+            </phrase>
+            <phrase id="1">
+                <text>esc_trader_info_zone_start_dialog_1</text>
+                <next>21</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_trader_info_zone_start_dialog_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="esc_trader_special_assignment_start_dialog">
+        <phrase_list>
+            <phrase id="22">
+                <text>esc_trader_special_assignment_start_dialog_22</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="32">
+                <text>esc_trader_special_assignment_start_dialog_32</text>
+                <next>42</next>
+            </phrase>
+            <phrase id="42">
+                <text>esc_trader_special_assignment_start_dialog_42</text>
+                <next>52</next>
+            </phrase>
+            <phrase id="52">
+                <text>esc_trader_special_assignment_start_dialog_52</text>
+                <next>62</next>
+            </phrase>
+            <phrase id="62">
+                <text>esc_trader_special_assignment_start_dialog_62</text>
+                <next>72</next>
+            </phrase>
+            <phrase id="72">
+                <text>esc_trader_special_assignment_start_dialog_72</text>
+                <next>82</next>
+            </phrase>
+            <phrase id="82">
+                <text>esc_trader_special_assignment_start_dialog_82</text>
+                <next>92</next>
+            </phrase>
+            <phrase id="92">
+                <text>esc_trader_special_assignment_start_dialog_92</text>
+            </phrase>
+            <phrase id="33">
+                <text>esc_trader_special_assignment_start_dialog_33</text>
+                <next>431</next>
+                <next>432</next>
+            </phrase>
+            <phrase id="531">
+                <text>esc_trader_special_assignment_start_dialog_531</text>
+            </phrase>
+            <phrase id="432">
+                <text>esc_trader_special_assignment_start_dialog_432</text>
+                <next>532</next>
+            </phrase>
+            <phrase id="532">
+                <text>esc_trader_special_assignment_start_dialog_532</text>
+            </phrase>
+            <phrase id="23">
+                <text>esc_trader_special_assignment_start_dialog_23</text>
+                <next>33</next>
+            </phrase>
+            <phrase id="11">
+                <text>esc_trader_special_assignment_start_dialog_11</text>
+            </phrase>
+            <phrase id="12">
+                <text>esc_trader_special_assignment_start_dialog_12</text>
+                <has_flag>ESC_START_QUEST_END_INFO</has_flag>
+                <next>22</next>
+            </phrase>
+            <phrase id="13">
+                <text>esc_trader_special_assignment_start_dialog_13</text>
+                <next>23</next>
+            </phrase>
+            <phrase id="14">
+                <text>esc_trader_special_assignment_start_dialog_14</text>
+            </phrase>
+            <phrase id="431">
+                <text>esc_trader_special_assignment_start_dialog_431</text>
+                <next>531</next>
+            </phrase>
+            <phrase id="0">
+                <text>esc_trader_special_assignment_start_dialog_0</text>
+                <next>11</next>
+                <next>12</next>
+                <next>13</next>
+                <next>14</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+</game_dialogs>

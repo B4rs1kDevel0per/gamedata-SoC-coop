@@ -1,0 +1,13 @@
+[logic]
+active 												= sr_idle@con_zone_teleport_space_restrictor_idle
+
+[sr_idle@con_zone_teleport_space_restrictor_idle]
+on_info2 											= {+CON_ZONE_TELEPORT_SPACE_RESTRICTOR_STOP_INFO +CON_ZONE_TELEPORT_SPACE_RESTRICTOR_IDLE_INFO} sr_idle@nil
+on_player_inside  									= {-CON_ZONE_TELEPORT_SPACE_RESTRICTOR_STOP_INFO +CON_ZONE_TELEPORT_SPACE_RESTRICTOR_IDLE_INFO} sr_teleport@con_zone_teleport_space_restrictor_start
+
+[sr_teleport@con_zone_teleport_space_restrictor_start]
+point1 												= con_teleport_1_walk
+look1 												= con_teleport_1_look
+on_timer 											= 1000 | sr_idle@nil %+CON_ZONE_TELEPORT_SPACE_RESTRICTOR_STOP_INFO =scenario_autosave(st_destroy_the_monolith_installation)%
+
+[sr_idle@nil]

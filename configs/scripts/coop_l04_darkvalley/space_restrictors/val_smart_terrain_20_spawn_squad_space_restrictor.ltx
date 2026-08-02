@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle@start
+;Спавн Пленника в тюрьме:
+[sr_idle@start]
+on_info  											= {+VAL_SMART_TERRAIN_20_SPAWN_SQUAD_INFO} sr_idle@nil
+on_info2  											= {-VAL_SMART_TERRAIN_20_SPAWN_SQUAD_INFO} sr_idle@nil %=create_squad(val_smart_terrain_20_duty_1_squad:val_smart_terrain_20) +VAL_SMART_TERRAIN_20_SPAWN_SQUAD_INFO%
+
+[sr_idle@nil]

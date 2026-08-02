@@ -1,0 +1,14 @@
+<xrmpe_timer anchor="top-right" x="60" y="60" width="439" height="72" stretch="1">
+	<text x="-20" y="15" align="r" vert_align="c" font="din_next20_bold" color="light_gray_mpe" outline="1"/>
+	<texture>ui_xrmpe_timer</texture>
+	<!--text x="-15" y="29" font="din_next28_bold" align="r" outline="1"/-->
+    <!--st_hell_yea-->
+</xrmpe_timer>
+
+<xrmpe_timer_text anchor="top-right" x="80" y="40" width="439" height="72" stretch="1">
+    <text x="0" y="10" align="r" vert_align="c" font="din_next20_bold" color="light_gray_mpe"/>
+</xrmpe_timer_text>
+
+<xrmpe_autosave anchor="bot-left" x="350" y="100" width="200" height="42" stretch="1" ttl="5">
+    <text font="din_next36_bold" color="white" vert_align="c" align="l" outline="1"/>
+</xrmpe_autosave>

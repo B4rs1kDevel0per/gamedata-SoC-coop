@@ -1,0 +1,30 @@
+[logic@bar_smart_terrain_1_guard_garik]
+suitable 								= {=check_npc_name(bar_smart_terrain_1_stalker_garik)} true
+active 									= walker@bar_smart_terrain_1_guard_garik
+prior 									= 300
+
+[walker@bar_smart_terrain_1_guard_garik]
+path_walk 								= guard_garik_1_walk
+path_look 								= guard_garik_1_look
+def_state_moving1 						= run
+def_state_moving2 						= run
+def_state_moving3 						= run
+invulnerable 							= true
+meet 									= meet@hello_players
+
+[meet@hello_players]
+close_snd_hello 									= bar_guard_stop
+close_snd_bye   									= bar_guard_stop
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+use 												= {=actor_enemy} false, true
+allow_break 										= true
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="esc_trader_blockpost_box_the_start_dialog_0">
+		<text>Задание выполнено. Вот ящик с блокпоста.</text>
+	</string>
+	<string id="esc_trader_blockpost_box_the_start_dialog_1">
+		<text>Отлично сработано! "Спасибо", конечно, в карман не положишь, держи три... или нет, две тыщи тугриков - и мы в расчёте!\nВояки пропажу скоро заметят, поднимется шухер. Так что сматывайте удочки и валите отсюда, пока на рожон не налетели.</text>
+	</string>
+
+	<!-- Информационная ветка -->
+	<string id="esc_trader_info_zone_start_dialog_0">
+		<text>Мне нужны ответы на кое-какие вопросы.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1">
+		<text>Спрашивай, только я не всезнающий. Сижу тут в бункере, а вся жизнь снаружи проходит. О здешних местах расскажу, да в общих чертах про Зону.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1011">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1012">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1021">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1022">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1031">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_1032">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_21">
+		<text>Расскажи мне в общих чертах о Зоне.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_22">
+		<text>Что тут поблизости творится?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_31">
+		<text>Спрашивай.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_32">
+		<text>Ну смотри: это предбанник Зоны, Кордон. Относительно тихо, если военные шмон не устраивают. Тёртые сталкеры тут не задерживаются, в основном новички трутся. Вон рядом, на хуторе - Деревня новичков приютилась. На курок нажимать они умеют, так что зазря не быкуй.\nПо хабару тут скудно. За дорогой - заброшенная фабрика, бандиты любят там тереться. На севере за насыпью - остатки фермы, а на юге - военный блокпост. Вояки кое-где мины понатыкали, под ноги смотри. Под мостом - их же пост. Вот и весь расклад.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_421">
+		<text>Расскажи побольше о блокпосте.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_422">
+		<text>Расскажи побольше об упавшем мосте.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_423">
+		<text>А о фабрике поподробнее можно?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_424">
+		<text>Расскажи мне о ферме.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_425">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_426">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_521">
+		<text>На блокпосту сидит отделение вояк с приказом стрелять без разговоров. С ними лучше не задираться, а то вызовут спецназ - и те такой шмон наведут, что мне потом месяц работать не с кем будет. Командир их за воротник заложить не дурак, за счёт этого пока и договариваемся.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_522">
+		<text>На севере, под железкой. Был там мост, да рухнул во время одного из выбросов. Военные там пост обустроили, проход перекрыли... Но за бутылку-другую пропустить могут. Без нужды лучше не светиться, но если груза много, то договориться реально.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_523">
+		<text>Кирпичная коробка за дорогой. Всё, что можно было оттуда утащить, давно выгребли. Сейчас там периодически шпана всякая ныкается. Брать с тебя пока нечего, но лишнюю маслину словить - радости мало. Осторожнее там.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_524">
+		<text>Да обычная ферма. Скотина там ещё до аварии передохла, делать там особо нечего.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_61">
+		<text>Расскажи мне о Зоне.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_62">
+		<text>Не знаешь, что со мной случилось?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_621">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_622">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_623">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_624">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_625">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_626">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_627">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_628">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_63">
+		<text>Кто такой Стрелок?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_64">
+		<text>Какого сталкера называют Призраком?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_65">
+		<text>Что в Зоне делают военные?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_66">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_67">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_71">
+		<text>Зона - это не просто территория за колючкой. Тут свои законы и своя чертовщина. Точного ответа тебе никто не даст. Но манит она всех простым раскладом: тут можно разбогатеть быстрее, чем где-либо. Чем ближе к центру проберёшься - тем жирнее хабар.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_72">
+		<text>Да тёмное дело... Нашли тебя в «грузовике смерти». Из центра Зоны иногда такие выезжают, набитые трупами. Куда и зачем - хрен знает. Этот зацепился и перевернулся, а тебя среди жмуров живым нашли. Такого раньше вообще не бывало. Так что разгребать тебе это самому придётся.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_73">
+		<text>Слыхал про такого. Ходят слухи, вроде пробился к центру Зоны и живым вернулся. Только тут баек про героев пруд пруди, так что за достоверность не ручаюсь. Лично я с ним дел не имел - видать, каналы у него свои. Поспрашивай у мужиков, может кто и подскажет.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_74">
+		<text>Ещё одна местная легенда. Сгинул где-то в глубине Зоны, давненько о нём ничего не слышно.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_75">
+		<text>Охраняют периметр. Правда, Зона их не особо жалует - то и дело цинки отсюда увозят. На сталкеров смотрят как на вшей, подстрелить могут без предупреждения. С законами Зоны не считаются. Но и с ними жить можно: вояки тоже люди, им и водки хочется, и пожрать нормального. На этом и держимся.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_81">
+		<text>Чем опасен этот "отдельный мир"?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_810">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_811">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_82">
+		<text>Как здесь можно разбогатеть?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_83">
+		<text>Кто-нибудь знает, что происходит в центре Зоны?</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_84">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_85">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_86">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_87">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_88">
+		<text>Я бы хотел ещё кое-что узнать.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_89">
+		<text>Спасибо, это всё.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_91">
+		<text>Сдохнуть тут можно на каждом шагу. И ладно б от пули вояк или бандитов - это ещё лёгкая смерть. А вот в аномалию вляпаться или мутантам в пасть попасть - тут уж врагу не пожелаешь. Без ствола и болтов за кордон вообще не суйся.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_92">
+		<text>Артефакты - вот ради чего все сюда лезут. За эти штуки на Большой Земле готовы бабки отваливать вагонами. Они же свойства странные имеют: один от радиации бережёт, другой раны затягивает. Мелочёвку и тут под ногами найти можно, а за стоящими вещами надо севернее идти.</text>
+	</string>
+	<string id="esc_trader_info_zone_start_dialog_93">
+		<text>Болтают разное, да я в мистику не верю. Знаю одно: в центре артефактов до чёрта. Только вот живым оттуда пока никто на моей памяти не возвращался.</text>
+	</string>
+
+	<!-- Специальные задания -->
+	<string id="esc_trader_special_assignment_start_dialog_0">
+		<text>Спецзадания есть?</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_11">
+		<text>Какие спецзадания? Ты ещё со старым не разобрался!</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_12">
+		<text>Слушай, есть разговор. Тебе ведь всё равно Стрелка искать нужно, так?</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_13">
+		<text>Дело такое. На блокпост привезли ящик с отчётами северной экспедиции. Днём там охрана - хрен подберешься, а ночью оставляют всего пару часовых.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_14">
+		<text>Нет, пока ничего.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_22">
+		<text>Допустим.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_23">
+		<text>Продолжай.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_32">
+		<text>Я про Стрелка навёл справки. Ходил такой сталкер, говорят, аж к самому центру пробрался. А там места нетронутые, хабара немерено... Короче, я тебе с поисками помогу, но и ты мне сгодишься. Ты своего Стрелка ищешь, а я свою выгоду имею. По рукам?</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_33">
+		<text>Проберись тихонько на блокпост и сними этот ящик. В долгу не останусь. Берешься?</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_42">
+		<text>Продолжай.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_431">
+		<text>Попробую.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_432">
+		<text>Нет. Пока браться не буду.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_52">
+		<text>Дело серьёзное. Мы тут с коллегами пытаемся понять, как на север пробиться. Там есть одно место, где мозги спекаются - Выжигателем зовут. Но вояки на «Агропроме» что-то раскопали. Что-то связанное с этими лабораториями. Папки лежат на третьем этаже главного корпуса. Народу там полно, но документы эти нам позарез нужны. Возьмёшься?</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_531">
+		<text>Ну вот и ладненько. Только тише работай, без лишней стрельбы, а то вояки весь Кордон перевернуть могут.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_532">
+		<text>Да ладно тебе, там срочников кучка да прапор пьяный... Эх, а я на тебя рассчитывал.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_62">
+		<text>Кажется, понял.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_72">
+		<text>Как только выйдешь с «Агропрома», тащи документы Бармену на «Росток», в «100 рентген».</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_82">
+		<text>Понял.</text>
+	</string>
+	<string id="esc_trader_special_assignment_start_dialog_92">
+		<text>Координаты сбросил на КПК. Идёшь через Свалку на запад к «Агропрому». На Свалке фонит знатно, да и аномалий хватает, так что прикупи антирада или водки, чтоб не светиться потом. Удачи.</text>
+	</string>
+
+	<!-- Начальные и приветственные фразу Сидоровича -->
+	<string id="esc_trader_start_dialog_11">
+		<text>Короче, расклад такой. Ребята мои возвращались с хабаром и сгинули. Один из них, Шустрый, нёс мне флешку с ценными данными. Пропали прямо тут, за мостом. Найди Шустрого, живого или мёртвого, но флешку забери. Он из людей Волка - сходи в деревню, перетри с Волком, он подскажет.</text>
+	</string>
+	<string id="esc_trader_start_dialog_12">
+		<text>Продолжай.</text>
+	</string>
+	<string id="esc_trader_start_dialog_13">
+		<text>Всё пока. Принесёшь флешку - будем считать, что за своё спасение ты немного расплатился.</text>
+	</string>
+	<string id="esc_trader_start_dialog_14">
+		<text>Хорошо, я попробую.</text>
+	</string>
+	<string id="esc_trader_start_dialog_21">
+		<text>Здорова. Рад, что вы ещё копыта не отбросили.</text>
+	</string>
+	<string id="esc_trader_start_dialog_31">
+		<text>Приветствую! Как успехи?</text>
+	</string>
+	<string id="esc_trader_start_dialog_321">
+		<text>Ситуация прояснилась.</text>
+	</string>
+	<string id="esc_trader_start_dialog_322">
+		<text>Пока никак.</text>
+	</string>
+	<string id="esc_trader_start_dialog_33">
+		<text>Флешка где?</text>
+	</string>
+	<string id="esc_trader_start_dialog_341">
+		<text>Вот она.</text>
+	</string>
+	<string id="esc_trader_start_dialog_342">
+		<text>Нет у меня её.</text>
+	</string>
+	<string id="esc_trader_start_dialog_351">
+		<text>Отлично.</text>
+	</string>
+	<string id="esc_trader_start_dialog_352">
+		<text>Жаль. Очень жаль. Пока флешки не будет - серьёзного разговора у нас не выйдет.</text>
+	</string>
+	<string id="esc_trader_start_dialog_41">
+		<text>Ты чего тут прохлаждаешься? Иди Шустрого ищи!</text>
+	</string>
+	<string id="esc_trader_start_dialog_51">
+		<text>Ну что, до Х18 добрался? Документы у тебя?</text>
+	</string>
+	<string id="esc_trader_start_dialog_52">
+		<text>Был там. Вот они, документы.</text>
+	</string>
+	<string id="esc_trader_start_dialog_53">
+		<text>Так-так... Ого! Вот это да... Не думал, что всё настолько закручено. На, забирай обратно. Неси это Бармену, он за эти бумаги хорошую цену даст.</text>
+	</string>
+	<string id="esc_trader_start_dialog_61">
+		<text>Здорова. Что нового?</text>
+	</string>
+	<string id="esc_trader_start_dialog_71">
+		<text>Ну что, есть продвижения по нашим делам?</text>
+	</string>
+	<string id="esc_trader_start_dialog_81">
+		<text>Привет. Тут как раз есть работа под твои силы.</text>
+	</string>
+	<string id="esc_trader_start_dialog_91">
+		<text>Ну, рассказывай, с чем пришёл?</text>
+	</string>
+
+	<!-- Разговор Сидоровича перед отправкой к Волку -->
+	<string id="esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_0">
+		<text>Здравствуйте, вызывали?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_1">
+		<text>Хорош лясы точить, делом занимайтесь. Посыльный мой сгинул, Шустрый. Важную флешку нёс, последний раз у АТП на связь выходил. Найдите его, живого или мёртвого, и принесите мне флешку. Волк в курсе, перетри с ним сначала. Вопросы есть?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_2">
+		<text>Понял. А по оплате что?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_talk_to_the_wolf_3">
+		<text>Не обижу, если сделаете всё в лучшем виде. Хабаром разживетесь да информацией подсоблю. Всё, идите работайте.</text>
+	</string>
+
+	<!-- Сидорович и Лис -->
+	<string id="esc_smart_terrain_1_trader_sidorovich_flesh_0">
+		<text>Вот твоя "важная информация".</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_flesh_1">
+		<text>Давай сюда!</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_flesh_2">
+		<text>Ладно, а за труды положено?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_flesh_3">
+		<text>Заслужили, держите. Только далеко не уходите: если там то, о чём я думаю, будет для вас серьезное дело.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_flesh_4">
+		<text>Понял.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_0">
+		<text>Вояки на вертушках куда-то намылились...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_1">
+		<text>Слыхал уже. Похоже, пора действовать. На флешке была только зацепка, а главный разговор предстоит с Лисом. Собирайтесь и дуйте к нему. Налегке не ходите, подготовьтесь нормальным образом.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_2">
+		<text>Ты сам-то в эти сказки про путь к центру веришь?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_3">
+		<text>Забыл, с кем разговариваешь? Делай, что сказано. На кону очень серьезный куш.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_4">
+		<text>Ладно, сделаем.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_5">
+		<text>Не забудь Кузнецову привет передать.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_go_to_fox_6">
+		<text>Если встретим - передадим.</text>
+	</string>
+
+	<!-- =================================================================== -->
+	<!-- ПРОВОДНИК (Кордон)                                                  -->
+	<!-- =================================================================== -->
+
+	<string id="esc_smart_terrain_1_stalker_guide_help_0">
+		<text>Привет. Нужен проводник.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_1">
+		<text>Куда идём? Выбирай район.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_2">
+		<text>Ближние территории</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_3">
+		<text>Дальние территории</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_4">
+		<text>Выбирай маршрут.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_5">
+		<text>Выбирай маршрут.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_6">
+		<text>Свалка</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_7">
+		<text>Агропром</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_8">
+		<text>Подземелье Агропрома</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_9">
+		<text>Тёмная долина</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_10">
+		<text>Лаборатория X-18</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_11">
+		<text>Бар</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_12">
+		<text>Дикая территория</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_13">
+		<text>Военные склады</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_14">
+		<text>Лаборатория X-16</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_15">
+		<text>Янтарь</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_16">
+		<text>Радар</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_17">
+		<text>Лаборатория X-10</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_18">
+		<text>Припять</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_19">
+		<text>ЧАЭС-1</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_20">
+		<text>ЧАЭС-2</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_21">
+		<text>Саркофаг</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_help_22">
+		<text>Управление Монолитом</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_guide_start_dialog_0">
+		<text>Если куда дойти надо, проведу без проблем.</text>
+	</string>
+
+	<!-- =================================================================== -->
+	<!-- ВОЛК (Деревня новичков / Кордон)                                    -->
+	<!-- =================================================================== -->
+
+	<string id="esc_smart_terrain_1_stalker_wolf_start_dialog_0">
+		<text>Привет, бродяги. Какими судьбами?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_0">
+		<text>Привет. Нам нужен Шустрый. Не подскажешь, где его найти?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_1">
+		<text>С Шустрым беда... Накрыли их бандиты на дороге. Шустрый только SOS успел скинуть, остальных, похоже, положили. Бандюки его на старое АТП уволокли, сидят там сейчас.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_2">
+		<text>Вы своих из плена не вызволяете? Не по-человечески как-то... Или силы не те?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_3">
+		<text>Кабы всё так просто было! Народу у меня - полтора новичка с ПМами. Рискну людьми - потеряем деревню, и тогда всем местным крышка. А вы пацаны тёртые. Поможете бандюков накрыть?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_4">
+		<text>Предлагаешь нам самим штурмовать?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_5">
+		<text>Одни не потянете. У меня там разведчики АТП пасут, мужики бывалые. Подходите к ним, ударите вместе. Ну так что, берётесь?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_6">
+		<text>Попробуем.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_7">
+		<text>Уважаю! Вот вам снаряга и патроны, метку пацанов скинул на КПК. Сейчас свяжусь с ними, предупрежу.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_8">
+		<text>Ладно, мы пошли.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_end_0">
+		<text>Навели с твоими ребятами порядок на АТП.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_end_1">
+		<text>Отлично сработано, мужики! Вот, держите награду от меня лично.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_end_2">
+		<text>Спасибо.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_the_0">
+		<text>В процессе.</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_the_1">
+		<text>Держите меня в курсе, ладно?</text>
+	</string>
+	<string id="esc_smart_terrain_1_stalker_wolf_help_atp_the_2">
+		<text>Хорошо.</text>
+	</string>
+
+	<!-- =================================================================== -->
+	<!-- ВТОРОСТЕПЕННЫЕ ЗАДАНИЯ СИДОРОВИЧА                                  -->
+	<!-- =================================================================== -->
+
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_0">
+		<text>Мне нужна работа, что есть на примете?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_1">
+		<text>Кое-что имеется...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_10">
+		<text>Выбирай:</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_11">
+		<text>Овраг около "Деревни новичков"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_12">
+		<text>Выбирай:</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_13">
+		<text>Найти 7 "Копыт Кабана"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_14">
+		<text>Найти "Кровь камня"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_15">
+		<text>Найти "Каменный цветок"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_16">
+		<text>Найти и убить сталкеров "3 балбеса"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_17">
+		<text>Найти и убить сталкера "Снайпер-неудачник"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_18">
+		<text>Холм за "АТП"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_19">
+		<text>Овраг около "Элеватора"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_2">
+		<text>Найти артефакт...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_20">
+		<text>Найти 10 "Хвост Собаки"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_21">
+		<text>Найти 2 "Глаз Плоти"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_22">
+		<text>Ничего</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_3">
+		<text>Убить сталкера...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_4">
+		<text>Зачистить местность от мутантов...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_5">
+		<text>Найти часть мутанта...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_6">
+		<text>Выбирай:</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_7">
+		<text>Найти "Медузу"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_8">
+		<text>Выбирай:</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_dialog_9">
+		<text>Найти и убить сталкера "Макрушник"</text>
+	</string>
+
+	<!-- Отмена второстепенных заданий -->
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_0">
+		<text>Я хочу отказаться от заказа...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_1">
+		<text>От какого?</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_10">
+		<text>Я отказываюсь от заказа на зачистку местности "Овраг около "Элеватора""</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_11">
+		<text>Я отказываюсь от заказа на "Копыта Кабана"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_12">
+		<text>Я отказываюсь от заказа на "Хвосты Собак"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_13">
+		<text>Я отказываюсь от заказа на "Глаза Плоти"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_14">
+		<text>Ничего</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_2">
+		<text>Я отказываюсь от заказа на "Медузу"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_3">
+		<text>Я отказываюсь от заказа на "Кровь камня"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_4">
+		<text>Я отказываюсь от заказа на "Каменный цветок"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_5">
+		<text>Я отказываюсь от заказа на "Макрушника"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_6">
+		<text>Я отказываюсь от заказа на "Снайпера-неудачника"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_7">
+		<text>Я отказываюсь от заказа на "3 балбесов"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_8">
+		<text>Я отказываюсь от заказа на зачистку местности "Овраг около "Деревни новичков""</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_fail_dialog_9">
+		<text>Я отказываюсь от заказа на зачистку местности "Холм за "АТП""</text>
+	</string>
+
+	<!-- Сдача второстепенных заданий -->
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_0">
+		<text>Я по поводу задания...</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_1">
+		<text>Ну, говори давай.</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_10">
+		<text>Я убил мутантов в овраге около "Элеватора"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_11">
+		<text>Я принёс "Копыта Кабана"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_12">
+		<text>Я принёс "Хвосты Собак"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_13">
+		<text>Я принёс "Глаза Плоти"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_14">
+		<text>Ничего</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_2">
+		<text>Я принёс артефакт "Медузу"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_3">
+		<text>Я принёс артефакт "Кровь камня"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_4">
+		<text>Я принёс артефакт "Каменный цветок"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_5">
+		<text>Я убил сталкера "Макрушник"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_6">
+		<text>Я убил сталкера "3 балбеса"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_7">
+		<text>Я убил сталкера "Снайпер-неудачник"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_8">
+		<text>Я убил мутантов в овраге около "Деревни новичков"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_secondary_quests_idle_dialog_9">
+		<text>Я убил мутантов на холме за "АТП"</text>
+	</string>
+	<string id="esc_smart_terrain_1_trader_sidorovich_start_dialog_0">
+		<text>Ну, выкладывай, что притащил?</text>
+	</string>
+
+
+</string_table>

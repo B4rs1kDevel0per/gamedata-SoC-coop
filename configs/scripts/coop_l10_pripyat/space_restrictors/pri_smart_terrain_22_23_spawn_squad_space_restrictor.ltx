@@ -1,0 +1,11 @@
+[logic]
+active 												= sr_idle@start_1
+;Спавн недостающих сквадов:
+[sr_idle@start_1]
+on_info 											= {+PRI_SMART_TERRAIN_22_23_SPAWN_SQUAD_STOP_INFO} sr_idle@nil
+on_timer 											= 1000 | sr_idle@start_2 %=create_squad(pri_smart_terrain_22_ordinary_monolith_1_squad:pri_smart_terrain_22)%
+
+[sr_idle@start_2]
+on_timer 											= 1000 | sr_idle@nil %=create_squad(pri_smart_terrain_23_ordinary_monolith_1_squad:pri_smart_terrain_23) +PRI_SMART_TERRAIN_22_23_SPAWN_SQUAD_STOP_INFO%
+
+[sr_idle@nil]

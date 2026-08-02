@@ -1,0 +1,82 @@
+[logic@bar_smart_terrain_12_animpoint_skamarokh]
+suitable 											= {=check_npc_name(bar_smart_terrain_12_stalker_skamarokh)} true
+active 												= animpoint@bar_smart_terrain_12_animpoint_skamarokh
+prior 												= 150
+
+[animpoint@bar_smart_terrain_12_animpoint_skamarokh]
+cover_name 											= bar_smart_terrain_12_animpoint_1
+invulnerable 										= true
+use_camp 											= false
+avail_animations 									= sit_ass
+meet 												= meet@test_1
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_info 											= {+BAR_SMART_TERRAIN_12_STALKER_SKAMAROKH_ORDER_MUSIC_1_DIALOG_INFO} animpoint@bar_smart_terrain_12_animpoint_skamarokh_music_1
+on_info2 											= {+BAR_SMART_TERRAIN_12_STALKER_SKAMAROKH_ORDER_MUSIC_2_DIALOG_INFO} animpoint@bar_smart_terrain_12_animpoint_skamarokh_music_2
+;on_game_timer 										= 1500 |  animpoint@bar_smart_terrain_12_animpoint_skamarokh_music_1
+
+[animpoint@bar_smart_terrain_12_animpoint_skamarokh_music_1]
+cover_name 											= bar_smart_terrain_12_animpoint_1
+invulnerable 										= true
+avail_animations 									= play_guitar
+use_camp 											= false
+meet 												= meet@test_2
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_game_timer 										= 200 | %=play_sound(skamarokh_music_1)%
+on_signal 											= sound_end | animpoint@bar_smart_terrain_12_animpoint_skamarokh %-BAR_SMART_TERRAIN_12_STALKER_SKAMAROKH_ORDER_MUSIC_1_DIALOG_INFO%
+
+[animpoint@bar_smart_terrain_12_animpoint_skamarokh_music_2]
+cover_name 											= bar_smart_terrain_12_animpoint_1
+invulnerable 										= true
+avail_animations 									= play_guitar
+use_camp 											= false
+meet 												= meet@test_2
+combat_ignore_cond 									= true
+combat_ignore_keep_when_attacked 					= true
+invulnerable 										= true
+gather_items_enabled 								= false
+help_wounded_enabled 								= false
+corpse_detection_enabled 							= false
+on_game_timer 										= 200 | %=play_sound(skamarokh_music_2)%
+on_signal 											= sound_end | animpoint@bar_smart_terrain_12_animpoint_skamarokh %-BAR_SMART_TERRAIN_12_STALKER_SKAMAROKH_ORDER_MUSIC_2_DIALOG_INFO%
+
+[meet@test_1]
+close_snd_hello 									= nil
+close_snd_bye 										= nil
+close_anim 											= nil
+close_victim 										= nil
+far_anim 											= nil
+far_victim 											= nil
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= {=actor_enemy} false, true
+allow_break 										= false
+meet_on_talking 									= false
+
+[meet@test_2]
+close_snd_hello 									= nil
+close_snd_bye 										= nil
+close_anim 											= nil
+close_victim 										= nil
+far_anim 											= nil
+far_victim 											= nil
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+abuse           									= false
+use 												= false
+allow_break 										= false
+meet_on_talking 									= false
+
+;================================================

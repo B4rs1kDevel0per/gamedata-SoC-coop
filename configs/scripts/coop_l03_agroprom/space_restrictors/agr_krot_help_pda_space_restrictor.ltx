@@ -1,0 +1,22 @@
+[logic]
+active 												= sr_idle@krot_help_pda_idle
+
+[sr_idle@krot_help_pda_idle]
+on_info 											= {-AGR_SMART_TERRAIN_7_STALKER_MOLE_TALK_TO_THE_STALKER_MOLE_STOP_DIALOG_INFO =isClient} sr_idle@krot_help_pda_1_start
+on_info2 											= {+AGR_SMART_TERRAIN_7_STALKER_MOLE_TALK_TO_THE_STALKER_MOLE_STOP_DIALOG_INFO =isClient} sr_idle@nil
+
+[sr_idle@krot_help_pda_1_start]
+on_info  											= {+AGR_THE_ORDER_TO_KILL_STALKER_SPACE_RESTRICTOR_INFO} sr_idle@krot_help_pda_1
+
+[sr_idle@krot_help_pda_1]
+on_info 											= {+AGR_THE_ORDER_TO_KILL_STALKER_SPACE_RESTRICTOR_INFO} %=play_sound(krot_help_pda_1)%
+on_signal 											= sound_end | sr_idle@krot_help_pda_1_idle
+
+[sr_idle@krot_help_pda_1_idle]
+on_timer 											= 7000 | sr_idle@krot_help_pda_2
+
+[sr_idle@krot_help_pda_2]
+on_info 											= {+AGR_THE_ORDER_TO_KILL_STALKER_SPACE_RESTRICTOR_INFO} %=play_sound(krot_help_pda_2)%
+on_signal 											= sound_end | sr_idle@nil
+
+[sr_idle@nil]

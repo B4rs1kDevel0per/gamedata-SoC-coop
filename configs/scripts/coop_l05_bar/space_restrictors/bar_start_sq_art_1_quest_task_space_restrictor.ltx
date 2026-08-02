@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@start_quest
+;Квест Бармена(Найти и принести артефакт "Выверт"):
+[sr_idle@start_quest]
+on_info  											= {+BAR_SMART_TERRAIN_1_TRADER_BARMEN_SQ_ART_1_STOP_DIALOG_INFO} sr_idle@nil %=give_task(bar_start_sq_art_1_quest_task)%
+
+[sr_idle@nil]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_x16_start_find_the_installation_quest_task_name">
+		<text>Найти установку в лаборатории X-16</text>
+	</string>
+	<string id="st_x16_start_find_the_installation_quest_task_descr">
+		<text>Найти установку и выключить её</text>
+	</string>	
+	
+
+	<string id="st_x16_start_turn_off_the_switch_1_task_name">
+		<text>Выключить рубильник №1</text>
+	</string>
+	<string id="st_x16_start_turn_off_the_switch_1_task_descr">
+		<text>Отключить первый блок</text>
+	</string>
+	
+	<string id="st_x16_start_turn_off_the_switch_2_task_name">
+		<text>Выключить рубильник №2</text>
+	</string>
+	<string id="st_x16_start_turn_off_the_switch_2_task_descr">
+		<text>Отключить второй блок</text>
+	</string>
+	
+	<string id="st_x16_start_turn_off_the_switch_3_task_name">
+		<text>Выключить рубильник №3</text>
+	</string>
+	<string id="st_x16_start_turn_off_the_switch_3_task_descr">
+		<text>Отключить третий блок</text>
+	</string>
+	
+	<string id="st_x16_start_turn_off_the_switch_4_task_name">
+		<text>Выключить рубильник №4</text>
+	</string>
+	<string id="st_x16_start_turn_off_the_switch_4_task_descr">
+		<text>Отключить питание установки</text>
+	</string>
+	
+	
+	<string id="st_x16_start_get_out_of_the_lab_task_name">
+		<text>"Скорей на выход!"</text>
+	</string>
+	<string id="st_x16_start_get_out_of_the_lab_task_descr">
+		<text>Выбраться из лаборатории X-16</text>
+	</string>	
+</string_table>

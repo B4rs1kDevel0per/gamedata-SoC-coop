@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<specific_character id="val_smart_terrain_4_bandit_borov" team_default = "1">
+    <name>val_smart_terrain_4_bandit_borov_name</name>
+    <icon>ui_inGame2_borov</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>agr_borov_bio</bio>
+
+    <class>val_smart_terrain_4_bandit_borov</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+
+    <rank>300</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_bandit\stalker_bandit_borov</visual>
+    <supplies>	
+			[spawn] \n 
+			
+			wpn_abakan_m2 \n
+			ammo_5.45x39_ap  = 1 \n
+			wpn_hpsa \n
+			ammo_9x19_fmj = 1 \n
+			grenade_rgd5 = 1 \n
+			dev_key	= 1 \n
+
+    </supplies>
+	<start_dialog>agr_smart_terrain_2_1_stalker_mole_start_dialog</start_dialog>	
+</specific_character>
+
+<specific_character id="val_smart_terrain_15_stalker_scammer" team_default = "1">
+    <name>val_smart_terrain_15_stalker_scammer_name</name>
+    <icon>ui_inGame2_neutral_0_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>agr_borov_bio</bio>
+
+    <class>val_smart_terrain_15_stalker_scammer</class>
+	<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<snd_config>characters_voice\human_03\stalker\</snd_config>
+
+    <rank>300</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_1_mask</visual>
+    <supplies>	
+			[spawn] \n
+			
+			wpn_pm = 1 \n
+			ammo_9x18_fmj = 1 \n
+			wpn_mp5_m1	= 1 \n
+	  
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	<start_dialog>val_smart_terrain_15_stalker_scammer_start_dialog</start_dialog>	
+	<actor_dialog>val_smart_terrain_15_stalker_scammer_fake_gauss_good_dialog</actor_dialog>	
+	<actor_dialog>val_smart_terrain_15_stalker_scammer_fake_gauss_fail_dialog</actor_dialog>	
+</specific_character>
+
+<specific_character id="val_smart_terrain_16_stalker_lucky" team_default = "1">
+    <name>val_smart_terrain_16_stalker_lucky_name</name>
+    <icon>ui_inGame2_neutral_0_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>agr_borov_bio</bio>
+
+    <class>val_smart_terrain_16_stalker_lucky</class>
+	<community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<snd_config>characters_voice\human_03\stalker\</snd_config>
+
+    <rank>300</rank>
+	<money min="1000" max="2000" infinitive="0"/>
+    <reputation>0</reputation>
+
+    <visual>actors\stalker_neutral\stalker_neutral_1_mask</visual>
+    <supplies>	
+			[spawn] \n
+			
+			wpn_pm = 1 \n
+			ammo_9x18_fmj = 1 \n
+	  
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+	<start_dialog>val_smart_terrain_16_stalker_lucky_1_start_dialog</start_dialog>	
+	<actor_dialog>val_smart_terrain_16_stalker_lucky_help</actor_dialog>
+</specific_character>
+
+    <specific_character id="val_smart_terrain_18_duty_bullet" team_default = "1">
+    <name>val_smart_terrain_18_duty_bullet_name</name>
+    <icon>ui_inGame2_bullet</icon>
+    <map_icon x="0" y="0"></map_icon>
+    <bio>bar_bullet_bio</bio>
+    <class>val_smart_terrain_18_duty_bullet</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <money min="6000000" max="12000000" infinitive="1"></money>
+    <rank>6516</rank>
+    <reputation>817</reputation>
+    <visual>actors\stalker_mp\player_dolg_outfit</visual>
+    <snd_config>characters_voice\human_02\dolg\</snd_config>
+    <crouch_type>-1</crouch_type>
+    <supplies>
+	
+			[spawn]\n
+			
+      		wpn_abakan \n
+      		ammo_5.45x39_fmj = 1 \n			
+      		wpn_pb \n
+      		ammo_9x18_fmj = 1 \n
+			
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<start_dialog>val_smart_terrain_18_duty_bullet_start_dialog</start_dialog>	
+	<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>	
+
+  </xml>

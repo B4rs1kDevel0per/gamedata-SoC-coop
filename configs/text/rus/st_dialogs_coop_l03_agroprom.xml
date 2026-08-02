@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="agr_smart_terrain_7_stalker_mole_start_dialog_0">
+        <text>Спасибо мужики, выручили</text>
+    </string>
+    <string id="agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole_0">
+        <text>Что ты знаешь о тайнике Стрелка?</text>
+    </string>
+    <string id="agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole_1">
+        <text>Не так много. Говорят он промышлял в этих местах. Единственное, что мне известно он где-то в этих подвалах.</text>
+    </string>
+    <string id="agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole_2">
+        <text>Мда, не густо...</text>
+    </string>
+    <string id="agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole_3">
+        <text>В любом случае будте осторожны. Ни пуха!</text>
+    </string>
+    <string id="agr_smart_terrain_7_stalker_mole_talk_to_the_stalker_mole_4">
+        <text>К черту!</text>
+    </string>
+</string_table>

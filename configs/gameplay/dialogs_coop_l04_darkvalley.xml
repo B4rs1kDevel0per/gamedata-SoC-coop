@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+    <dialog id="val_smart_terrain_16_stalker_lucky_1_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>val_smart_terrain_16_stalker_lucky_1_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="val_smart_terrain_16_stalker_lucky_2_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>val_smart_terrain_16_stalker_lucky_2_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="val_smart_terrain_16_stalker_lucky_help">
+        <dont_has_flag>all_val_smart_terrain_16_stalker_lucky_help_info</dont_has_flag>
+        <phrase_list>
+            <phrase id="1">
+                <text>val_smart_terrain_16_stalker_lucky_help_1</text>
+                <next>2</next>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>val_smart_terrain_16_stalker_lucky_help_3</text>
+                <action>dialogs.break_dialog</action>
+            </phrase>
+            <phrase id="0">
+                <text>val_smart_terrain_16_stalker_lucky_help_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="2">
+                <text>val_smart_terrain_16_stalker_lucky_help_2</text>
+			    <precondition>dialogs_item.if_actor_has_medkit</precondition>
+                <action>dialogs_item.transfer_medkit</action>
+                <action>dialogs.break_dialog</action>
+                <give_flag>VAL_SMART_TERRAIN_16_STALKER_LUCKY_HELP_STOP_DIALOG_INFO</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="val_smart_terrain_15_stalker_scammer_start_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>val_smart_terrain_15_stalker_scammer_start_dialog_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="val_smart_terrain_15_stalker_scammer_fake_gauss_fail_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>val_smart_terrain_15_stalker_scammer_fake_gauss_fail_dialog_0</text>
+                <action>dialogs.break_dialog</action>
+                <give_flag>VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_FAIL_STOP_DIALOG</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="val_smart_terrain_15_stalker_scammer_fake_gauss_good_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>val_smart_terrain_15_stalker_scammer_fake_gauss_good_dialog_0</text>
+                <precondition>dialogs_money.if_actor_has_maney_5000</precondition>
+                <action>dialogs.break_dialog</action>
+				<action>dialogs_money.transfer_5000</action>
+                <give_flag>VAL_SMART_TERRAIN_15_STALKER_SCAMMER_FAKE_GAUSS_GOOD_STOP_DIALOG</give_flag>
+            </phrase>
+        </phrase_list>
+    </dialog>
+</game_dialogs>

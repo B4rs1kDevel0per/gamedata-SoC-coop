@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="gar_smart_terrain_1_stalker_yurik_help_0">
+        <text>Ты как? Цел?</text>
+    </string>
+    <string id="gar_smart_terrain_1_stalker_yurik_help_1">
+        <text>Да, всё в порядке. Если бы не вы ребята...</text>
+    </string>
+    <string id="gar_smart_terrain_1_stalker_yurik_help_2">
+        <text>Без проблем</text>
+    </string>
+    <string id="gar_smart_terrain_1_stalker_yurik_help_3">
+        <text>Вот, возьмите. Лично от меня за спасение</text>
+    </string>
+    <string id="gar_smart_terrain_1_stalker_yurik_help_4">
+        <text>Спасибо</text>
+    </string>
+    <string id="gar_smart_terrain_1_stalker_yurik_start_dialog_0">
+        <text>Привет, спасибо что помогли</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_help_0">
+        <text>Услышали сигнал о помощи, что-то бандиты совсем озверели... Ты - Серый? Привет от Лиса.</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_help_1">
+        <text>Серый, да. Как там братишка, живой? Эх... Да, блатари лютуют, видимо их вояки с агропрома поперли и захотели они опять тут обосноваться. Ну не тут-то было. Разложили мы их, спасибо вам.</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_help_2">
+        <text>Брательник твой сказал, будто ты знаешь сталкера, что к центру Зоны прорвался, не поделишься, в благодарность?</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_help_3">
+        <text>Поделюсь, чего б не поделиться? Только я его не знаю. Только слышал, но источнику я доверяю. Есть у меня друг, Кротом кличут. Он мне за бутылочкой прозрачного как-то обмолвился, дескать есть сталкер такой, Стрелком называют. И Стрелок этот не абы кто, а первый, кто дорогу в центр Зоны нашел! Пьяные бредни, я тогда подумал, а нет, пару дней назад Крот со мной связался и поведал, что вышел он на след этого Стрелка, прикиньте? Говорит, что Стрелок помышлял где-то в районе Агропрома. Вот Крот там сейчас и отирается. Я с ним свяжусь, скажу, что вы заглянете. Он мне, засранец, пару тысяч должен, вот пусть и отработает: вам расскажет, что знает, хе-хе. \n Ладно, мужики, спасибо вам за помощь.</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_help_4">
+        <text>И тебе спасибо, Серый, не прощаемся!</text>
+    </string>
+    <string id="gar_smart_terrain_2_stalker_gray_start_dialog_0">
+        <text>Спасибо, что помогли. Думал ласты тут склеим и не поможет никто...</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_1_start_dialog_0">
+        <text>Привет, сталкеры, вы как раз вовремя. Нам сейчас очень нужна ваша помощь. Бандитское отребье пытается получить контроль над Свалкой. Здесь полчаса назад была драка. Троих уродов положили, а остальные отступили. Вернутся они точно тебе говорю. Нас мало и лишние стволы нам не помешают.</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_2_start_dialog_0">
+        <text>Ну и бойня...</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_0">
+        <text>Рассказывай, какой план действий?</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_1">
+        <text>Мы им тут устроим засаду. Они пойдут со стороны НИИ "Агропром", с запада. Подпустим ближе и хлопнем гадов.</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_2">
+        <text>Хорошо, действуем.</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_the_and_0">
+        <text>Отбились вроде</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_the_and_1">
+        <text>Ну и звери, завали гадов. Держите, заслужили.</text>
+    </string>
+    <string id="gar_smart_terrain_4_stalker_devil_help_the_and_2">
+        <text>Благодарю, удачи!</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_start_dialog_0">
+        <text>Стойте сталкеры, вам туда нельзя!</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_the_destination_is_a_bar_0">
+        <text>Почему?</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_the_destination_is_a_bar_1">
+        <text>Дальше находится наша территория - база группировки Долг. И мы очень придирчиво выбираем тех, кого пускаем к себе домой. Если у вас нет особо важных дел к нашему руководству, то мы вас не пропустим</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_the_destination_is_a_bar_2">
+        <text>Нам очень надо пройти, у нас дело к Бармену</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_the_destination_is_a_bar_3">
+        <text>А, так это вы что-ли шороху навели? Бармен говорил об вас, шагайте. Он вас ждет.</text>
+    </string>
+    <string id="gar_smart_terrain_8_duty_prapor_the_destination_is_a_bar_4">
+        <text>Спасибо!</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_start_dialog_0">
+        <text>Че каво? Готов базар вести?</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_0">
+        <text>Я от Информатора, что место встречи изменить нельзя</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_1">
+        <text>А, ну да. Как сказал Горбатый? Ха! ШпиЁны типа. Ладно, заебал. Бабки где?</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_2">
+        <text>Какие бабки?</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_3">
+        <text>Сколько?</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_4">
+        <text>Ты че, еблан? Ахуел? ВАЛИ ЕГО!!!</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_5">
+        <text>Ты че, прикалывешься? На 50 кусков договор был. Нам бабки, ему инфа про этого додика.</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_6">
+        <text>...</text>
+    </string>
+    <string id="gar_smart_terrain_10_bandit_major_the_meeting_place_cannot_be_changed_start_dialog_7">
+        <text>Ок, как договаривались.</text>
+    </string>
+</string_table>

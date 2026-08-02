@@ -1,0 +1,45 @@
+function if_actor_has_dev_flash_sidorovich(first_speaker, second_speaker)
+	return first_speaker:object("dev_flash_sidorovich") ~= nil
+end
+
+function if_actor_hasnt_dev_flash_sidorovich(first_speaker, second_speaker)
+	return not if_actor_has_dev_flash_sidorovich(first_speaker, second_speaker)
+end
+
+function transfer_dev_flash_sidorovich(first_speaker, second_speaker)
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "dev_flash_sidorovich")
+end
+
+function give_actor_dev_flash_sidorovich(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "dev_flash_sidorovich")
+end
+
+function give_actor_starting_gear(first_speaker, second_speaker)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "novice_outfit", 4)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "wpn_pm", 4)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "ammo_9x18_fmj", 12)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "medkit", 4)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "bandage", 8)
+	dialogs.relocate_item_section_to_actor(first_speaker, second_speaker, "antirad", 8)
+end
+
+function if_actor_has_vodka_5x(first_speaker, second_speaker)
+	local actor = db.mp_actors[LocalActor()]
+	local count = 0
+	
+	if actor ~= nil then
+		actor:iterate_inventory(
+			function(dummy,item)
+				if item:section() == "vodka" then count = count + 1
+				end
+			end, nil)
+		if count >= 5 then return true
+		end
+	end
+	
+	return false
+end
+
+function transfer_vodka_5x(first_speaker, second_speaker)	
+	dialogs.relocate_item_section_from_actor(first_speaker, second_speaker, "vodka" , 5)
+end

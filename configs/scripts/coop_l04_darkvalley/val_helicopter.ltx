@@ -1,0 +1,27 @@
+[logic]
+active = heli_move@idle
+
+[heli_move@idle]
+path_move = val_helicopter_1_idle_way_0
+max_velocity = 300
+engine_sound = false
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_info  = {+X18_START_GET_OUT_OF_THE_LAB_QUEST_TASK_INFO} heli_move@fly_ready
+;on_info  = {+VAL_SMART_TERRAIN_19_BANDIT_1_SQUAD_DEAD} heli_move@fly_ready
+
+[heli_move@fly_ready]
+path_move = val_helicopter_1_idle_way_1
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 150 | heli_move@fly_0 %=play_sound(patrol_prikaz)%
+
+[heli_move@fly_0]
+path_move = val_helicopter_1_move_way_0
+max_velocity = 150
+engine_sound = true
+combat_ignore_cond = true
+combat_ignore_keep_when_attacked = true
+on_timer = 7000 | %=destroy_object%

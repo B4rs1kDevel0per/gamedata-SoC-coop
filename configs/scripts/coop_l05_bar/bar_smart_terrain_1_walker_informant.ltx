@@ -1,0 +1,30 @@
+[logic@bar_smart_terrain_1_walker_informant]
+suitable 								= {=check_npc_name(bar_smart_terrain_1_stalker_informant)} true
+active 									= walker@bar_smart_terrain_1_walker_informant
+prior 									= 300
+
+[walker@bar_smart_terrain_1_walker_informant]
+path_walk 								= walker_informant_1_walk
+path_look 								= walker_informant_1_look
+def_state_moving1 						= walk
+def_state_moving2 						= walk
+def_state_moving3 						= walk
+invulnerable 							= true
+meet 									= meet@hello_players
+
+[meet@hello_players]
+close_snd_hello 									= bar_informer
+close_snd_bye   									= bar_informer
+close_anim 											= nil
+close_victim 										= actor
+far_anim 											= nil
+far_victim 											= actor
+close_distance  									= 0
+far_distance 										= 0
+close_snd_distance 									= 3
+use 												= {=actor_enemy} false, true
+allow_break 										= true
+trade_enable 										= false
+meet_on_talking 									= false
+
+;================================================

@@ -1,0 +1,8 @@
+[logic]
+active 												= sr_idle@start_quest_idle
+
+[sr_idle@start_quest_idle]
+on_info 											= {+BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+MIL_START_GO_TO_RADAR_QUEST_TASK_INFO +MIL_START_TALK_TO_THE_CAP_QUEST_TASK_FAIL_INFO =scenario_autosave(st_go_to_radar)%
+;on_info 											= {-BAR_SMART_TERRAIN_1_STALKER_BARMEN_GO_TO_MILITARY_STOP_DIALOG_INFO} sr_idle@nil %+MIL_START_GO_TO_RADAR_QUEST_TASK_INFO +MIL_START_TALK_TO_THE_CAP_QUEST_TASK_FAIL_INFO =scenario_autosave(st_go_to_radar)%
+
+[sr_idle@nil]

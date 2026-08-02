@@ -1,0 +1,14 @@
+[logic]
+active 												= sr_idle@measurements_1_idle
+
+[sr_idle@measurements_1_idle]
+on_info 											= {+YAN_SMART_TERRAIN_1_ECOLOG_KRUGLOV_X16_PREPARATION_STOP_DIALOG_INFO} sr_idle@measurements_1_start
+
+[sr_idle@measurements_1_start]
+on_actor_inside 									= {+YAN_SMART_TERRAIN_1_ECOLOG_KRUGLOV_X16_PREPARATION_STOP_DIALOG_INFO =actor_has_item(yan_psi_detector)} sr_idle@measurements_1_have_begun %=give_task(yan_start_wait_for_the_measurements_to_finish_3_quest_task) +YAN_START_RETURN_TO_THE_MEASUREMENT_LOCATION_3_QUEST_TASK_INFO%
+
+[sr_idle@measurements_1_have_begun]
+on_timer 											= 10000 | sr_idle@nil %+YAN_START_TAKE_MEASUREMENTS_3_QUEST_TASK_INFO +YAN_START_WAIT_FOR_THE_MEASUREMENTS_TO_FINISH_3_QUEST_TASK_INFO =scenario_autosave(st_talk_to_the_saharov)%
+on_actor_outside 									= {+YAN_SMART_TERRAIN_1_ECOLOG_KRUGLOV_X16_PREPARATION_STOP_DIALOG_INFO} sr_idle@measurements_1_start %-YAN_START_RETURN_TO_THE_MEASUREMENT_LOCATION_3_QUEST_TASK_INFO =give_task(yan_start_return_to_the_measurement_location_3_quest_task)%
+
+[sr_idle@nil]

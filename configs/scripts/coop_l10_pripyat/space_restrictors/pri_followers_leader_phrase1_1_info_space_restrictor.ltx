@@ -1,0 +1,7 @@
+[logic]
+active 												= sr_idle@followers_leader_phrase1_1_idle
+
+[sr_idle@followers_leader_phrase1_1_idle]
+on_player_inside  									= {-PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO} sr_idle@nil %+PRI_FOLLOWERS_LEADER_PHRASE1_1_INFO =give_task(pri_start_go_to_cnpp_quest_task) =give_task(pri_start_meet_a_group_of_stalkers_quest_task) =scenario_autosave(st_go_to_cnpp)%
+
+[sr_idle@nil]
